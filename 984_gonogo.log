@@ -1,0 +1,3734 @@
+13.8407 	INFO 	Loaded monitor calibration from ['2019_10_31 14:42']
+13.8613 	WARNING 	User requested fullscreen with size [1368  912], but screen is actually [1920, 1200]. Using actual size
+15.0794 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([1., 1., 1.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001787B82BB38>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001787B54F860>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1200]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+15.0795 	EXP 	window1: recordFrameIntervals = False
+15.2349 	EXP 	window1: recordFrameIntervals = True
+15.4196 	EXP 	window1: recordFrameIntervals = False
+15.8377 	EXP 	Created ins_gen = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='inst\\ins_gen3.png', interpolate=True, mask=None, maskParams=None, name='ins_gen', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.5  , 0.844]), texRes=128, units='height', win=Window(...))
+16.0715 	EXP 	Created prac_fix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='prac_fix', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([-1., -1., -1.]), text='+', units='height', win=Window(...), wrapWidth=1)
+16.0731 	EXP 	Created prac_cue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='prac_cue', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6, 0.6]), texRes=128, units='height', win=Window(...))
+16.0995 	EXP 	Created feedback = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedback', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([-1., -1., -1.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+16.1000 	EXP 	Created empty = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='empty', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+16.1452 	EXP 	Created post_pracins = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='inst\\post_prac.png', interpolate=True, mask=None, maskParams=None, name='post_pracins', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.5  , 0.844]), texRes=128, units='height', win=Window(...))
+16.1467 	EXP 	Created ins = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='ins', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.5  , 0.844]), texRes=128, units='height', win=Window(...))
+16.1487 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='fixation', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([-1., -1., -1.]), text='+', units='height', win=Window(...), wrapWidth=1)
+16.1502 	EXP 	Created exp_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='exp_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6 , 0.45]), texRes=128, units='height', win=Window(...))
+16.1506 	EXP 	Created empty = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='empty', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+16.2078 	EXP 	Created break_ins = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='inst\\break3.png', interpolate=True, mask=None, maskParams=None, name='break_ins', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.5  , 0.844]), texRes=128, units='height', win=Window(...))
+16.2652 	EXP 	Created thanks = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='inst\\thanks.png', interpolate=True, mask=None, maskParams=None, name='thanks', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.5  , 0.844]), texRes=128, units='height', win=Window(...))
+16.3038 	EXP 	ins_gen: autoDraw = True
+56.7567 	DATA 	Keypress: d
+56.9056 	EXP 	Imported conditions\practice.xlsx as conditions, 1 conditions, 1 params
+56.9059 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+56.9061 	EXP 	New trial (rep=0, index=0): OrderedDict([('pseudo', 'conditions\\practice2.xlsx')])
+56.9162 	EXP 	Imported conditions\practice2.xlsx as conditions, 25 conditions, 3 params
+56.9164 	EXP 	Created sequence: sequential, trialTypes=25, nReps=1, seed=None
+56.9166 	EXP 	New trial (rep=0, index=0): OrderedDict([('imagefile', 'prac\\plant10.jpg'), ('condition', 'go'), ('corAns', 'space')])
+57.0568 	EXP 	ins_gen: autoDraw = False
+57.0568 	EXP 	prac_cue: image = 'prac\\plant10.jpg'
+57.0568 	EXP 	prac_fix: autoDraw = True
+57.5533 	EXP 	prac_cue: autoDraw = True
+57.5699 	EXP 	prac_fix: autoDraw = False
+57.8377 	EXP 	prac_fix: autoDraw = False
+57.8377 	EXP 	prac_cue: autoDraw = False
+57.8377 	EXP 	feedback: text = 'Oops! That was wrong'
+57.8377 	EXP 	feedback: autoDraw = True
+58.3038 	EXP 	feedback: autoDraw = False
+58.3038 	EXP 	empty: autoDraw = True
+59.2895 	EXP 	New trial (rep=0, index=1): OrderedDict([('imagefile', 'prac\\clover.jpg'), ('condition', 'go'), ('corAns', 'space')])
+59.4337 	EXP 	empty: autoDraw = False
+59.4337 	EXP 	prac_cue: image = 'prac\\clover.jpg'
+59.4337 	EXP 	prac_fix: autoDraw = True
+59.9220 	EXP 	prac_cue: autoDraw = True
+59.9386 	EXP 	prac_fix: autoDraw = False
+60.3056 	EXP 	prac_fix: autoDraw = False
+60.3056 	EXP 	prac_cue: autoDraw = False
+60.3056 	EXP 	feedback: text = 'Oops! That was wrong'
+60.3056 	EXP 	feedback: autoDraw = True
+60.5609 	DATA 	Keypress: space
+60.8064 	EXP 	feedback: autoDraw = False
+60.8064 	EXP 	empty: autoDraw = True
+61.7748 	EXP 	New trial (rep=0, index=2): OrderedDict([('imagefile', 'prac\\thumbtack02b.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+61.9093 	EXP 	empty: autoDraw = False
+61.9093 	EXP 	prac_cue: image = 'prac\\thumbtack02b.jpg'
+61.9093 	EXP 	prac_fix: autoDraw = True
+62.4074 	EXP 	prac_cue: autoDraw = True
+62.4239 	EXP 	prac_fix: autoDraw = False
+62.8074 	EXP 	prac_fix: autoDraw = False
+62.8074 	EXP 	prac_cue: autoDraw = False
+62.8074 	EXP 	feedback: text = 'Correct!'
+62.8074 	EXP 	feedback: autoDraw = True
+63.2913 	EXP 	feedback: autoDraw = False
+63.2913 	EXP 	empty: autoDraw = True
+64.2770 	EXP 	New trial (rep=0, index=3): OrderedDict([('imagefile', 'prac\\lily.jpg'), ('condition', 'go'), ('corAns', 'space')])
+64.4140 	EXP 	empty: autoDraw = False
+64.4140 	EXP 	prac_cue: image = 'prac\\lily.jpg'
+64.4140 	EXP 	prac_fix: autoDraw = True
+64.9093 	EXP 	prac_cue: autoDraw = True
+64.9261 	EXP 	prac_fix: autoDraw = False
+65.3082 	EXP 	prac_fix: autoDraw = False
+65.3082 	EXP 	prac_cue: autoDraw = False
+65.3082 	EXP 	feedback: text = 'Oops! That was wrong'
+65.3082 	EXP 	feedback: autoDraw = True
+65.3965 	DATA 	Keypress: space
+65.7932 	EXP 	feedback: autoDraw = False
+65.7932 	EXP 	empty: autoDraw = True
+66.7784 	EXP 	New trial (rep=0, index=4): OrderedDict([('imagefile', 'prac\\tulip02.jpg'), ('condition', 'go'), ('corAns', 'space')])
+66.9067 	EXP 	empty: autoDraw = False
+66.9067 	EXP 	prac_cue: image = 'prac\\tulip02.jpg'
+66.9067 	EXP 	prac_fix: autoDraw = True
+67.3949 	EXP 	prac_cue: autoDraw = True
+67.4115 	EXP 	prac_fix: autoDraw = False
+67.7950 	EXP 	prac_fix: autoDraw = False
+67.7950 	EXP 	prac_cue: autoDraw = False
+67.7950 	EXP 	feedback: text = 'Oops! That was wrong'
+67.7950 	EXP 	feedback: autoDraw = True
+68.0007 	DATA 	Keypress: space
+68.2961 	EXP 	feedback: autoDraw = False
+68.2961 	EXP 	empty: autoDraw = True
+69.2812 	EXP 	New trial (rep=0, index=5): OrderedDict([('imagefile', 'prac\\plant08.jpg'), ('condition', 'go'), ('corAns', 'space')])
+69.4334 	EXP 	empty: autoDraw = False
+69.4334 	EXP 	prac_cue: image = 'prac\\plant08.jpg'
+69.4334 	EXP 	prac_fix: autoDraw = True
+69.9302 	EXP 	prac_cue: autoDraw = True
+69.9468 	EXP 	prac_fix: autoDraw = False
+70.2877 	DATA 	Keypress: space
+70.2973 	EXP 	prac_fix: autoDraw = False
+70.2973 	EXP 	prac_cue: autoDraw = False
+70.2973 	EXP 	feedback: text = 'Oops! That was wrong'
+70.2973 	EXP 	feedback: autoDraw = True
+70.7971 	EXP 	feedback: autoDraw = False
+70.7971 	EXP 	empty: autoDraw = True
+71.7830 	EXP 	New trial (rep=0, index=6): OrderedDict([('imagefile', 'prac\\leaf02b.jpg'), ('condition', 'go'), ('corAns', 'space')])
+71.9199 	EXP 	empty: autoDraw = False
+71.9199 	EXP 	prac_cue: image = 'prac\\leaf02b.jpg'
+71.9199 	EXP 	prac_fix: autoDraw = True
+72.4158 	EXP 	prac_cue: autoDraw = True
+72.4323 	EXP 	prac_fix: autoDraw = False
+72.7938 	DATA 	Keypress: space
+72.7969 	EXP 	prac_fix: autoDraw = False
+72.7969 	EXP 	prac_cue: autoDraw = False
+72.7969 	EXP 	feedback: text = 'Correct!'
+72.7969 	EXP 	feedback: autoDraw = True
+73.2997 	EXP 	feedback: autoDraw = False
+73.2997 	EXP 	empty: autoDraw = True
+74.2853 	EXP 	New trial (rep=0, index=7): OrderedDict([('imagefile', 'prac\\pen02b.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+74.4176 	EXP 	empty: autoDraw = False
+74.4176 	EXP 	prac_cue: image = 'prac\\pen02b.jpg'
+74.4176 	EXP 	prac_fix: autoDraw = True
+74.9177 	EXP 	prac_fix: autoDraw = False
+74.9177 	EXP 	prac_cue: autoDraw = True
+75.3013 	EXP 	prac_fix: autoDraw = False
+75.3013 	EXP 	prac_cue: autoDraw = False
+75.3013 	EXP 	feedback: text = 'Correct!'
+75.3013 	EXP 	feedback: autoDraw = True
+75.8018 	EXP 	feedback: autoDraw = False
+75.8018 	EXP 	empty: autoDraw = True
+76.7873 	EXP 	New trial (rep=0, index=8): OrderedDict([('imagefile', 'prac\\leaf01a.jpg'), ('condition', 'go'), ('corAns', 'space')])
+76.9223 	EXP 	empty: autoDraw = False
+76.9223 	EXP 	prac_cue: image = 'prac\\leaf01a.jpg'
+76.9223 	EXP 	prac_fix: autoDraw = True
+77.4194 	EXP 	prac_cue: autoDraw = True
+77.4363 	EXP 	prac_fix: autoDraw = False
+77.8153 	DATA 	Keypress: space
+77.8186 	EXP 	prac_fix: autoDraw = False
+77.8186 	EXP 	prac_cue: autoDraw = False
+77.8186 	EXP 	feedback: text = 'Oops! That was wrong'
+77.8186 	EXP 	feedback: autoDraw = True
+78.3040 	EXP 	feedback: autoDraw = False
+78.3040 	EXP 	empty: autoDraw = True
+79.2894 	EXP 	New trial (rep=0, index=9): OrderedDict([('imagefile', 'prac\\aloe02.jpg'), ('condition', 'go'), ('corAns', 'space')])
+79.4392 	EXP 	empty: autoDraw = False
+79.4392 	EXP 	prac_cue: image = 'prac\\aloe02.jpg'
+79.4392 	EXP 	prac_fix: autoDraw = True
+79.9385 	EXP 	prac_fix: autoDraw = False
+79.9385 	EXP 	prac_cue: autoDraw = True
+80.3054 	EXP 	prac_fix: autoDraw = False
+80.3054 	EXP 	prac_cue: autoDraw = False
+80.3054 	EXP 	feedback: text = 'Oops! That was wrong'
+80.3054 	EXP 	feedback: autoDraw = True
+80.3273 	DATA 	Keypress: space
+80.8058 	EXP 	feedback: autoDraw = False
+80.8058 	EXP 	empty: autoDraw = True
+81.7748 	EXP 	New trial (rep=0, index=10): OrderedDict([('imagefile', 'prac\\hibiscusflower01.jpg'), ('condition', 'go'), ('corAns', 'space')])
+81.9316 	EXP 	empty: autoDraw = False
+81.9316 	EXP 	prac_cue: image = 'prac\\hibiscusflower01.jpg'
+81.9316 	EXP 	prac_fix: autoDraw = True
+82.4239 	EXP 	prac_cue: autoDraw = True
+82.4411 	EXP 	prac_fix: autoDraw = False
+82.7909 	EXP 	prac_fix: autoDraw = False
+82.7909 	EXP 	prac_cue: autoDraw = False
+82.7909 	EXP 	feedback: text = 'Oops! That was wrong'
+82.7909 	EXP 	feedback: autoDraw = True
+82.8286 	DATA 	Keypress: space
+83.2913 	EXP 	feedback: autoDraw = False
+83.2913 	EXP 	empty: autoDraw = True
+84.2769 	EXP 	New trial (rep=0, index=11): OrderedDict([('imagefile', 'prac\\envelope01.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+84.4182 	EXP 	empty: autoDraw = False
+84.4182 	EXP 	prac_cue: image = 'prac\\envelope01.jpg'
+84.4182 	EXP 	prac_fix: autoDraw = True
+84.9084 	EXP 	prac_cue: autoDraw = True
+84.9258 	EXP 	prac_fix: autoDraw = False
+85.3003 	DATA 	Keypress: space
+85.3034 	EXP 	prac_fix: autoDraw = False
+85.3034 	EXP 	prac_cue: autoDraw = False
+85.3034 	EXP 	feedback: text = 'Correct!'
+85.3034 	EXP 	feedback: autoDraw = True
+85.7935 	EXP 	feedback: autoDraw = False
+85.7935 	EXP 	empty: autoDraw = True
+86.7789 	EXP 	New trial (rep=0, index=12): OrderedDict([('imagefile', 'prac\\plasticflower04.jpg'), ('condition', 'go'), ('corAns', 'space')])
+86.9288 	EXP 	empty: autoDraw = False
+86.9288 	EXP 	prac_cue: image = 'prac\\plasticflower04.jpg'
+86.9288 	EXP 	prac_fix: autoDraw = True
+87.4282 	EXP 	prac_fix: autoDraw = False
+87.4282 	EXP 	prac_cue: autoDraw = True
+87.7389 	DATA 	Keypress: space
+87.7448 	EXP 	prac_fix: autoDraw = False
+87.7448 	EXP 	prac_cue: autoDraw = False
+87.7448 	EXP 	feedback: text = 'Correct!'
+87.7448 	EXP 	feedback: autoDraw = True
+88.2454 	EXP 	feedback: autoDraw = False
+88.2454 	EXP 	feedback: autoDraw = False
+88.2454 	EXP 	empty: autoDraw = True
+89.2334 	EXP 	New trial (rep=0, index=13): OrderedDict([('imagefile', 'prac\\plant05b.jpg'), ('condition', 'go'), ('corAns', 'space')])
+89.3734 	EXP 	empty: autoDraw = False
+89.3734 	EXP 	empty: autoDraw = False
+89.3734 	EXP 	prac_cue: image = 'prac\\plant05b.jpg'
+89.3734 	EXP 	prac_fix: autoDraw = True
+89.8635 	EXP 	prac_cue: autoDraw = True
+89.8801 	EXP 	prac_fix: autoDraw = False
+90.1879 	DATA 	Keypress: space
+90.2137 	EXP 	prac_fix: autoDraw = False
+90.2137 	EXP 	prac_cue: autoDraw = False
+90.2137 	EXP 	feedback: text = 'Correct!'
+90.2137 	EXP 	feedback: autoDraw = True
+90.7137 	EXP 	feedback: autoDraw = False
+90.7137 	EXP 	feedback: autoDraw = False
+90.7137 	EXP 	empty: autoDraw = True
+91.7018 	EXP 	New trial (rep=0, index=14): OrderedDict([('imagefile', 'prac\\rose.jpg'), ('condition', 'go'), ('corAns', 'space')])
+91.8259 	EXP 	empty: autoDraw = False
+91.8259 	EXP 	empty: autoDraw = False
+91.8259 	EXP 	prac_cue: image = 'prac\\rose.jpg'
+91.8259 	EXP 	prac_fix: autoDraw = True
+92.3154 	EXP 	prac_cue: autoDraw = True
+92.3322 	EXP 	prac_fix: autoDraw = False
+92.6429 	DATA 	Keypress: space
+92.6489 	EXP 	prac_fix: autoDraw = False
+92.6489 	EXP 	prac_cue: autoDraw = False
+92.6489 	EXP 	feedback: text = 'Correct!'
+92.6489 	EXP 	feedback: autoDraw = True
+93.1500 	EXP 	feedback: autoDraw = False
+93.1500 	EXP 	feedback: autoDraw = False
+93.1500 	EXP 	empty: autoDraw = True
+94.1375 	EXP 	New trial (rep=0, index=15): OrderedDict([('imagefile', 'prac\\leaf03b.jpg'), ('condition', 'go'), ('corAns', 'space')])
+94.2715 	EXP 	empty: autoDraw = False
+94.2715 	EXP 	empty: autoDraw = False
+94.2715 	EXP 	prac_cue: image = 'prac\\leaf03b.jpg'
+94.2715 	EXP 	prac_fix: autoDraw = True
+94.7676 	EXP 	prac_cue: autoDraw = True
+94.7842 	EXP 	prac_fix: autoDraw = False
+95.0967 	DATA 	Keypress: space
+95.1019 	EXP 	prac_fix: autoDraw = False
+95.1019 	EXP 	prac_cue: autoDraw = False
+95.1019 	EXP 	feedback: text = 'Correct!'
+95.1019 	EXP 	feedback: autoDraw = True
+95.6016 	EXP 	feedback: autoDraw = False
+95.6016 	EXP 	feedback: autoDraw = False
+95.6016 	EXP 	empty: autoDraw = True
+96.5890 	EXP 	New trial (rep=0, index=16): OrderedDict([('imagefile', 'prac\\hibiscusflower02.jpg'), ('condition', 'go'), ('corAns', 'space')])
+96.7370 	EXP 	empty: autoDraw = False
+96.7370 	EXP 	empty: autoDraw = False
+96.7370 	EXP 	prac_cue: image = 'prac\\hibiscusflower02.jpg'
+96.7370 	EXP 	prac_fix: autoDraw = True
+97.2363 	EXP 	prac_fix: autoDraw = False
+97.2363 	EXP 	prac_cue: autoDraw = True
+97.5088 	DATA 	Keypress: space
+97.5364 	EXP 	prac_fix: autoDraw = False
+97.5364 	EXP 	prac_cue: autoDraw = False
+97.5364 	EXP 	feedback: text = 'Correct!'
+97.5364 	EXP 	feedback: autoDraw = True
+98.0374 	EXP 	feedback: autoDraw = False
+98.0374 	EXP 	feedback: autoDraw = False
+98.0374 	EXP 	empty: autoDraw = True
+99.0245 	EXP 	New trial (rep=0, index=17): OrderedDict([('imagefile', 'prac\\scissors09.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+99.1564 	EXP 	empty: autoDraw = False
+99.1564 	EXP 	empty: autoDraw = False
+99.1564 	EXP 	prac_cue: image = 'prac\\scissors09.jpg'
+99.1564 	EXP 	prac_fix: autoDraw = True
+99.6549 	EXP 	prac_cue: autoDraw = True
+99.6717 	EXP 	prac_fix: autoDraw = False
+100.1554 	EXP 	prac_cue: autoDraw = False
+100.1554 	EXP 	prac_fix: autoDraw = False
+100.1554 	EXP 	prac_cue: autoDraw = False
+100.1554 	EXP 	feedback: text = 'Correct!'
+100.1554 	EXP 	feedback: autoDraw = True
+100.6562 	EXP 	feedback: autoDraw = False
+100.6562 	EXP 	feedback: autoDraw = False
+100.6562 	EXP 	empty: autoDraw = True
+101.6433 	EXP 	New trial (rep=0, index=18): OrderedDict([('imagefile', 'prac\\leaf04.jpg'), ('condition', 'go'), ('corAns', 'space')])
+101.7934 	EXP 	empty: autoDraw = False
+101.7934 	EXP 	empty: autoDraw = False
+101.7934 	EXP 	prac_cue: image = 'prac\\leaf04.jpg'
+101.7934 	EXP 	prac_fix: autoDraw = True
+102.2905 	EXP 	prac_cue: autoDraw = True
+102.3071 	EXP 	prac_fix: autoDraw = False
+102.6478 	DATA 	Keypress: space
+102.6741 	EXP 	prac_fix: autoDraw = False
+102.6741 	EXP 	prac_cue: autoDraw = False
+102.6741 	EXP 	feedback: text = 'Correct!'
+102.6741 	EXP 	feedback: autoDraw = True
+103.1739 	EXP 	feedback: autoDraw = False
+103.1739 	EXP 	feedback: autoDraw = False
+103.1739 	EXP 	empty: autoDraw = True
+104.1619 	EXP 	New trial (rep=0, index=19): OrderedDict([('imagefile', 'prac\\plasticflower02b.jpg'), ('condition', 'go'), ('corAns', 'space')])
+104.3151 	EXP 	empty: autoDraw = False
+104.3151 	EXP 	empty: autoDraw = False
+104.3151 	EXP 	prac_cue: image = 'prac\\plasticflower02b.jpg'
+104.3151 	EXP 	prac_fix: autoDraw = True
+104.8093 	EXP 	prac_cue: autoDraw = True
+104.8259 	EXP 	prac_fix: autoDraw = False
+105.1999 	DATA 	Keypress: space
+105.2087 	EXP 	prac_fix: autoDraw = False
+105.2087 	EXP 	prac_cue: autoDraw = False
+105.2087 	EXP 	feedback: text = 'Correct!'
+105.2087 	EXP 	feedback: autoDraw = True
+105.7095 	EXP 	feedback: autoDraw = False
+105.7095 	EXP 	feedback: autoDraw = False
+105.7095 	EXP 	empty: autoDraw = True
+106.6979 	EXP 	New trial (rep=0, index=20): OrderedDict([('imagefile', 'prac\\waterlily.jpg'), ('condition', 'go'), ('corAns', 'space')])
+106.8348 	EXP 	empty: autoDraw = False
+106.8348 	EXP 	empty: autoDraw = False
+106.8348 	EXP 	prac_cue: image = 'prac\\waterlily.jpg'
+106.8348 	EXP 	prac_fix: autoDraw = True
+107.3278 	EXP 	prac_cue: autoDraw = True
+107.3444 	EXP 	prac_fix: autoDraw = False
+107.7056 	DATA 	Keypress: space
+107.7112 	EXP 	prac_fix: autoDraw = False
+107.7112 	EXP 	prac_cue: autoDraw = False
+107.7112 	EXP 	feedback: text = 'Correct!'
+107.7112 	EXP 	feedback: autoDraw = True
+108.2118 	EXP 	feedback: autoDraw = False
+108.2118 	EXP 	feedback: autoDraw = False
+108.2118 	EXP 	empty: autoDraw = True
+109.1993 	EXP 	New trial (rep=0, index=21): OrderedDict([('imagefile', 'prac\\leaf03a.jpg'), ('condition', 'go'), ('corAns', 'space')])
+109.3325 	EXP 	empty: autoDraw = False
+109.3325 	EXP 	empty: autoDraw = False
+109.3325 	EXP 	prac_cue: image = 'prac\\leaf03a.jpg'
+109.3325 	EXP 	prac_fix: autoDraw = True
+109.8300 	EXP 	prac_cue: autoDraw = True
+109.8468 	EXP 	prac_fix: autoDraw = False
+110.1879 	DATA 	Keypress: space
+110.2138 	EXP 	prac_fix: autoDraw = False
+110.2138 	EXP 	prac_cue: autoDraw = False
+110.2138 	EXP 	feedback: text = 'Correct!'
+110.2138 	EXP 	feedback: autoDraw = True
+110.7142 	EXP 	feedback: autoDraw = False
+110.7142 	EXP 	feedback: autoDraw = False
+110.7142 	EXP 	empty: autoDraw = True
+111.7022 	EXP 	New trial (rep=0, index=22): OrderedDict([('imagefile', 'prac\\stapler04a.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+111.8492 	EXP 	empty: autoDraw = False
+111.8492 	EXP 	empty: autoDraw = False
+111.8492 	EXP 	prac_cue: image = 'prac\\stapler04a.jpg'
+111.8492 	EXP 	prac_fix: autoDraw = True
+112.3488 	EXP 	prac_fix: autoDraw = False
+112.3488 	EXP 	prac_cue: autoDraw = True
+112.7992 	EXP 	prac_fix: autoDraw = False
+112.7992 	EXP 	prac_cue: autoDraw = False
+112.7992 	EXP 	feedback: text = 'Correct!'
+112.7992 	EXP 	feedback: autoDraw = True
+113.2994 	EXP 	feedback: autoDraw = False
+113.2994 	EXP 	empty: autoDraw = True
+114.2847 	EXP 	New trial (rep=0, index=23): OrderedDict([('imagefile', 'prac\\plasticflower03b.jpg'), ('condition', 'go'), ('corAns', 'space')])
+114.4160 	EXP 	empty: autoDraw = False
+114.4160 	EXP 	prac_cue: image = 'prac\\plasticflower03b.jpg'
+114.4160 	EXP 	prac_fix: autoDraw = True
+114.9013 	EXP 	prac_cue: autoDraw = True
+114.9176 	EXP 	prac_fix: autoDraw = False
+115.2121 	DATA 	Keypress: space
+115.2176 	EXP 	prac_fix: autoDraw = False
+115.2176 	EXP 	prac_cue: autoDraw = False
+115.2176 	EXP 	feedback: text = 'Correct!'
+115.2176 	EXP 	feedback: autoDraw = True
+115.7180 	EXP 	feedback: autoDraw = False
+115.7180 	EXP 	feedback: autoDraw = False
+115.7180 	EXP 	empty: autoDraw = True
+116.7055 	EXP 	New trial (rep=0, index=24): OrderedDict([('imagefile', 'prac\\daisy.jpg'), ('condition', 'go'), ('corAns', 'space')])
+116.8345 	EXP 	empty: autoDraw = False
+116.8345 	EXP 	empty: autoDraw = False
+116.8345 	EXP 	prac_cue: image = 'prac\\daisy.jpg'
+116.8345 	EXP 	prac_fix: autoDraw = True
+117.3197 	EXP 	prac_cue: autoDraw = True
+117.3363 	EXP 	prac_fix: autoDraw = False
+117.6591 	DATA 	Keypress: space
+117.6867 	EXP 	prac_fix: autoDraw = False
+117.6867 	EXP 	prac_cue: autoDraw = False
+117.6867 	EXP 	feedback: text = 'Correct!'
+117.6867 	EXP 	feedback: autoDraw = True
+118.1864 	EXP 	feedback: autoDraw = False
+118.1864 	EXP 	feedback: autoDraw = False
+118.1864 	EXP 	empty: autoDraw = True
+119.1876 	EXP 	empty: autoDraw = False
+119.1876 	EXP 	empty: autoDraw = False
+119.1876 	EXP 	post_pracins: autoDraw = True
+122.0288 	DATA 	Keypress: v
+122.0836 	EXP 	Imported blocks.xlsx as conditions, 3 conditions, 2 params
+122.0839 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+122.0843 	EXP 	New trial (rep=0, index=0): OrderedDict([('choblock', 'conditions\\food_hd.xlsx'), ('tex', 'inst\\ins_food3.png')])
+122.1538 	EXP 	post_pracins: autoDraw = False
+122.1538 	EXP 	ins: image = 'inst\\ins_food3.png'
+122.1538 	EXP 	ins: autoDraw = True
+136.0156 	EXP 	Imported conditions\food_hd.xlsx as conditions, 1 conditions, 1 params
+136.0160 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+136.0165 	EXP 	New trial (rep=0, index=0): OrderedDict([('pseudo', 'conditions\\food_hd6.xlsx')])
+136.0382 	EXP 	Imported conditions\food_hd6.xlsx as conditions, 100 conditions, 3 params
+136.0387 	EXP 	Created sequence: sequential, trialTypes=100, nReps=1, seed=None
+136.0389 	EXP 	New trial (rep=0, index=0): OrderedDict([('imagefile', 'household2\\1245.jpg'), ('condition', 'go'), ('corAns', 'space')])
+136.0537 	DATA 	Keypress: space
+136.0569 	EXP 	ins: autoDraw = False
+136.0569 	EXP 	exp_image: image = 'household2\\1245.jpg'
+136.0569 	EXP 	fixation: autoDraw = True
+136.5520 	EXP 	exp_image: autoDraw = True
+136.5688 	EXP 	fixation: autoDraw = False
+137.0024 	EXP 	fixation: autoDraw = False
+137.0024 	EXP 	exp_image: autoDraw = False
+137.0024 	EXP 	empty: autoDraw = True
+137.0399 	DATA 	Keypress: space
+137.9878 	EXP 	New trial (rep=0, index=1): OrderedDict([('imagefile', 'household2\\1222.jpg'), ('condition', 'go'), ('corAns', 'space')])
+138.0256 	EXP 	empty: autoDraw = False
+138.0256 	EXP 	exp_image: image = 'household2\\1222.jpg'
+138.0256 	EXP 	fixation: autoDraw = True
+138.5038 	EXP 	exp_image: autoDraw = True
+138.5370 	EXP 	fixation: autoDraw = False
+138.9640 	DATA 	Keypress: space
+138.9709 	EXP 	fixation: autoDraw = False
+138.9709 	EXP 	exp_image: autoDraw = False
+138.9709 	EXP 	empty: autoDraw = True
+139.9582 	EXP 	New trial (rep=0, index=2): OrderedDict([('imagefile', 'household2\\1279.jpg'), ('condition', 'go'), ('corAns', 'space')])
+139.9978 	EXP 	empty: autoDraw = False
+139.9978 	EXP 	empty: autoDraw = False
+139.9978 	EXP 	exp_image: image = 'household2\\1279.jpg'
+139.9978 	EXP 	fixation: autoDraw = True
+140.4889 	EXP 	exp_image: autoDraw = True
+140.5055 	EXP 	fixation: autoDraw = False
+140.9893 	EXP 	fixation: autoDraw = False
+140.9893 	EXP 	exp_image: autoDraw = False
+140.9893 	EXP 	empty: autoDraw = True
+141.9748 	EXP 	New trial (rep=0, index=3): OrderedDict([('imagefile', 'HD\\0298.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+142.0191 	EXP 	empty: autoDraw = False
+142.0191 	EXP 	exp_image: image = 'HD\\0298.jpg'
+142.0191 	EXP 	fixation: autoDraw = True
+142.5073 	EXP 	exp_image: autoDraw = True
+142.5239 	EXP 	fixation: autoDraw = False
+142.9178 	DATA 	Keypress: space
+142.9242 	EXP 	fixation: autoDraw = False
+142.9242 	EXP 	exp_image: autoDraw = False
+142.9242 	EXP 	empty: autoDraw = True
+143.9119 	EXP 	New trial (rep=0, index=4): OrderedDict([('imagefile', 'household2\\1230.jpg'), ('condition', 'go'), ('corAns', 'space')])
+143.9593 	EXP 	empty: autoDraw = False
+143.9593 	EXP 	empty: autoDraw = False
+143.9593 	EXP 	exp_image: image = 'household2\\1230.jpg'
+143.9593 	EXP 	fixation: autoDraw = True
+144.4592 	EXP 	fixation: autoDraw = False
+144.4592 	EXP 	exp_image: autoDraw = True
+144.9374 	DATA 	Keypress: space
+144.9427 	EXP 	fixation: autoDraw = False
+144.9427 	EXP 	exp_image: autoDraw = False
+144.9427 	EXP 	empty: autoDraw = True
+145.9302 	EXP 	New trial (rep=0, index=5): OrderedDict([('imagefile', 'household2\\1213.jpg'), ('condition', 'go'), ('corAns', 'space')])
+145.9686 	EXP 	empty: autoDraw = False
+145.9686 	EXP 	empty: autoDraw = False
+145.9686 	EXP 	exp_image: image = 'household2\\1213.jpg'
+145.9686 	EXP 	fixation: autoDraw = True
+146.4605 	EXP 	exp_image: autoDraw = True
+146.4773 	EXP 	fixation: autoDraw = False
+146.9525 	DATA 	Keypress: space
+146.9615 	EXP 	exp_image: autoDraw = False
+146.9615 	EXP 	fixation: autoDraw = False
+146.9615 	EXP 	exp_image: autoDraw = False
+146.9615 	EXP 	empty: autoDraw = True
+147.9486 	EXP 	New trial (rep=0, index=6): OrderedDict([('imagefile', 'household2\\1198.jpg'), ('condition', 'go'), ('corAns', 'space')])
+147.9910 	EXP 	empty: autoDraw = False
+147.9910 	EXP 	empty: autoDraw = False
+147.9910 	EXP 	exp_image: image = 'household2\\1198.jpg'
+147.9910 	EXP 	fixation: autoDraw = True
+148.4787 	EXP 	exp_image: autoDraw = True
+148.4956 	EXP 	fixation: autoDraw = False
+148.8984 	DATA 	Keypress: space
+148.9288 	EXP 	fixation: autoDraw = False
+148.9288 	EXP 	exp_image: autoDraw = False
+148.9288 	EXP 	empty: autoDraw = True
+149.9166 	EXP 	New trial (rep=0, index=7): OrderedDict([('imagefile', 'household2\\1261.jpg'), ('condition', 'go'), ('corAns', 'space')])
+149.9642 	EXP 	empty: autoDraw = False
+149.9642 	EXP 	empty: autoDraw = False
+149.9642 	EXP 	exp_image: image = 'household2\\1261.jpg'
+149.9642 	EXP 	fixation: autoDraw = True
+150.4637 	EXP 	fixation: autoDraw = False
+150.4637 	EXP 	exp_image: autoDraw = True
+150.9237 	DATA 	Keypress: space
+150.9309 	EXP 	fixation: autoDraw = False
+150.9309 	EXP 	exp_image: autoDraw = False
+150.9309 	EXP 	empty: autoDraw = True
+151.9180 	EXP 	New trial (rep=0, index=8): OrderedDict([('imagefile', 'HD\\0313.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+151.9627 	EXP 	empty: autoDraw = False
+151.9627 	EXP 	empty: autoDraw = False
+151.9627 	EXP 	exp_image: image = 'HD\\0313.jpg'
+151.9627 	EXP 	fixation: autoDraw = True
+152.4654 	EXP 	fixation: autoDraw = False
+152.4654 	EXP 	exp_image: autoDraw = True
+152.9664 	EXP 	exp_image: autoDraw = False
+152.9664 	EXP 	fixation: autoDraw = False
+152.9664 	EXP 	exp_image: autoDraw = False
+152.9664 	EXP 	empty: autoDraw = True
+153.9536 	EXP 	New trial (rep=0, index=9): OrderedDict([('imagefile', 'household2\\1247.jpg'), ('condition', 'go'), ('corAns', 'space')])
+154.0021 	EXP 	empty: autoDraw = False
+154.0021 	EXP 	empty: autoDraw = False
+154.0021 	EXP 	exp_image: image = 'household2\\1247.jpg'
+154.0021 	EXP 	fixation: autoDraw = True
+154.5006 	EXP 	exp_image: autoDraw = True
+154.5173 	EXP 	fixation: autoDraw = False
+154.9277 	DATA 	Keypress: space
+154.9342 	EXP 	fixation: autoDraw = False
+154.9342 	EXP 	exp_image: autoDraw = False
+154.9342 	EXP 	empty: autoDraw = True
+155.9218 	EXP 	New trial (rep=0, index=10): OrderedDict([('imagefile', 'household2\\1239.jpg'), ('condition', 'go'), ('corAns', 'space')])
+155.9684 	EXP 	empty: autoDraw = False
+155.9684 	EXP 	empty: autoDraw = False
+155.9684 	EXP 	exp_image: image = 'household2\\1239.jpg'
+155.9684 	EXP 	fixation: autoDraw = True
+156.4689 	EXP 	fixation: autoDraw = False
+156.4689 	EXP 	exp_image: autoDraw = True
+156.8959 	DATA 	Keypress: space
+156.9025 	EXP 	fixation: autoDraw = False
+156.9025 	EXP 	exp_image: autoDraw = False
+156.9025 	EXP 	empty: autoDraw = True
+157.8911 	EXP 	New trial (rep=0, index=11): OrderedDict([('imagefile', 'household2\\1278.jpg'), ('condition', 'go'), ('corAns', 'space')])
+157.9305 	EXP 	empty: autoDraw = False
+157.9305 	EXP 	empty: autoDraw = False
+157.9305 	EXP 	exp_image: image = 'household2\\1278.jpg'
+157.9305 	EXP 	fixation: autoDraw = True
+158.4204 	EXP 	exp_image: autoDraw = True
+158.4372 	EXP 	fixation: autoDraw = False
+158.8642 	DATA 	Keypress: space
+158.8708 	EXP 	fixation: autoDraw = False
+158.8708 	EXP 	exp_image: autoDraw = False
+158.8708 	EXP 	empty: autoDraw = True
+159.8583 	EXP 	New trial (rep=0, index=12): OrderedDict([('imagefile', 'household2\\1226.jpg'), ('condition', 'go'), ('corAns', 'space')])
+159.9087 	EXP 	empty: autoDraw = False
+159.9087 	EXP 	empty: autoDraw = False
+159.9087 	EXP 	exp_image: image = 'household2\\1226.jpg'
+159.9087 	EXP 	fixation: autoDraw = True
+160.4054 	EXP 	exp_image: autoDraw = True
+160.4223 	EXP 	fixation: autoDraw = False
+160.8654 	DATA 	Keypress: space
+160.8727 	EXP 	fixation: autoDraw = False
+160.8727 	EXP 	exp_image: autoDraw = False
+160.8727 	EXP 	empty: autoDraw = True
+161.8606 	EXP 	New trial (rep=0, index=13): OrderedDict([('imagefile', 'household2\\1252.jpg'), ('condition', 'go'), ('corAns', 'space')])
+161.9101 	EXP 	empty: autoDraw = False
+161.9101 	EXP 	empty: autoDraw = False
+161.9101 	EXP 	exp_image: image = 'household2\\1252.jpg'
+161.9101 	EXP 	fixation: autoDraw = True
+162.4071 	EXP 	exp_image: autoDraw = True
+162.4238 	EXP 	fixation: autoDraw = False
+162.8177 	DATA 	Keypress: space
+162.8241 	EXP 	fixation: autoDraw = False
+162.8241 	EXP 	exp_image: autoDraw = False
+162.8241 	EXP 	empty: autoDraw = True
+163.8118 	EXP 	New trial (rep=0, index=14): OrderedDict([('imagefile', 'HD\\0053.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+163.8613 	EXP 	empty: autoDraw = False
+163.8613 	EXP 	empty: autoDraw = False
+163.8613 	EXP 	exp_image: image = 'HD\\0053.jpg'
+163.8613 	EXP 	fixation: autoDraw = True
+164.3588 	EXP 	exp_image: autoDraw = True
+164.3755 	EXP 	fixation: autoDraw = False
+164.8587 	EXP 	exp_image: autoDraw = False
+164.8587 	EXP 	fixation: autoDraw = False
+164.8587 	EXP 	exp_image: autoDraw = False
+164.8587 	EXP 	empty: autoDraw = True
+165.8472 	EXP 	New trial (rep=0, index=15): OrderedDict([('imagefile', 'household2\\1237.jpg'), ('condition', 'go'), ('corAns', 'space')])
+165.8996 	EXP 	empty: autoDraw = False
+165.8996 	EXP 	empty: autoDraw = False
+165.8996 	EXP 	exp_image: image = 'household2\\1237.jpg'
+165.8996 	EXP 	fixation: autoDraw = True
+166.3938 	EXP 	exp_image: autoDraw = True
+166.4103 	EXP 	fixation: autoDraw = False
+166.7872 	DATA 	Keypress: space
+166.7942 	EXP 	fixation: autoDraw = False
+166.7942 	EXP 	exp_image: autoDraw = False
+166.7942 	EXP 	empty: autoDraw = True
+167.7814 	EXP 	New trial (rep=0, index=16): OrderedDict([('imagefile', 'household2\\1246.jpg'), ('condition', 'go'), ('corAns', 'space')])
+167.8297 	EXP 	empty: autoDraw = False
+167.8297 	EXP 	empty: autoDraw = False
+167.8297 	EXP 	exp_image: image = 'household2\\1246.jpg'
+167.8297 	EXP 	fixation: autoDraw = True
+168.3286 	EXP 	fixation: autoDraw = False
+168.3286 	EXP 	exp_image: autoDraw = True
+168.8056 	DATA 	Keypress: space
+168.8124 	EXP 	fixation: autoDraw = False
+168.8124 	EXP 	exp_image: autoDraw = False
+168.8124 	EXP 	empty: autoDraw = True
+169.7997 	EXP 	New trial (rep=0, index=17): OrderedDict([('imagefile', 'household2\\1258.jpg'), ('condition', 'go'), ('corAns', 'space')])
+169.8501 	EXP 	empty: autoDraw = False
+169.8501 	EXP 	empty: autoDraw = False
+169.8501 	EXP 	exp_image: image = 'household2\\1258.jpg'
+169.8501 	EXP 	fixation: autoDraw = True
+170.3470 	EXP 	exp_image: autoDraw = True
+170.3639 	EXP 	fixation: autoDraw = False
+170.8390 	DATA 	Keypress: space
+170.8474 	EXP 	exp_image: autoDraw = False
+170.8474 	EXP 	fixation: autoDraw = False
+170.8474 	EXP 	exp_image: autoDraw = False
+170.8474 	EXP 	empty: autoDraw = True
+171.8352 	EXP 	New trial (rep=0, index=18): OrderedDict([('imagefile', 'household2\\1274.jpg'), ('condition', 'go'), ('corAns', 'space')])
+171.8745 	EXP 	empty: autoDraw = False
+171.8745 	EXP 	empty: autoDraw = False
+171.8745 	EXP 	exp_image: image = 'household2\\1274.jpg'
+171.8745 	EXP 	fixation: autoDraw = True
+172.3653 	EXP 	exp_image: autoDraw = True
+172.3822 	EXP 	fixation: autoDraw = False
+172.7922 	DATA 	Keypress: space
+172.7991 	EXP 	fixation: autoDraw = False
+172.7991 	EXP 	exp_image: autoDraw = False
+172.7991 	EXP 	empty: autoDraw = True
+173.7873 	EXP 	New trial (rep=0, index=19): OrderedDict([('imagefile', 'HD\\0127.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+173.8287 	EXP 	empty: autoDraw = False
+173.8287 	EXP 	empty: autoDraw = False
+173.8287 	EXP 	exp_image: image = 'HD\\0127.jpg'
+173.8287 	EXP 	fixation: autoDraw = True
+174.3171 	EXP 	exp_image: autoDraw = True
+174.3337 	EXP 	fixation: autoDraw = False
+174.8175 	EXP 	exp_image: autoDraw = False
+174.8175 	EXP 	fixation: autoDraw = False
+174.8175 	EXP 	exp_image: autoDraw = False
+174.8175 	EXP 	empty: autoDraw = True
+175.8047 	EXP 	New trial (rep=0, index=20): OrderedDict([('imagefile', 'household2\\1240.jpg'), ('condition', 'go'), ('corAns', 'space')])
+175.8519 	EXP 	empty: autoDraw = False
+175.8519 	EXP 	empty: autoDraw = False
+175.8519 	EXP 	exp_image: image = 'household2\\1240.jpg'
+175.8519 	EXP 	fixation: autoDraw = True
+176.3519 	EXP 	fixation: autoDraw = False
+176.3519 	EXP 	exp_image: autoDraw = True
+176.7100 	DATA 	Keypress: space
+176.7360 	EXP 	fixation: autoDraw = False
+176.7360 	EXP 	exp_image: autoDraw = False
+176.7360 	EXP 	empty: autoDraw = True
+177.7238 	EXP 	New trial (rep=0, index=21): OrderedDict([('imagefile', 'household2\\1202.jpg'), ('condition', 'go'), ('corAns', 'space')])
+177.7722 	EXP 	empty: autoDraw = False
+177.7722 	EXP 	empty: autoDraw = False
+177.7722 	EXP 	exp_image: image = 'household2\\1202.jpg'
+177.7722 	EXP 	fixation: autoDraw = True
+178.2703 	EXP 	exp_image: autoDraw = True
+178.2870 	EXP 	fixation: autoDraw = False
+178.7312 	DATA 	Keypress: space
+178.7373 	EXP 	fixation: autoDraw = False
+178.7373 	EXP 	exp_image: autoDraw = False
+178.7373 	EXP 	empty: autoDraw = True
+179.7251 	EXP 	New trial (rep=0, index=22): OrderedDict([('imagefile', 'household2\\1241.jpg'), ('condition', 'go'), ('corAns', 'space')])
+179.7526 	EXP 	empty: autoDraw = False
+179.7526 	EXP 	empty: autoDraw = False
+179.7526 	EXP 	exp_image: image = 'household2\\1241.jpg'
+179.7526 	EXP 	fixation: autoDraw = True
+180.2386 	EXP 	exp_image: autoDraw = True
+180.2552 	EXP 	fixation: autoDraw = False
+180.7303 	DATA 	Keypress: space
+180.7394 	EXP 	exp_image: autoDraw = False
+180.7394 	EXP 	fixation: autoDraw = False
+180.7394 	EXP 	exp_image: autoDraw = False
+180.7394 	EXP 	empty: autoDraw = True
+181.7264 	EXP 	New trial (rep=0, index=23): OrderedDict([('imagefile', 'household2\\1243.jpg'), ('condition', 'go'), ('corAns', 'space')])
+181.7738 	EXP 	empty: autoDraw = False
+181.7738 	EXP 	empty: autoDraw = False
+181.7738 	EXP 	exp_image: image = 'household2\\1243.jpg'
+181.7738 	EXP 	fixation: autoDraw = True
+182.2736 	EXP 	fixation: autoDraw = False
+182.2736 	EXP 	exp_image: autoDraw = True
+182.7177 	DATA 	Keypress: space
+182.7240 	EXP 	fixation: autoDraw = False
+182.7240 	EXP 	exp_image: autoDraw = False
+182.7240 	EXP 	empty: autoDraw = True
+183.7117 	EXP 	New trial (rep=0, index=24): OrderedDict([('imagefile', 'HD\\0138.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+183.7582 	EXP 	empty: autoDraw = False
+183.7582 	EXP 	empty: autoDraw = False
+183.7582 	EXP 	exp_image: image = 'HD\\0138.jpg'
+183.7582 	EXP 	fixation: autoDraw = True
+184.2589 	EXP 	fixation: autoDraw = False
+184.2589 	EXP 	exp_image: autoDraw = True
+184.7591 	EXP 	exp_image: autoDraw = False
+184.7591 	EXP 	fixation: autoDraw = False
+184.7591 	EXP 	exp_image: autoDraw = False
+184.7591 	EXP 	empty: autoDraw = True
+185.7471 	EXP 	New trial (rep=0, index=25): OrderedDict([('imagefile', 'household2\\1276.jpg'), ('condition', 'go'), ('corAns', 'space')])
+185.7886 	EXP 	empty: autoDraw = False
+185.7886 	EXP 	empty: autoDraw = False
+185.7886 	EXP 	exp_image: image = 'household2\\1276.jpg'
+185.7886 	EXP 	fixation: autoDraw = True
+186.2770 	EXP 	exp_image: autoDraw = True
+186.2938 	EXP 	fixation: autoDraw = False
+186.7042 	DATA 	Keypress: space
+186.7111 	EXP 	fixation: autoDraw = False
+186.7111 	EXP 	exp_image: autoDraw = False
+186.7111 	EXP 	empty: autoDraw = True
+187.6983 	EXP 	New trial (rep=0, index=26): OrderedDict([('imagefile', 'household2\\1219.jpg'), ('condition', 'go'), ('corAns', 'space')])
+187.7477 	EXP 	empty: autoDraw = False
+187.7477 	EXP 	empty: autoDraw = False
+187.7477 	EXP 	exp_image: image = 'household2\\1219.jpg'
+187.7477 	EXP 	fixation: autoDraw = True
+188.2453 	EXP 	exp_image: autoDraw = True
+188.2620 	EXP 	fixation: autoDraw = False
+188.6223 	DATA 	Keypress: space
+188.6289 	EXP 	fixation: autoDraw = False
+188.6289 	EXP 	exp_image: autoDraw = False
+188.6289 	EXP 	empty: autoDraw = True
+189.6165 	EXP 	New trial (rep=0, index=27): OrderedDict([('imagefile', 'household2\\1144.jpg'), ('condition', 'go'), ('corAns', 'space')])
+189.6648 	EXP 	empty: autoDraw = False
+189.6648 	EXP 	empty: autoDraw = False
+189.6648 	EXP 	exp_image: image = 'household2\\1144.jpg'
+189.6648 	EXP 	fixation: autoDraw = True
+190.1636 	EXP 	exp_image: autoDraw = True
+190.1801 	EXP 	fixation: autoDraw = False
+190.6194 	DATA 	Keypress: space
+190.6474 	EXP 	fixation: autoDraw = False
+190.6474 	EXP 	exp_image: autoDraw = False
+190.6474 	EXP 	empty: autoDraw = True
+191.6348 	EXP 	New trial (rep=0, index=28): OrderedDict([('imagefile', 'household2\\1212.jpg'), ('condition', 'go'), ('corAns', 'space')])
+191.6802 	EXP 	empty: autoDraw = False
+191.6802 	EXP 	empty: autoDraw = False
+191.6802 	EXP 	exp_image: image = 'household2\\1212.jpg'
+191.6802 	EXP 	fixation: autoDraw = True
+192.1818 	EXP 	fixation: autoDraw = False
+192.1818 	EXP 	exp_image: autoDraw = True
+192.6590 	DATA 	Keypress: space
+192.6656 	EXP 	fixation: autoDraw = False
+192.6656 	EXP 	exp_image: autoDraw = False
+192.6656 	EXP 	empty: autoDraw = True
+193.6532 	EXP 	New trial (rep=0, index=29): OrderedDict([('imagefile', 'household2\\1141.jpg'), ('condition', 'go'), ('corAns', 'space')])
+193.7006 	EXP 	empty: autoDraw = False
+193.7006 	EXP 	empty: autoDraw = False
+193.7006 	EXP 	exp_image: image = 'household2\\1141.jpg'
+193.7006 	EXP 	fixation: autoDraw = True
+194.2000 	EXP 	fixation: autoDraw = False
+194.2000 	EXP 	exp_image: autoDraw = True
+194.6071 	DATA 	Keypress: space
+194.6164 	EXP 	fixation: autoDraw = False
+194.6164 	EXP 	exp_image: autoDraw = False
+194.6164 	EXP 	empty: autoDraw = True
+195.6054 	EXP 	New trial (rep=0, index=30): OrderedDict([('imagefile', 'HD\\0535.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+195.6457 	EXP 	empty: autoDraw = False
+195.6457 	EXP 	empty: autoDraw = False
+195.6457 	EXP 	exp_image: image = 'HD\\0535.jpg'
+195.6457 	EXP 	fixation: autoDraw = True
+196.1355 	EXP 	exp_image: autoDraw = True
+196.1521 	EXP 	fixation: autoDraw = False
+196.6359 	EXP 	exp_image: autoDraw = False
+196.6359 	EXP 	fixation: autoDraw = False
+196.6359 	EXP 	exp_image: autoDraw = False
+196.6359 	EXP 	empty: autoDraw = True
+197.6227 	EXP 	New trial (rep=0, index=31): OrderedDict([('imagefile', 'household2\\1210.jpg'), ('condition', 'go'), ('corAns', 'space')])
+197.6582 	EXP 	empty: autoDraw = False
+197.6582 	EXP 	empty: autoDraw = False
+197.6582 	EXP 	exp_image: image = 'household2\\1210.jpg'
+197.6582 	EXP 	fixation: autoDraw = True
+198.1536 	EXP 	exp_image: autoDraw = True
+198.1702 	EXP 	fixation: autoDraw = False
+198.5467 	DATA 	Keypress: space
+198.5539 	EXP 	fixation: autoDraw = False
+198.5539 	EXP 	exp_image: autoDraw = False
+198.5539 	EXP 	empty: autoDraw = True
+199.5418 	EXP 	New trial (rep=0, index=32): OrderedDict([('imagefile', 'household2\\1242.jpg'), ('condition', 'go'), ('corAns', 'space')])
+199.5902 	EXP 	empty: autoDraw = False
+199.5902 	EXP 	empty: autoDraw = False
+199.5902 	EXP 	exp_image: image = 'household2\\1242.jpg'
+199.5902 	EXP 	fixation: autoDraw = True
+200.0885 	EXP 	exp_image: autoDraw = True
+200.1050 	EXP 	fixation: autoDraw = False
+200.4658 	DATA 	Keypress: space
+200.4720 	EXP 	fixation: autoDraw = False
+200.4720 	EXP 	exp_image: autoDraw = False
+200.4720 	EXP 	empty: autoDraw = True
+201.4599 	EXP 	New trial (rep=0, index=33): OrderedDict([('imagefile', 'household2\\1223.jpg'), ('condition', 'go'), ('corAns', 'space')])
+201.5134 	EXP 	empty: autoDraw = False
+201.5134 	EXP 	empty: autoDraw = False
+201.5134 	EXP 	exp_image: image = 'household2\\1223.jpg'
+201.5134 	EXP 	fixation: autoDraw = True
+201.9902 	EXP 	exp_image: autoDraw = True
+202.0236 	EXP 	fixation: autoDraw = False
+202.4170 	DATA 	Keypress: space
+202.4238 	EXP 	fixation: autoDraw = False
+202.4238 	EXP 	exp_image: autoDraw = False
+202.4238 	EXP 	empty: autoDraw = True
+203.4111 	EXP 	New trial (rep=0, index=34): OrderedDict([('imagefile', 'household2\\1265.jpg'), ('condition', 'go'), ('corAns', 'space')])
+203.4636 	EXP 	empty: autoDraw = False
+203.4636 	EXP 	empty: autoDraw = False
+203.4636 	EXP 	exp_image: image = 'household2\\1265.jpg'
+203.4636 	EXP 	fixation: autoDraw = True
+203.9417 	EXP 	exp_image: autoDraw = True
+203.9751 	EXP 	fixation: autoDraw = False
+204.3350 	DATA 	Keypress: space
+204.3419 	EXP 	fixation: autoDraw = False
+204.3419 	EXP 	exp_image: autoDraw = False
+204.3419 	EXP 	empty: autoDraw = True
+205.3292 	EXP 	New trial (rep=0, index=35): OrderedDict([('imagefile', 'HD\\0018.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+205.3758 	EXP 	empty: autoDraw = False
+205.3758 	EXP 	empty: autoDraw = False
+205.3758 	EXP 	exp_image: image = 'HD\\0018.jpg'
+205.3758 	EXP 	fixation: autoDraw = True
+205.8766 	EXP 	fixation: autoDraw = False
+205.8766 	EXP 	exp_image: autoDraw = True
+206.3770 	EXP 	exp_image: autoDraw = False
+206.3770 	EXP 	fixation: autoDraw = False
+206.3770 	EXP 	exp_image: autoDraw = False
+206.3770 	EXP 	empty: autoDraw = True
+207.3646 	EXP 	New trial (rep=0, index=36): OrderedDict([('imagefile', 'household2\\1275.jpg'), ('condition', 'go'), ('corAns', 'space')])
+207.4040 	EXP 	empty: autoDraw = False
+207.4040 	EXP 	empty: autoDraw = False
+207.4040 	EXP 	exp_image: image = 'household2\\1275.jpg'
+207.4040 	EXP 	fixation: autoDraw = True
+207.8948 	EXP 	exp_image: autoDraw = True
+207.9117 	EXP 	fixation: autoDraw = False
+208.3057 	DATA 	Keypress: space
+208.3119 	EXP 	fixation: autoDraw = False
+208.3119 	EXP 	exp_image: autoDraw = False
+208.3119 	EXP 	empty: autoDraw = True
+209.2998 	EXP 	New trial (rep=0, index=37): OrderedDict([('imagefile', 'household2\\1277.jpg'), ('condition', 'go'), ('corAns', 'space')])
+209.3492 	EXP 	empty: autoDraw = False
+209.3492 	EXP 	empty: autoDraw = False
+209.3492 	EXP 	exp_image: image = 'household2\\1277.jpg'
+209.3492 	EXP 	fixation: autoDraw = True
+209.8466 	EXP 	exp_image: autoDraw = True
+209.8632 	EXP 	fixation: autoDraw = False
+210.2900 	DATA 	Keypress: space
+210.2970 	EXP 	fixation: autoDraw = False
+210.2970 	EXP 	exp_image: autoDraw = False
+210.2970 	EXP 	empty: autoDraw = True
+211.2851 	EXP 	New trial (rep=0, index=38): OrderedDict([('imagefile', 'household2\\1208.jpg'), ('condition', 'go'), ('corAns', 'space')])
+211.3335 	EXP 	empty: autoDraw = False
+211.3335 	EXP 	empty: autoDraw = False
+211.3335 	EXP 	exp_image: image = 'household2\\1208.jpg'
+211.3335 	EXP 	fixation: autoDraw = True
+211.8315 	EXP 	exp_image: autoDraw = True
+211.8482 	EXP 	fixation: autoDraw = False
+212.2592 	DATA 	Keypress: space
+212.2651 	EXP 	fixation: autoDraw = False
+212.2651 	EXP 	exp_image: autoDraw = False
+212.2651 	EXP 	empty: autoDraw = True
+213.2533 	EXP 	New trial (rep=0, index=39): OrderedDict([('imagefile', 'household2\\1145.jpg'), ('condition', 'go'), ('corAns', 'space')])
+213.3047 	EXP 	empty: autoDraw = False
+213.3047 	EXP 	empty: autoDraw = False
+213.3047 	EXP 	exp_image: image = 'household2\\1145.jpg'
+213.3047 	EXP 	fixation: autoDraw = True
+213.7999 	EXP 	exp_image: autoDraw = True
+213.8165 	EXP 	fixation: autoDraw = False
+214.3003 	EXP 	exp_image: autoDraw = False
+214.3003 	EXP 	fixation: autoDraw = False
+214.3003 	EXP 	exp_image: autoDraw = False
+214.3003 	EXP 	empty: autoDraw = True
+214.3208 	DATA 	Keypress: space
+215.2878 	EXP 	New trial (rep=0, index=40): OrderedDict([('imagefile', 'HD\\0004.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+215.3344 	EXP 	empty: autoDraw = False
+215.3344 	EXP 	empty: autoDraw = False
+215.3344 	EXP 	exp_image: image = 'HD\\0004.jpg'
+215.3344 	EXP 	fixation: autoDraw = True
+215.8344 	EXP 	fixation: autoDraw = False
+215.8344 	EXP 	exp_image: autoDraw = True
+216.3348 	EXP 	exp_image: autoDraw = False
+216.3348 	EXP 	fixation: autoDraw = False
+216.3348 	EXP 	exp_image: autoDraw = False
+216.3348 	EXP 	empty: autoDraw = True
+217.3231 	EXP 	New trial (rep=0, index=41): OrderedDict([('imagefile', 'household2\\1273.jpg'), ('condition', 'go'), ('corAns', 'space')])
+217.3746 	EXP 	empty: autoDraw = False
+217.3746 	EXP 	empty: autoDraw = False
+217.3746 	EXP 	exp_image: image = 'household2\\1273.jpg'
+217.3746 	EXP 	fixation: autoDraw = True
+217.8693 	EXP 	exp_image: autoDraw = True
+217.8862 	EXP 	fixation: autoDraw = False
+218.1955 	DATA 	Keypress: space
+218.2031 	EXP 	fixation: autoDraw = False
+218.2031 	EXP 	exp_image: autoDraw = False
+218.2031 	EXP 	empty: autoDraw = True
+219.1908 	EXP 	New trial (rep=0, index=42): OrderedDict([('imagefile', 'household2\\1225.jpg'), ('condition', 'go'), ('corAns', 'space')])
+219.2306 	EXP 	empty: autoDraw = False
+219.2306 	EXP 	empty: autoDraw = False
+219.2306 	EXP 	exp_image: image = 'household2\\1225.jpg'
+219.2306 	EXP 	fixation: autoDraw = True
+219.7214 	EXP 	exp_image: autoDraw = True
+219.7382 	EXP 	fixation: autoDraw = False
+220.1491 	DATA 	Keypress: space
+220.1549 	EXP 	fixation: autoDraw = False
+220.1549 	EXP 	exp_image: autoDraw = False
+220.1549 	EXP 	empty: autoDraw = True
+221.1433 	EXP 	New trial (rep=0, index=43): OrderedDict([('imagefile', 'household2\\1217.jpg'), ('condition', 'go'), ('corAns', 'space')])
+221.1837 	EXP 	empty: autoDraw = False
+221.1837 	EXP 	empty: autoDraw = False
+221.1837 	EXP 	exp_image: image = 'household2\\1217.jpg'
+221.1837 	EXP 	fixation: autoDraw = True
+221.6728 	EXP 	exp_image: autoDraw = True
+221.6895 	EXP 	fixation: autoDraw = False
+222.1734 	EXP 	exp_image: autoDraw = False
+222.1734 	EXP 	fixation: autoDraw = False
+222.1734 	EXP 	exp_image: autoDraw = False
+222.1734 	EXP 	empty: autoDraw = True
+222.1934 	DATA 	Keypress: space
+223.1605 	EXP 	New trial (rep=0, index=44): OrderedDict([('imagefile', 'HD\\0287.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+223.2072 	EXP 	empty: autoDraw = False
+223.2072 	EXP 	empty: autoDraw = False
+223.2072 	EXP 	exp_image: image = 'HD\\0287.jpg'
+223.2072 	EXP 	fixation: autoDraw = True
+223.7081 	EXP 	fixation: autoDraw = False
+223.7081 	EXP 	exp_image: autoDraw = True
+224.2086 	EXP 	exp_image: autoDraw = False
+224.2086 	EXP 	fixation: autoDraw = False
+224.2086 	EXP 	exp_image: autoDraw = False
+224.2086 	EXP 	empty: autoDraw = True
+225.1961 	EXP 	New trial (rep=0, index=45): OrderedDict([('imagefile', 'household2\\1214.jpg'), ('condition', 'go'), ('corAns', 'space')])
+225.2446 	EXP 	empty: autoDraw = False
+225.2446 	EXP 	empty: autoDraw = False
+225.2446 	EXP 	exp_image: image = 'household2\\1214.jpg'
+225.2446 	EXP 	fixation: autoDraw = True
+225.7434 	EXP 	exp_image: autoDraw = True
+225.7601 	EXP 	fixation: autoDraw = False
+226.1701 	DATA 	Keypress: space
+226.1768 	EXP 	fixation: autoDraw = False
+226.1768 	EXP 	exp_image: autoDraw = False
+226.1768 	EXP 	empty: autoDraw = True
+227.1643 	EXP 	New trial (rep=0, index=46): OrderedDict([('imagefile', 'household2\\1259.jpg'), ('condition', 'go'), ('corAns', 'space')])
+227.2127 	EXP 	empty: autoDraw = False
+227.2127 	EXP 	empty: autoDraw = False
+227.2127 	EXP 	exp_image: image = 'household2\\1259.jpg'
+227.2127 	EXP 	fixation: autoDraw = True
+227.7114 	EXP 	exp_image: autoDraw = True
+227.7282 	EXP 	fixation: autoDraw = False
+228.2117 	EXP 	exp_image: autoDraw = False
+228.2117 	EXP 	fixation: autoDraw = False
+228.2117 	EXP 	exp_image: autoDraw = False
+228.2117 	EXP 	empty: autoDraw = True
+228.2656 	DATA 	Keypress: space
+229.1997 	EXP 	New trial (rep=0, index=47): OrderedDict([('imagefile', 'household2\\1238.jpg'), ('condition', 'go'), ('corAns', 'space')])
+229.2481 	EXP 	empty: autoDraw = False
+229.2481 	EXP 	empty: autoDraw = False
+229.2481 	EXP 	exp_image: image = 'household2\\1238.jpg'
+229.2481 	EXP 	fixation: autoDraw = True
+229.7464 	EXP 	exp_image: autoDraw = True
+229.7632 	EXP 	fixation: autoDraw = False
+230.1526 	DATA 	Keypress: space
+230.1802 	EXP 	fixation: autoDraw = False
+230.1802 	EXP 	exp_image: autoDraw = False
+230.1802 	EXP 	empty: autoDraw = True
+231.1679 	EXP 	New trial (rep=0, index=48): OrderedDict([('imagefile', 'HD\\0041.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+231.2194 	EXP 	empty: autoDraw = False
+231.2194 	EXP 	empty: autoDraw = False
+231.2194 	EXP 	exp_image: image = 'HD\\0041.jpg'
+231.2194 	EXP 	fixation: autoDraw = True
+231.7148 	EXP 	exp_image: autoDraw = True
+231.7314 	EXP 	fixation: autoDraw = False
+232.2073 	DATA 	Keypress: space
+232.2153 	EXP 	exp_image: autoDraw = False
+232.2153 	EXP 	fixation: autoDraw = False
+232.2153 	EXP 	exp_image: autoDraw = False
+232.2153 	EXP 	empty: autoDraw = True
+233.2034 	EXP 	New trial (rep=0, index=49): OrderedDict([('imagefile', 'household2\\1250.jpg'), ('condition', 'go'), ('corAns', 'space')])
+233.2558 	EXP 	empty: autoDraw = False
+233.2558 	EXP 	empty: autoDraw = False
+233.2558 	EXP 	exp_image: image = 'household2\\1250.jpg'
+233.2558 	EXP 	fixation: autoDraw = True
+233.7331 	EXP 	exp_image: autoDraw = True
+233.7664 	EXP 	fixation: autoDraw = False
+234.1263 	DATA 	Keypress: space
+234.1337 	EXP 	fixation: autoDraw = False
+234.1337 	EXP 	exp_image: autoDraw = False
+234.1337 	EXP 	empty: autoDraw = True
+235.1215 	EXP 	New trial (rep=0, index=50): OrderedDict([('imagefile', 'household2\\1210.jpg'), ('condition', 'go'), ('corAns', 'space')])
+235.1478 	EXP 	empty: autoDraw = False
+235.1478 	EXP 	empty: autoDraw = False
+235.1478 	EXP 	exp_image: image = 'household2\\1210.jpg'
+235.1478 	EXP 	fixation: autoDraw = True
+235.6346 	EXP 	exp_image: autoDraw = True
+235.6514 	EXP 	fixation: autoDraw = False
+236.0409 	DATA 	Keypress: space
+236.0687 	EXP 	fixation: autoDraw = False
+236.0687 	EXP 	exp_image: autoDraw = False
+236.0687 	EXP 	empty: autoDraw = True
+237.0556 	EXP 	New trial (rep=0, index=51): OrderedDict([('imagefile', 'household2\\1141.jpg'), ('condition', 'go'), ('corAns', 'space')])
+237.0853 	EXP 	empty: autoDraw = False
+237.0853 	EXP 	empty: autoDraw = False
+237.0853 	EXP 	exp_image: image = 'household2\\1141.jpg'
+237.0853 	EXP 	fixation: autoDraw = True
+237.5863 	EXP 	fixation: autoDraw = False
+237.5863 	EXP 	exp_image: autoDraw = True
+237.9807 	DATA 	Keypress: space
+237.9866 	EXP 	fixation: autoDraw = False
+237.9866 	EXP 	exp_image: autoDraw = False
+237.9866 	EXP 	empty: autoDraw = True
+238.9747 	EXP 	New trial (rep=0, index=52): OrderedDict([('imagefile', 'household2\\1277.jpg'), ('condition', 'go'), ('corAns', 'space')])
+239.0035 	EXP 	empty: autoDraw = False
+239.0035 	EXP 	empty: autoDraw = False
+239.0035 	EXP 	exp_image: image = 'household2\\1277.jpg'
+239.0035 	EXP 	fixation: autoDraw = True
+239.5044 	EXP 	fixation: autoDraw = False
+239.5044 	EXP 	exp_image: autoDraw = True
+239.8813 	DATA 	Keypress: space
+239.8880 	EXP 	fixation: autoDraw = False
+239.8880 	EXP 	exp_image: autoDraw = False
+239.8880 	EXP 	empty: autoDraw = True
+240.8756 	EXP 	New trial (rep=0, index=53): OrderedDict([('imagefile', 'HD\\0041.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+240.9041 	EXP 	empty: autoDraw = False
+240.9041 	EXP 	empty: autoDraw = False
+240.9041 	EXP 	exp_image: image = 'HD\\0041.jpg'
+240.9041 	EXP 	fixation: autoDraw = True
+241.4061 	EXP 	fixation: autoDraw = False
+241.4061 	EXP 	exp_image: autoDraw = True
+241.9066 	EXP 	exp_image: autoDraw = False
+241.9066 	EXP 	fixation: autoDraw = False
+241.9066 	EXP 	exp_image: autoDraw = False
+241.9066 	EXP 	empty: autoDraw = True
+242.8941 	EXP 	New trial (rep=0, index=54): OrderedDict([('imagefile', 'household2\\1258.jpg'), ('condition', 'go'), ('corAns', 'space')])
+242.9231 	EXP 	empty: autoDraw = False
+242.9231 	EXP 	empty: autoDraw = False
+242.9231 	EXP 	exp_image: image = 'household2\\1258.jpg'
+242.9231 	EXP 	fixation: autoDraw = True
+243.4245 	EXP 	fixation: autoDraw = False
+243.4245 	EXP 	exp_image: autoDraw = True
+243.7679 	DATA 	Keypress: space
+243.7749 	EXP 	fixation: autoDraw = False
+243.7749 	EXP 	exp_image: autoDraw = False
+243.7749 	EXP 	empty: autoDraw = True
+244.7622 	EXP 	New trial (rep=0, index=55): OrderedDict([('imagefile', 'household2\\1212.jpg'), ('condition', 'go'), ('corAns', 'space')])
+244.7910 	EXP 	empty: autoDraw = False
+244.7910 	EXP 	empty: autoDraw = False
+244.7910 	EXP 	exp_image: image = 'household2\\1212.jpg'
+244.7910 	EXP 	fixation: autoDraw = True
+245.2928 	EXP 	fixation: autoDraw = False
+245.2928 	EXP 	exp_image: autoDraw = True
+245.7692 	DATA 	Keypress: space
+245.7767 	EXP 	fixation: autoDraw = False
+245.7767 	EXP 	exp_image: autoDraw = False
+245.7767 	EXP 	empty: autoDraw = True
+246.7644 	EXP 	New trial (rep=0, index=56): OrderedDict([('imagefile', 'household2\\1247.jpg'), ('condition', 'go'), ('corAns', 'space')])
+246.7907 	EXP 	empty: autoDraw = False
+246.7907 	EXP 	empty: autoDraw = False
+246.7907 	EXP 	exp_image: image = 'household2\\1247.jpg'
+246.7907 	EXP 	fixation: autoDraw = True
+247.2776 	EXP 	exp_image: autoDraw = True
+247.2945 	EXP 	fixation: autoDraw = False
+247.6382 	DATA 	Keypress: space
+247.6446 	EXP 	fixation: autoDraw = False
+247.6446 	EXP 	exp_image: autoDraw = False
+247.6446 	EXP 	empty: autoDraw = True
+248.6322 	EXP 	New trial (rep=0, index=57): OrderedDict([('imagefile', 'household2\\1214.jpg'), ('condition', 'go'), ('corAns', 'space')])
+248.6599 	EXP 	empty: autoDraw = False
+248.6599 	EXP 	empty: autoDraw = False
+248.6599 	EXP 	exp_image: image = 'household2\\1214.jpg'
+248.6599 	EXP 	fixation: autoDraw = True
+249.1459 	EXP 	exp_image: autoDraw = True
+249.1625 	EXP 	fixation: autoDraw = False
+249.5896 	DATA 	Keypress: space
+249.5963 	EXP 	fixation: autoDraw = False
+249.5963 	EXP 	exp_image: autoDraw = False
+249.5963 	EXP 	empty: autoDraw = True
+250.5836 	EXP 	New trial (rep=0, index=58): OrderedDict([('imagefile', 'HD\\0138.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+250.6109 	EXP 	empty: autoDraw = False
+250.6109 	EXP 	empty: autoDraw = False
+250.6109 	EXP 	exp_image: image = 'HD\\0138.jpg'
+250.6109 	EXP 	fixation: autoDraw = True
+251.0976 	EXP 	exp_image: autoDraw = True
+251.1143 	EXP 	fixation: autoDraw = False
+251.5979 	EXP 	exp_image: autoDraw = False
+251.5979 	EXP 	fixation: autoDraw = False
+251.5979 	EXP 	exp_image: autoDraw = False
+251.5979 	EXP 	empty: autoDraw = True
+252.5859 	EXP 	New trial (rep=0, index=59): OrderedDict([('imagefile', 'household2\\1230.jpg'), ('condition', 'go'), ('corAns', 'space')])
+252.6133 	EXP 	empty: autoDraw = False
+252.6133 	EXP 	empty: autoDraw = False
+252.6133 	EXP 	exp_image: image = 'household2\\1230.jpg'
+252.6133 	EXP 	fixation: autoDraw = True
+253.0991 	EXP 	exp_image: autoDraw = True
+253.1159 	EXP 	fixation: autoDraw = False
+253.5429 	DATA 	Keypress: space
+253.5496 	EXP 	fixation: autoDraw = False
+253.5496 	EXP 	exp_image: autoDraw = False
+253.5496 	EXP 	empty: autoDraw = True
+254.5381 	EXP 	New trial (rep=0, index=60): OrderedDict([('imagefile', 'household2\\1246.jpg'), ('condition', 'go'), ('corAns', 'space')])
+254.5693 	EXP 	empty: autoDraw = False
+254.5693 	EXP 	empty: autoDraw = False
+254.5693 	EXP 	exp_image: image = 'household2\\1246.jpg'
+254.5693 	EXP 	fixation: autoDraw = True
+255.0674 	EXP 	exp_image: autoDraw = True
+255.0843 	EXP 	fixation: autoDraw = False
+255.5679 	EXP 	exp_image: autoDraw = False
+255.5679 	EXP 	fixation: autoDraw = False
+255.5679 	EXP 	exp_image: autoDraw = False
+255.5679 	EXP 	empty: autoDraw = True
+255.6055 	DATA 	Keypress: space
+256.5554 	EXP 	New trial (rep=0, index=61): OrderedDict([('imagefile', 'household2\\1208.jpg'), ('condition', 'go'), ('corAns', 'space')])
+256.5829 	EXP 	empty: autoDraw = False
+256.5829 	EXP 	empty: autoDraw = False
+256.5829 	EXP 	exp_image: image = 'household2\\1208.jpg'
+256.5829 	EXP 	fixation: autoDraw = True
+257.0697 	EXP 	exp_image: autoDraw = True
+257.0858 	EXP 	fixation: autoDraw = False
+257.5296 	DATA 	Keypress: space
+257.5363 	EXP 	fixation: autoDraw = False
+257.5363 	EXP 	exp_image: autoDraw = False
+257.5363 	EXP 	empty: autoDraw = True
+258.5237 	EXP 	New trial (rep=0, index=62): OrderedDict([('imagefile', 'household2\\1273.jpg'), ('condition', 'go'), ('corAns', 'space')])
+258.5511 	EXP 	empty: autoDraw = False
+258.5511 	EXP 	empty: autoDraw = False
+258.5511 	EXP 	exp_image: image = 'household2\\1273.jpg'
+258.5511 	EXP 	fixation: autoDraw = True
+259.0375 	EXP 	exp_image: autoDraw = True
+259.0542 	EXP 	fixation: autoDraw = False
+259.4146 	DATA 	Keypress: space
+259.4211 	EXP 	fixation: autoDraw = False
+259.4211 	EXP 	exp_image: autoDraw = False
+259.4211 	EXP 	empty: autoDraw = True
+260.4087 	EXP 	New trial (rep=0, index=63): OrderedDict([('imagefile', 'household2\\1217.jpg'), ('condition', 'go'), ('corAns', 'space')])
+260.4376 	EXP 	empty: autoDraw = False
+260.4376 	EXP 	empty: autoDraw = False
+260.4376 	EXP 	exp_image: image = 'household2\\1217.jpg'
+260.4376 	EXP 	fixation: autoDraw = True
+260.9388 	EXP 	fixation: autoDraw = False
+260.9388 	EXP 	exp_image: autoDraw = True
+261.3654 	DATA 	Keypress: space
+261.3728 	EXP 	fixation: autoDraw = False
+261.3728 	EXP 	exp_image: autoDraw = False
+261.3728 	EXP 	empty: autoDraw = True
+262.3597 	EXP 	New trial (rep=0, index=64): OrderedDict([('imagefile', 'HD\\0018.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+262.3883 	EXP 	empty: autoDraw = False
+262.3883 	EXP 	empty: autoDraw = False
+262.3883 	EXP 	exp_image: image = 'HD\\0018.jpg'
+262.3883 	EXP 	fixation: autoDraw = True
+262.8908 	EXP 	fixation: autoDraw = False
+262.8908 	EXP 	exp_image: autoDraw = True
+263.3912 	EXP 	exp_image: autoDraw = False
+263.3912 	EXP 	fixation: autoDraw = False
+263.3912 	EXP 	exp_image: autoDraw = False
+263.3912 	EXP 	empty: autoDraw = True
+264.3783 	EXP 	New trial (rep=0, index=65): OrderedDict([('imagefile', 'household2\\1239.jpg'), ('condition', 'go'), ('corAns', 'space')])
+264.4066 	EXP 	empty: autoDraw = False
+264.4066 	EXP 	empty: autoDraw = False
+264.4066 	EXP 	exp_image: image = 'household2\\1239.jpg'
+264.4066 	EXP 	fixation: autoDraw = True
+264.8923 	EXP 	exp_image: autoDraw = True
+264.9090 	EXP 	fixation: autoDraw = False
+265.2861 	DATA 	Keypress: space
+265.2926 	EXP 	fixation: autoDraw = False
+265.2926 	EXP 	exp_image: autoDraw = False
+265.2926 	EXP 	empty: autoDraw = True
+266.2804 	EXP 	New trial (rep=0, index=66): OrderedDict([('imagefile', 'household2\\1198.jpg'), ('condition', 'go'), ('corAns', 'space')])
+266.3093 	EXP 	empty: autoDraw = False
+266.3093 	EXP 	empty: autoDraw = False
+266.3093 	EXP 	exp_image: image = 'household2\\1198.jpg'
+266.3093 	EXP 	fixation: autoDraw = True
+266.8105 	EXP 	fixation: autoDraw = False
+266.8105 	EXP 	exp_image: autoDraw = True
+267.2374 	DATA 	Keypress: space
+267.2443 	EXP 	fixation: autoDraw = False
+267.2443 	EXP 	exp_image: autoDraw = False
+267.2443 	EXP 	empty: autoDraw = True
+268.2315 	EXP 	New trial (rep=0, index=67): OrderedDict([('imagefile', 'household2\\1213.jpg'), ('condition', 'go'), ('corAns', 'space')])
+268.2599 	EXP 	empty: autoDraw = False
+268.2599 	EXP 	empty: autoDraw = False
+268.2599 	EXP 	exp_image: image = 'household2\\1213.jpg'
+268.2599 	EXP 	fixation: autoDraw = True
+268.7623 	EXP 	fixation: autoDraw = False
+268.7623 	EXP 	exp_image: autoDraw = True
+269.2538 	DATA 	Keypress: space
+269.2627 	EXP 	exp_image: autoDraw = False
+269.2627 	EXP 	fixation: autoDraw = False
+269.2627 	EXP 	exp_image: autoDraw = False
+269.2627 	EXP 	empty: autoDraw = True
+270.2499 	EXP 	New trial (rep=0, index=68): OrderedDict([('imagefile', 'household2\\1252.jpg'), ('condition', 'go'), ('corAns', 'space')])
+270.2788 	EXP 	empty: autoDraw = False
+270.2788 	EXP 	empty: autoDraw = False
+270.2788 	EXP 	exp_image: image = 'household2\\1252.jpg'
+270.2788 	EXP 	fixation: autoDraw = True
+270.7804 	EXP 	fixation: autoDraw = False
+270.7804 	EXP 	exp_image: autoDraw = True
+271.1735 	DATA 	Keypress: space
+271.1809 	EXP 	fixation: autoDraw = False
+271.1809 	EXP 	exp_image: autoDraw = False
+271.1809 	EXP 	empty: autoDraw = True
+272.1660 	EXP 	New trial (rep=0, index=69): OrderedDict([('imagefile', 'HD\\0287.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+272.1810 	EXP 	empty: autoDraw = False
+272.1810 	EXP 	empty: autoDraw = False
+272.1810 	EXP 	exp_image: image = 'HD\\0287.jpg'
+272.1810 	EXP 	fixation: autoDraw = True
+272.6820 	EXP 	fixation: autoDraw = False
+272.6820 	EXP 	exp_image: autoDraw = True
+273.1260 	DATA 	Keypress: space
+273.1325 	EXP 	fixation: autoDraw = False
+273.1325 	EXP 	exp_image: autoDraw = False
+273.1325 	EXP 	empty: autoDraw = True
+274.1200 	EXP 	New trial (rep=0, index=70): OrderedDict([('imagefile', 'household2\\1265.jpg'), ('condition', 'go'), ('corAns', 'space')])
+274.1502 	EXP 	empty: autoDraw = False
+274.1502 	EXP 	empty: autoDraw = False
+274.1502 	EXP 	exp_image: image = 'household2\\1265.jpg'
+274.1502 	EXP 	fixation: autoDraw = True
+274.6501 	EXP 	fixation: autoDraw = False
+274.6501 	EXP 	exp_image: autoDraw = True
+275.1100 	DATA 	Keypress: space
+275.1173 	EXP 	fixation: autoDraw = False
+275.1173 	EXP 	exp_image: autoDraw = False
+275.1173 	EXP 	empty: autoDraw = True
+276.1043 	EXP 	New trial (rep=0, index=71): OrderedDict([('imagefile', 'household2\\1226.jpg'), ('condition', 'go'), ('corAns', 'space')])
+276.1337 	EXP 	empty: autoDraw = False
+276.1337 	EXP 	empty: autoDraw = False
+276.1337 	EXP 	exp_image: image = 'household2\\1226.jpg'
+276.1337 	EXP 	fixation: autoDraw = True
+276.6354 	EXP 	fixation: autoDraw = False
+276.6354 	EXP 	exp_image: autoDraw = True
+277.0307 	DATA 	Keypress: space
+277.0357 	EXP 	fixation: autoDraw = False
+277.0357 	EXP 	exp_image: autoDraw = False
+277.0357 	EXP 	empty: autoDraw = True
+278.0236 	EXP 	New trial (rep=0, index=72): OrderedDict([('imagefile', 'household2\\1144.jpg'), ('condition', 'go'), ('corAns', 'space')])
+278.0510 	EXP 	empty: autoDraw = False
+278.0510 	EXP 	empty: autoDraw = False
+278.0510 	EXP 	exp_image: image = 'household2\\1144.jpg'
+278.0510 	EXP 	fixation: autoDraw = True
+278.5370 	EXP 	exp_image: autoDraw = True
+278.5536 	EXP 	fixation: autoDraw = False
+279.0375 	EXP 	exp_image: autoDraw = False
+279.0375 	EXP 	fixation: autoDraw = False
+279.0375 	EXP 	exp_image: autoDraw = False
+279.0375 	EXP 	empty: autoDraw = True
+279.0750 	DATA 	Keypress: space
+280.0249 	EXP 	New trial (rep=0, index=73): OrderedDict([('imagefile', 'HD\\0053.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+280.0546 	EXP 	empty: autoDraw = False
+280.0546 	EXP 	empty: autoDraw = False
+280.0546 	EXP 	exp_image: image = 'HD\\0053.jpg'
+280.0546 	EXP 	fixation: autoDraw = True
+280.5553 	EXP 	fixation: autoDraw = False
+280.5553 	EXP 	exp_image: autoDraw = True
+281.0558 	EXP 	exp_image: autoDraw = False
+281.0558 	EXP 	fixation: autoDraw = False
+281.0558 	EXP 	exp_image: autoDraw = False
+281.0558 	EXP 	empty: autoDraw = True
+282.0436 	EXP 	New trial (rep=0, index=74): OrderedDict([('imagefile', 'household2\\1202.jpg'), ('condition', 'go'), ('corAns', 'space')])
+282.0726 	EXP 	empty: autoDraw = False
+282.0726 	EXP 	empty: autoDraw = False
+282.0726 	EXP 	exp_image: image = 'household2\\1202.jpg'
+282.0726 	EXP 	fixation: autoDraw = True
+282.5736 	EXP 	fixation: autoDraw = False
+282.5736 	EXP 	exp_image: autoDraw = True
+282.9676 	DATA 	Keypress: space
+282.9740 	EXP 	fixation: autoDraw = False
+282.9740 	EXP 	exp_image: autoDraw = False
+282.9740 	EXP 	empty: autoDraw = True
+283.9618 	EXP 	New trial (rep=0, index=75): OrderedDict([('imagefile', 'household2\\1261.jpg'), ('condition', 'go'), ('corAns', 'space')])
+283.9901 	EXP 	empty: autoDraw = False
+283.9901 	EXP 	empty: autoDraw = False
+283.9901 	EXP 	exp_image: image = 'household2\\1261.jpg'
+283.9901 	EXP 	fixation: autoDraw = True
+284.4919 	EXP 	fixation: autoDraw = False
+284.4919 	EXP 	exp_image: autoDraw = True
+284.8686 	DATA 	Keypress: space
+284.8756 	EXP 	fixation: autoDraw = False
+284.8756 	EXP 	exp_image: autoDraw = False
+284.8756 	EXP 	empty: autoDraw = True
+285.8638 	EXP 	New trial (rep=0, index=76): OrderedDict([('imagefile', 'household2\\1219.jpg'), ('condition', 'go'), ('corAns', 'space')])
+285.8950 	EXP 	empty: autoDraw = False
+285.8950 	EXP 	empty: autoDraw = False
+285.8950 	EXP 	exp_image: image = 'household2\\1219.jpg'
+285.8950 	EXP 	fixation: autoDraw = True
+286.3936 	EXP 	exp_image: autoDraw = True
+286.4102 	EXP 	fixation: autoDraw = False
+286.7536 	DATA 	Keypress: space
+286.7605 	EXP 	fixation: autoDraw = False
+286.7605 	EXP 	exp_image: autoDraw = False
+286.7605 	EXP 	empty: autoDraw = True
+287.7488 	EXP 	New trial (rep=0, index=77): OrderedDict([('imagefile', 'household2\\1243.jpg'), ('condition', 'go'), ('corAns', 'space')])
+287.7768 	EXP 	empty: autoDraw = False
+287.7768 	EXP 	empty: autoDraw = False
+287.7768 	EXP 	exp_image: image = 'household2\\1243.jpg'
+287.7768 	EXP 	fixation: autoDraw = True
+288.2784 	EXP 	fixation: autoDraw = False
+288.2784 	EXP 	exp_image: autoDraw = True
+288.7015 	DATA 	Keypress: space
+288.7289 	EXP 	fixation: autoDraw = False
+288.7289 	EXP 	exp_image: autoDraw = False
+288.7289 	EXP 	empty: autoDraw = True
+289.7160 	EXP 	New trial (rep=0, index=78): OrderedDict([('imagefile', 'household2\\1241.jpg'), ('condition', 'go'), ('corAns', 'space')])
+289.7444 	EXP 	empty: autoDraw = False
+289.7444 	EXP 	empty: autoDraw = False
+289.7444 	EXP 	exp_image: image = 'household2\\1241.jpg'
+289.7444 	EXP 	fixation: autoDraw = True
+290.2468 	EXP 	fixation: autoDraw = False
+290.2468 	EXP 	exp_image: autoDraw = True
+290.7072 	DATA 	Keypress: space
+290.7138 	EXP 	fixation: autoDraw = False
+290.7138 	EXP 	exp_image: autoDraw = False
+290.7138 	EXP 	empty: autoDraw = True
+291.7014 	EXP 	New trial (rep=0, index=79): OrderedDict([('imagefile', 'HD\\0298.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+291.7287 	EXP 	empty: autoDraw = False
+291.7287 	EXP 	empty: autoDraw = False
+291.7287 	EXP 	exp_image: image = 'HD\\0298.jpg'
+291.7287 	EXP 	fixation: autoDraw = True
+292.2151 	EXP 	exp_image: autoDraw = True
+292.2318 	EXP 	fixation: autoDraw = False
+292.7155 	EXP 	exp_image: autoDraw = False
+292.7155 	EXP 	fixation: autoDraw = False
+292.7155 	EXP 	exp_image: autoDraw = False
+292.7155 	EXP 	empty: autoDraw = True
+293.7024 	EXP 	New trial (rep=0, index=80): OrderedDict([('imagefile', 'household2\\1259.jpg'), ('condition', 'go'), ('corAns', 'space')])
+293.7310 	EXP 	empty: autoDraw = False
+293.7310 	EXP 	empty: autoDraw = False
+293.7310 	EXP 	exp_image: image = 'household2\\1259.jpg'
+293.7310 	EXP 	fixation: autoDraw = True
+294.2333 	EXP 	fixation: autoDraw = False
+294.2333 	EXP 	exp_image: autoDraw = True
+294.6775 	DATA 	Keypress: space
+294.6837 	EXP 	fixation: autoDraw = False
+294.6837 	EXP 	exp_image: autoDraw = False
+294.6837 	EXP 	empty: autoDraw = True
+295.6710 	EXP 	New trial (rep=0, index=81): OrderedDict([('imagefile', 'household2\\1274.jpg'), ('condition', 'go'), ('corAns', 'space')])
+295.6983 	EXP 	empty: autoDraw = False
+295.6983 	EXP 	empty: autoDraw = False
+295.6983 	EXP 	exp_image: image = 'household2\\1274.jpg'
+295.6983 	EXP 	fixation: autoDraw = True
+296.1847 	EXP 	exp_image: autoDraw = True
+296.2016 	EXP 	fixation: autoDraw = False
+296.6276 	DATA 	Keypress: space
+296.6353 	EXP 	fixation: autoDraw = False
+296.6353 	EXP 	exp_image: autoDraw = False
+296.6353 	EXP 	empty: autoDraw = True
+297.6226 	EXP 	New trial (rep=0, index=82): OrderedDict([('imagefile', 'household2\\1245.jpg'), ('condition', 'go'), ('corAns', 'space')])
+297.6495 	EXP 	empty: autoDraw = False
+297.6495 	EXP 	empty: autoDraw = False
+297.6495 	EXP 	exp_image: image = 'household2\\1245.jpg'
+297.6495 	EXP 	fixation: autoDraw = True
+298.1367 	EXP 	exp_image: autoDraw = True
+298.1532 	EXP 	fixation: autoDraw = False
+298.5471 	DATA 	Keypress: space
+298.5537 	EXP 	fixation: autoDraw = False
+298.5537 	EXP 	exp_image: autoDraw = False
+298.5537 	EXP 	empty: autoDraw = True
+299.5422 	EXP 	New trial (rep=0, index=83): OrderedDict([('imagefile', 'household2\\1240.jpg'), ('condition', 'go'), ('corAns', 'space')])
+299.5702 	EXP 	empty: autoDraw = False
+299.5702 	EXP 	empty: autoDraw = False
+299.5702 	EXP 	exp_image: image = 'household2\\1240.jpg'
+299.5702 	EXP 	fixation: autoDraw = True
+300.0715 	EXP 	fixation: autoDraw = False
+300.0715 	EXP 	exp_image: autoDraw = True
+300.5494 	DATA 	Keypress: space
+300.5552 	EXP 	fixation: autoDraw = False
+300.5552 	EXP 	exp_image: autoDraw = False
+300.5552 	EXP 	empty: autoDraw = True
+301.5435 	EXP 	New trial (rep=0, index=84): OrderedDict([('imagefile', 'HD\\0127.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+301.5737 	EXP 	empty: autoDraw = False
+301.5737 	EXP 	empty: autoDraw = False
+301.5737 	EXP 	exp_image: image = 'HD\\0127.jpg'
+301.5737 	EXP 	fixation: autoDraw = True
+302.0733 	EXP 	fixation: autoDraw = False
+302.0733 	EXP 	exp_image: autoDraw = True
+302.5737 	EXP 	exp_image: autoDraw = False
+302.5737 	EXP 	fixation: autoDraw = False
+302.5737 	EXP 	exp_image: autoDraw = False
+302.5737 	EXP 	empty: autoDraw = True
+303.5619 	EXP 	New trial (rep=0, index=85): OrderedDict([('imagefile', 'household2\\1223.jpg'), ('condition', 'go'), ('corAns', 'space')])
+303.5942 	EXP 	empty: autoDraw = False
+303.5942 	EXP 	empty: autoDraw = False
+303.5942 	EXP 	exp_image: image = 'household2\\1223.jpg'
+303.5942 	EXP 	fixation: autoDraw = True
+304.0918 	EXP 	exp_image: autoDraw = True
+304.1085 	EXP 	fixation: autoDraw = False
+304.5842 	DATA 	Keypress: space
+304.5922 	EXP 	exp_image: autoDraw = False
+304.5922 	EXP 	fixation: autoDraw = False
+304.5922 	EXP 	exp_image: autoDraw = False
+304.5922 	EXP 	empty: autoDraw = True
+305.5801 	EXP 	New trial (rep=0, index=86): OrderedDict([('imagefile', 'household2\\1275.jpg'), ('condition', 'go'), ('corAns', 'space')])
+305.6090 	EXP 	empty: autoDraw = False
+305.6090 	EXP 	empty: autoDraw = False
+305.6090 	EXP 	exp_image: image = 'household2\\1275.jpg'
+305.6090 	EXP 	fixation: autoDraw = True
+306.1098 	EXP 	fixation: autoDraw = False
+306.1098 	EXP 	exp_image: autoDraw = True
+306.4698 	DATA 	Keypress: space
+306.4768 	EXP 	fixation: autoDraw = False
+306.4768 	EXP 	exp_image: autoDraw = False
+306.4768 	EXP 	empty: autoDraw = True
+307.4638 	EXP 	New trial (rep=0, index=87): OrderedDict([('imagefile', 'household2\\1278.jpg'), ('condition', 'go'), ('corAns', 'space')])
+307.4926 	EXP 	empty: autoDraw = False
+307.4926 	EXP 	empty: autoDraw = False
+307.4926 	EXP 	exp_image: image = 'household2\\1278.jpg'
+307.4926 	EXP 	fixation: autoDraw = True
+307.9946 	EXP 	fixation: autoDraw = False
+307.9946 	EXP 	exp_image: autoDraw = True
+308.4339 	DATA 	Keypress: space
+308.4617 	EXP 	fixation: autoDraw = False
+308.4617 	EXP 	exp_image: autoDraw = False
+308.4617 	EXP 	empty: autoDraw = True
+309.4496 	EXP 	New trial (rep=0, index=88): OrderedDict([('imagefile', 'household2\\1222.jpg'), ('condition', 'go'), ('corAns', 'space')])
+309.4778 	EXP 	empty: autoDraw = False
+309.4778 	EXP 	empty: autoDraw = False
+309.4778 	EXP 	exp_image: image = 'household2\\1222.jpg'
+309.4778 	EXP 	fixation: autoDraw = True
+309.9797 	EXP 	fixation: autoDraw = False
+309.9797 	EXP 	exp_image: autoDraw = True
+310.3565 	DATA 	Keypress: space
+310.3635 	EXP 	fixation: autoDraw = False
+310.3635 	EXP 	exp_image: autoDraw = False
+310.3635 	EXP 	empty: autoDraw = True
+311.3516 	EXP 	New trial (rep=0, index=89): OrderedDict([('imagefile', 'HD\\0313.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+311.3796 	EXP 	empty: autoDraw = False
+311.3796 	EXP 	empty: autoDraw = False
+311.3796 	EXP 	exp_image: image = 'HD\\0313.jpg'
+311.3796 	EXP 	fixation: autoDraw = True
+311.8814 	EXP 	fixation: autoDraw = False
+311.8814 	EXP 	exp_image: autoDraw = True
+312.3819 	EXP 	exp_image: autoDraw = False
+312.3819 	EXP 	fixation: autoDraw = False
+312.3819 	EXP 	exp_image: autoDraw = False
+312.3819 	EXP 	empty: autoDraw = True
+313.3700 	EXP 	New trial (rep=0, index=90): OrderedDict([('imagefile', 'household2\\1238.jpg'), ('condition', 'go'), ('corAns', 'space')])
+313.3980 	EXP 	empty: autoDraw = False
+313.3980 	EXP 	empty: autoDraw = False
+313.3980 	EXP 	exp_image: image = 'household2\\1238.jpg'
+313.3980 	EXP 	fixation: autoDraw = True
+313.8993 	EXP 	fixation: autoDraw = False
+313.8993 	EXP 	exp_image: autoDraw = True
+314.2929 	DATA 	Keypress: space
+314.3000 	EXP 	fixation: autoDraw = False
+314.3000 	EXP 	exp_image: autoDraw = False
+314.3000 	EXP 	empty: autoDraw = True
+315.2881 	EXP 	New trial (rep=0, index=91): OrderedDict([('imagefile', 'household2\\1276.jpg'), ('condition', 'go'), ('corAns', 'space')])
+315.3193 	EXP 	empty: autoDraw = False
+315.3193 	EXP 	empty: autoDraw = False
+315.3193 	EXP 	exp_image: image = 'household2\\1276.jpg'
+315.3193 	EXP 	fixation: autoDraw = True
+315.7736 	DATA 	Keypress: space
+315.8182 	EXP 	fixation: autoDraw = False
+315.8182 	EXP 	exp_image: autoDraw = True
+316.3186 	EXP 	exp_image: autoDraw = False
+316.3186 	EXP 	fixation: autoDraw = False
+316.3186 	EXP 	exp_image: autoDraw = False
+316.3186 	EXP 	empty: autoDraw = True
+316.3736 	DATA 	Keypress: space
+317.3065 	EXP 	New trial (rep=0, index=92): OrderedDict([('imagefile', 'household2\\1145.jpg'), ('condition', 'go'), ('corAns', 'space')])
+317.3348 	EXP 	empty: autoDraw = False
+317.3348 	EXP 	empty: autoDraw = False
+317.3348 	EXP 	exp_image: image = 'household2\\1145.jpg'
+317.3348 	EXP 	fixation: autoDraw = True
+317.8364 	EXP 	fixation: autoDraw = False
+317.8364 	EXP 	exp_image: autoDraw = True
+318.1802 	DATA 	Keypress: space
+318.1870 	EXP 	fixation: autoDraw = False
+318.1870 	EXP 	exp_image: autoDraw = False
+318.1870 	EXP 	empty: autoDraw = True
+319.1744 	EXP 	New trial (rep=0, index=93): OrderedDict([('imagefile', 'HD\\0004.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+319.2007 	EXP 	empty: autoDraw = False
+319.2007 	EXP 	empty: autoDraw = False
+319.2007 	EXP 	exp_image: image = 'HD\\0004.jpg'
+319.2007 	EXP 	fixation: autoDraw = True
+319.6878 	EXP 	exp_image: autoDraw = True
+319.7045 	EXP 	fixation: autoDraw = False
+320.0652 	DATA 	Keypress: space
+320.0715 	EXP 	fixation: autoDraw = False
+320.0715 	EXP 	exp_image: autoDraw = False
+320.0715 	EXP 	empty: autoDraw = True
+321.0594 	EXP 	New trial (rep=0, index=94): OrderedDict([('imagefile', 'household2\\1237.jpg'), ('condition', 'go'), ('corAns', 'space')])
+321.0907 	EXP 	empty: autoDraw = False
+321.0907 	EXP 	empty: autoDraw = False
+321.0907 	EXP 	exp_image: image = 'household2\\1237.jpg'
+321.0907 	EXP 	fixation: autoDraw = True
+321.5894 	EXP 	exp_image: autoDraw = True
+321.6062 	EXP 	fixation: autoDraw = False
+321.9001 	DATA 	Keypress: space
+321.9064 	EXP 	fixation: autoDraw = False
+321.9064 	EXP 	exp_image: autoDraw = False
+321.9064 	EXP 	empty: autoDraw = True
+322.8943 	EXP 	New trial (rep=0, index=95): OrderedDict([('imagefile', 'household2\\1250.jpg'), ('condition', 'go'), ('corAns', 'space')])
+322.9233 	EXP 	empty: autoDraw = False
+322.9233 	EXP 	empty: autoDraw = False
+322.9233 	EXP 	exp_image: image = 'household2\\1250.jpg'
+322.9233 	EXP 	fixation: autoDraw = True
+323.4244 	EXP 	fixation: autoDraw = False
+323.4244 	EXP 	exp_image: autoDraw = True
+323.8642 	DATA 	Keypress: space
+323.8921 	EXP 	fixation: autoDraw = False
+323.8921 	EXP 	exp_image: autoDraw = False
+323.8921 	EXP 	empty: autoDraw = True
+324.8765 	EXP 	New trial (rep=0, index=96): OrderedDict([('imagefile', 'household2\\1279.jpg'), ('condition', 'go'), ('corAns', 'space')])
+324.8930 	EXP 	empty: autoDraw = False
+324.8930 	EXP 	empty: autoDraw = False
+324.8930 	EXP 	exp_image: image = 'household2\\1279.jpg'
+324.8930 	EXP 	fixation: autoDraw = True
+325.3925 	EXP 	fixation: autoDraw = False
+325.3925 	EXP 	exp_image: autoDraw = True
+325.7534 	DATA 	Keypress: space
+325.7597 	EXP 	fixation: autoDraw = False
+325.7597 	EXP 	exp_image: autoDraw = False
+325.7597 	EXP 	empty: autoDraw = True
+326.7473 	EXP 	New trial (rep=0, index=97): OrderedDict([('imagefile', 'HD\\0535.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+326.7757 	EXP 	empty: autoDraw = False
+326.7757 	EXP 	empty: autoDraw = False
+326.7757 	EXP 	exp_image: image = 'HD\\0535.jpg'
+326.7757 	EXP 	fixation: autoDraw = True
+327.2778 	EXP 	fixation: autoDraw = False
+327.2778 	EXP 	exp_image: autoDraw = True
+327.7769 	EXP 	exp_image: autoDraw = False
+327.7769 	EXP 	fixation: autoDraw = False
+327.7769 	EXP 	exp_image: autoDraw = False
+327.7769 	EXP 	empty: autoDraw = True
+328.7655 	EXP 	New trial (rep=0, index=98): OrderedDict([('imagefile', 'household2\\1242.jpg'), ('condition', 'go'), ('corAns', 'space')])
+328.7948 	EXP 	empty: autoDraw = False
+328.7948 	EXP 	empty: autoDraw = False
+328.7948 	EXP 	exp_image: image = 'household2\\1242.jpg'
+328.7948 	EXP 	fixation: autoDraw = True
+329.2959 	EXP 	fixation: autoDraw = False
+329.2959 	EXP 	exp_image: autoDraw = True
+329.6557 	DATA 	Keypress: space
+329.6630 	EXP 	fixation: autoDraw = False
+329.6630 	EXP 	exp_image: autoDraw = False
+329.6630 	EXP 	empty: autoDraw = True
+330.6509 	EXP 	New trial (rep=0, index=99): OrderedDict([('imagefile', 'household2\\1225.jpg'), ('condition', 'go'), ('corAns', 'space')])
+330.6810 	EXP 	empty: autoDraw = False
+330.6810 	EXP 	empty: autoDraw = False
+330.6810 	EXP 	exp_image: image = 'household2\\1225.jpg'
+330.6810 	EXP 	fixation: autoDraw = True
+331.1803 	EXP 	fixation: autoDraw = False
+331.1803 	EXP 	exp_image: autoDraw = True
+331.6080 	DATA 	Keypress: space
+331.6145 	EXP 	fixation: autoDraw = False
+331.6145 	EXP 	exp_image: autoDraw = False
+331.6145 	EXP 	empty: autoDraw = True
+332.6153 	EXP 	empty: autoDraw = False
+332.6153 	EXP 	empty: autoDraw = False
+332.6153 	EXP 	break_ins: autoDraw = True
+362.6096 	EXP 	New trial (rep=0, index=1): OrderedDict([('choblock', 'conditions\\general.xlsx'), ('tex', 'inst\\ins_gen3.png')])
+362.6926 	EXP 	break_ins: autoDraw = False
+362.6926 	EXP 	break_ins: autoDraw = False
+362.6926 	EXP 	ins: image = 'inst\\ins_gen3.png'
+362.6926 	EXP 	ins: autoDraw = True
+390.1668 	EXP 	Imported conditions\general.xlsx as conditions, 1 conditions, 1 params
+390.1671 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+390.1676 	EXP 	New trial (rep=0, index=0): OrderedDict([('pseudo', 'conditions\\general5.xlsx')])
+390.1872 	EXP 	Imported conditions\general5.xlsx as conditions, 100 conditions, 3 params
+390.1876 	EXP 	Created sequence: sequential, trialTypes=100, nReps=1, seed=None
+390.1879 	EXP 	New trial (rep=0, index=0): OrderedDict([('imagefile', 'flowers\\1302.jpg'), ('condition', 'go'), ('corAns', 'space')])
+390.2033 	DATA 	Keypress: space
+390.2066 	EXP 	ins: autoDraw = False
+390.2066 	EXP 	exp_image: image = 'flowers\\1302.jpg'
+390.2066 	EXP 	fixation: autoDraw = True
+390.6967 	EXP 	exp_image: autoDraw = True
+390.7135 	EXP 	fixation: autoDraw = False
+391.1193 	DATA 	Keypress: space
+391.1470 	EXP 	fixation: autoDraw = False
+391.1470 	EXP 	exp_image: autoDraw = False
+391.1470 	EXP 	empty: autoDraw = True
+392.1325 	EXP 	New trial (rep=0, index=1): OrderedDict([('imagefile', 'flowers\\1283.jpg'), ('condition', 'go'), ('corAns', 'space')])
+392.1806 	EXP 	empty: autoDraw = False
+392.1806 	EXP 	exp_image: image = 'flowers\\1283.jpg'
+392.1806 	EXP 	fixation: autoDraw = True
+392.6817 	EXP 	fixation: autoDraw = False
+392.6817 	EXP 	exp_image: autoDraw = True
+393.0578 	DATA 	Keypress: space
+393.0653 	EXP 	fixation: autoDraw = False
+393.0653 	EXP 	exp_image: autoDraw = False
+393.0653 	EXP 	empty: autoDraw = True
+394.0530 	EXP 	New trial (rep=0, index=2): OrderedDict([('imagefile', 'flowers\\1284.jpg'), ('condition', 'go'), ('corAns', 'space')])
+394.0996 	EXP 	empty: autoDraw = False
+394.0996 	EXP 	empty: autoDraw = False
+394.0996 	EXP 	exp_image: image = 'flowers\\1284.jpg'
+394.0996 	EXP 	fixation: autoDraw = True
+394.6002 	EXP 	fixation: autoDraw = False
+394.6002 	EXP 	exp_image: autoDraw = True
+394.9943 	DATA 	Keypress: space
+395.0004 	EXP 	fixation: autoDraw = False
+395.0004 	EXP 	exp_image: autoDraw = False
+395.0004 	EXP 	empty: autoDraw = True
+395.9884 	EXP 	New trial (rep=0, index=3): OrderedDict([('imagefile', 'office\\1146.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+396.0388 	EXP 	empty: autoDraw = False
+396.0388 	EXP 	empty: autoDraw = False
+396.0388 	EXP 	exp_image: image = 'office\\1146.jpg'
+396.0388 	EXP 	fixation: autoDraw = True
+396.5351 	EXP 	exp_image: autoDraw = True
+396.5518 	EXP 	fixation: autoDraw = False
+396.9412 	DATA 	Keypress: space
+396.9689 	EXP 	fixation: autoDraw = False
+396.9689 	EXP 	exp_image: autoDraw = False
+396.9689 	EXP 	empty: autoDraw = True
+397.9566 	EXP 	New trial (rep=0, index=4): OrderedDict([('imagefile', 'flowers\\1025.jpg'), ('condition', 'go'), ('corAns', 'space')])
+398.0080 	EXP 	empty: autoDraw = False
+398.0080 	EXP 	empty: autoDraw = False
+398.0080 	EXP 	exp_image: image = 'flowers\\1025.jpg'
+398.0080 	EXP 	fixation: autoDraw = True
+398.5032 	EXP 	exp_image: autoDraw = True
+398.5198 	EXP 	fixation: autoDraw = False
+398.9294 	DATA 	Keypress: space
+398.9373 	EXP 	fixation: autoDraw = False
+398.9373 	EXP 	exp_image: autoDraw = False
+398.9373 	EXP 	empty: autoDraw = True
+399.9246 	EXP 	New trial (rep=0, index=5): OrderedDict([('imagefile', 'flowers\\1310.jpg'), ('condition', 'go'), ('corAns', 'space')])
+399.9713 	EXP 	empty: autoDraw = False
+399.9713 	EXP 	empty: autoDraw = False
+399.9713 	EXP 	exp_image: image = 'flowers\\1310.jpg'
+399.9713 	EXP 	fixation: autoDraw = True
+400.4719 	EXP 	fixation: autoDraw = False
+400.4719 	EXP 	exp_image: autoDraw = True
+400.8619 	DATA 	Keypress: space
+400.8890 	EXP 	fixation: autoDraw = False
+400.8890 	EXP 	exp_image: autoDraw = False
+400.8890 	EXP 	empty: autoDraw = True
+401.8770 	EXP 	New trial (rep=0, index=6): OrderedDict([('imagefile', 'flowers\\1296.jpg'), ('condition', 'go'), ('corAns', 'space')])
+401.9266 	EXP 	empty: autoDraw = False
+401.9266 	EXP 	empty: autoDraw = False
+401.9266 	EXP 	exp_image: image = 'flowers\\1296.jpg'
+401.9266 	EXP 	fixation: autoDraw = True
+402.4233 	EXP 	exp_image: autoDraw = True
+402.4402 	EXP 	fixation: autoDraw = False
+402.8672 	DATA 	Keypress: space
+402.8738 	EXP 	fixation: autoDraw = False
+402.8738 	EXP 	exp_image: autoDraw = False
+402.8738 	EXP 	empty: autoDraw = True
+403.8613 	EXP 	New trial (rep=0, index=7): OrderedDict([('imagefile', 'flowers\\1303.jpg'), ('condition', 'go'), ('corAns', 'space')])
+403.9087 	EXP 	empty: autoDraw = False
+403.9087 	EXP 	empty: autoDraw = False
+403.9087 	EXP 	exp_image: image = 'flowers\\1303.jpg'
+403.9087 	EXP 	fixation: autoDraw = True
+404.4083 	EXP 	fixation: autoDraw = False
+404.4083 	EXP 	exp_image: autoDraw = True
+404.8184 	DATA 	Keypress: space
+404.8254 	EXP 	fixation: autoDraw = False
+404.8254 	EXP 	exp_image: autoDraw = False
+404.8254 	EXP 	empty: autoDraw = True
+405.8123 	EXP 	New trial (rep=0, index=8): OrderedDict([('imagefile', 'office\\1148.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+405.8598 	EXP 	empty: autoDraw = False
+405.8598 	EXP 	empty: autoDraw = False
+405.8598 	EXP 	exp_image: image = 'office\\1148.jpg'
+405.8598 	EXP 	fixation: autoDraw = True
+405.8781 	DATA 	Keypress: space
+406.3599 	EXP 	fixation: autoDraw = False
+406.3599 	EXP 	exp_image: autoDraw = True
+406.6883 	DATA 	Keypress: space
+406.6935 	EXP 	fixation: autoDraw = False
+406.6935 	EXP 	exp_image: autoDraw = False
+406.6935 	EXP 	empty: autoDraw = True
+407.6815 	EXP 	New trial (rep=0, index=9): OrderedDict([('imagefile', 'flowers\\1037.jpg'), ('condition', 'go'), ('corAns', 'space')])
+407.7319 	EXP 	empty: autoDraw = False
+407.7319 	EXP 	empty: autoDraw = False
+407.7319 	EXP 	exp_image: image = 'flowers\\1037.jpg'
+407.7319 	EXP 	fixation: autoDraw = True
+408.2281 	EXP 	exp_image: autoDraw = True
+408.2448 	EXP 	fixation: autoDraw = False
+408.6215 	DATA 	Keypress: space
+408.6286 	EXP 	fixation: autoDraw = False
+408.6286 	EXP 	exp_image: autoDraw = False
+408.6286 	EXP 	empty: autoDraw = True
+409.6166 	EXP 	New trial (rep=0, index=10): OrderedDict([('imagefile', 'flowers\\1312.jpg'), ('condition', 'go'), ('corAns', 'space')])
+409.6570 	EXP 	empty: autoDraw = False
+409.6570 	EXP 	empty: autoDraw = False
+409.6570 	EXP 	exp_image: image = 'flowers\\1312.jpg'
+409.6570 	EXP 	fixation: autoDraw = True
+410.1467 	EXP 	exp_image: autoDraw = True
+410.1634 	EXP 	fixation: autoDraw = False
+410.5078 	DATA 	Keypress: space
+410.5134 	EXP 	fixation: autoDraw = False
+410.5134 	EXP 	exp_image: autoDraw = False
+410.5134 	EXP 	empty: autoDraw = True
+411.5007 	EXP 	New trial (rep=0, index=11): OrderedDict([('imagefile', 'flowers\\1286.jpg'), ('condition', 'go'), ('corAns', 'space')])
+411.5501 	EXP 	empty: autoDraw = False
+411.5501 	EXP 	empty: autoDraw = False
+411.5501 	EXP 	exp_image: image = 'flowers\\1286.jpg'
+411.5501 	EXP 	fixation: autoDraw = True
+412.0480 	EXP 	exp_image: autoDraw = True
+412.0648 	EXP 	fixation: autoDraw = False
+412.4427 	DATA 	Keypress: space
+412.4482 	EXP 	fixation: autoDraw = False
+412.4482 	EXP 	exp_image: autoDraw = False
+412.4482 	EXP 	empty: autoDraw = True
+413.4358 	EXP 	New trial (rep=0, index=12): OrderedDict([('imagefile', 'office\\1028.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+413.4781 	EXP 	empty: autoDraw = False
+413.4781 	EXP 	empty: autoDraw = False
+413.4781 	EXP 	exp_image: image = 'office\\1028.jpg'
+413.4781 	EXP 	fixation: autoDraw = True
+413.9663 	EXP 	exp_image: autoDraw = True
+413.9829 	EXP 	fixation: autoDraw = False
+414.4667 	EXP 	exp_image: autoDraw = False
+414.4667 	EXP 	fixation: autoDraw = False
+414.4667 	EXP 	exp_image: autoDraw = False
+414.4667 	EXP 	empty: autoDraw = True
+415.4542 	EXP 	New trial (rep=0, index=13): OrderedDict([('imagefile', 'flowers\\1297.jpg'), ('condition', 'go'), ('corAns', 'space')])
+415.5016 	EXP 	empty: autoDraw = False
+415.5016 	EXP 	empty: autoDraw = False
+415.5016 	EXP 	exp_image: image = 'flowers\\1297.jpg'
+415.5016 	EXP 	fixation: autoDraw = True
+416.0013 	EXP 	fixation: autoDraw = False
+416.0013 	EXP 	exp_image: autoDraw = True
+416.3781 	DATA 	Keypress: space
+416.3848 	EXP 	fixation: autoDraw = False
+416.3848 	EXP 	exp_image: autoDraw = False
+416.3848 	EXP 	empty: autoDraw = True
+417.3723 	EXP 	New trial (rep=0, index=14): OrderedDict([('imagefile', 'flowers\\1311.jpg'), ('condition', 'go'), ('corAns', 'space')])
+417.4136 	EXP 	empty: autoDraw = False
+417.4136 	EXP 	empty: autoDraw = False
+417.4136 	EXP 	exp_image: image = 'flowers\\1311.jpg'
+417.4136 	EXP 	fixation: autoDraw = True
+417.9029 	EXP 	exp_image: autoDraw = True
+417.9195 	EXP 	fixation: autoDraw = False
+418.2962 	DATA 	Keypress: space
+418.3033 	EXP 	fixation: autoDraw = False
+418.3033 	EXP 	exp_image: autoDraw = False
+418.3033 	EXP 	empty: autoDraw = True
+419.2914 	EXP 	New trial (rep=0, index=15): OrderedDict([('imagefile', 'flowers\\1298.jpg'), ('condition', 'go'), ('corAns', 'space')])
+419.3427 	EXP 	empty: autoDraw = False
+419.3427 	EXP 	empty: autoDraw = False
+419.3427 	EXP 	exp_image: image = 'flowers\\1298.jpg'
+419.3427 	EXP 	fixation: autoDraw = True
+419.8378 	EXP 	exp_image: autoDraw = True
+419.8545 	EXP 	fixation: autoDraw = False
+420.1982 	DATA 	Keypress: space
+420.2047 	EXP 	fixation: autoDraw = False
+420.2047 	EXP 	exp_image: autoDraw = False
+420.2047 	EXP 	empty: autoDraw = True
+421.1924 	EXP 	New trial (rep=0, index=16): OrderedDict([('imagefile', 'flowers\\1305.jpg'), ('condition', 'go'), ('corAns', 'space')])
+421.2418 	EXP 	empty: autoDraw = False
+421.2418 	EXP 	empty: autoDraw = False
+421.2418 	EXP 	exp_image: image = 'flowers\\1305.jpg'
+421.2418 	EXP 	fixation: autoDraw = True
+421.7394 	EXP 	exp_image: autoDraw = True
+421.7561 	EXP 	fixation: autoDraw = False
+422.1496 	DATA 	Keypress: space
+422.1565 	EXP 	fixation: autoDraw = False
+422.1565 	EXP 	exp_image: autoDraw = False
+422.1565 	EXP 	empty: autoDraw = True
+423.1436 	EXP 	New trial (rep=0, index=17): OrderedDict([('imagefile', 'office\\1155.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+423.1951 	EXP 	empty: autoDraw = False
+423.1951 	EXP 	empty: autoDraw = False
+423.1951 	EXP 	exp_image: image = 'office\\1155.jpg'
+423.1951 	EXP 	fixation: autoDraw = True
+423.6910 	EXP 	exp_image: autoDraw = True
+423.7078 	EXP 	fixation: autoDraw = False
+424.1915 	EXP 	exp_image: autoDraw = False
+424.1915 	EXP 	fixation: autoDraw = False
+424.1915 	EXP 	exp_image: autoDraw = False
+424.1915 	EXP 	empty: autoDraw = True
+425.1790 	EXP 	New trial (rep=0, index=18): OrderedDict([('imagefile', 'flowers\\1308.jpg'), ('condition', 'go'), ('corAns', 'space')])
+425.2294 	EXP 	empty: autoDraw = False
+425.2294 	EXP 	empty: autoDraw = False
+425.2294 	EXP 	exp_image: image = 'flowers\\1308.jpg'
+425.2294 	EXP 	fixation: autoDraw = True
+425.7261 	EXP 	exp_image: autoDraw = True
+425.7428 	EXP 	fixation: autoDraw = False
+426.1030 	DATA 	Keypress: space
+426.1098 	EXP 	fixation: autoDraw = False
+426.1098 	EXP 	exp_image: autoDraw = False
+426.1098 	EXP 	empty: autoDraw = True
+427.0971 	EXP 	New trial (rep=0, index=19): OrderedDict([('imagefile', 'flowers\\1000.jpg'), ('condition', 'go'), ('corAns', 'space')])
+427.1475 	EXP 	empty: autoDraw = False
+427.1475 	EXP 	empty: autoDraw = False
+427.1475 	EXP 	exp_image: image = 'flowers\\1000.jpg'
+427.1475 	EXP 	fixation: autoDraw = True
+427.6442 	EXP 	exp_image: autoDraw = True
+427.6611 	EXP 	fixation: autoDraw = False
+428.0541 	DATA 	Keypress: space
+428.0613 	EXP 	fixation: autoDraw = False
+428.0613 	EXP 	exp_image: autoDraw = False
+428.0613 	EXP 	empty: autoDraw = True
+429.0493 	EXP 	New trial (rep=0, index=20): OrderedDict([('imagefile', 'flowers\\1292.jpg'), ('condition', 'go'), ('corAns', 'space')])
+429.0988 	EXP 	empty: autoDraw = False
+429.0988 	EXP 	empty: autoDraw = False
+429.0988 	EXP 	exp_image: image = 'flowers\\1292.jpg'
+429.0988 	EXP 	fixation: autoDraw = True
+429.5959 	EXP 	exp_image: autoDraw = True
+429.6125 	EXP 	fixation: autoDraw = False
+429.9521 	DATA 	Keypress: space
+429.9802 	EXP 	fixation: autoDraw = False
+429.9802 	EXP 	exp_image: autoDraw = False
+429.9802 	EXP 	empty: autoDraw = True
+430.9674 	EXP 	New trial (rep=0, index=21): OrderedDict([('imagefile', 'flowers\\1300.jpg'), ('condition', 'go'), ('corAns', 'space')])
+431.0178 	EXP 	empty: autoDraw = False
+431.0178 	EXP 	empty: autoDraw = False
+431.0178 	EXP 	exp_image: image = 'flowers\\1300.jpg'
+431.0178 	EXP 	fixation: autoDraw = True
+431.5142 	EXP 	exp_image: autoDraw = True
+431.5309 	EXP 	fixation: autoDraw = False
+431.9074 	DATA 	Keypress: space
+431.9146 	EXP 	fixation: autoDraw = False
+431.9146 	EXP 	exp_image: autoDraw = False
+431.9146 	EXP 	empty: autoDraw = True
+432.9025 	EXP 	New trial (rep=0, index=22): OrderedDict([('imagefile', 'flowers\\1034.jpg'), ('condition', 'go'), ('corAns', 'space')])
+432.9509 	EXP 	empty: autoDraw = False
+432.9509 	EXP 	empty: autoDraw = False
+432.9509 	EXP 	exp_image: image = 'flowers\\1034.jpg'
+432.9509 	EXP 	fixation: autoDraw = True
+433.4492 	EXP 	exp_image: autoDraw = True
+433.4657 	EXP 	fixation: autoDraw = False
+433.8425 	DATA 	Keypress: space
+433.8495 	EXP 	fixation: autoDraw = False
+433.8495 	EXP 	exp_image: autoDraw = False
+433.8495 	EXP 	empty: autoDraw = True
+434.8367 	EXP 	New trial (rep=0, index=23): OrderedDict([('imagefile', 'office\\1142.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+434.8832 	EXP 	empty: autoDraw = False
+434.8832 	EXP 	empty: autoDraw = False
+434.8832 	EXP 	exp_image: image = 'office\\1142.jpg'
+434.8832 	EXP 	fixation: autoDraw = True
+435.3840 	EXP 	fixation: autoDraw = False
+435.3840 	EXP 	exp_image: autoDraw = True
+435.8845 	EXP 	exp_image: autoDraw = False
+435.8845 	EXP 	fixation: autoDraw = False
+435.8845 	EXP 	exp_image: autoDraw = False
+435.8845 	EXP 	empty: autoDraw = True
+436.8701 	EXP 	New trial (rep=0, index=24): OrderedDict([('imagefile', 'flowers\\1291.jpg'), ('condition', 'go'), ('corAns', 'space')])
+436.9006 	EXP 	empty: autoDraw = False
+436.9006 	EXP 	empty: autoDraw = False
+436.9006 	EXP 	exp_image: image = 'flowers\\1291.jpg'
+436.9006 	EXP 	fixation: autoDraw = True
+437.4020 	EXP 	fixation: autoDraw = False
+437.4020 	EXP 	exp_image: autoDraw = True
+437.7785 	DATA 	Keypress: space
+437.7858 	EXP 	fixation: autoDraw = False
+437.7858 	EXP 	exp_image: autoDraw = False
+437.7858 	EXP 	empty: autoDraw = True
+438.7742 	EXP 	New trial (rep=0, index=25): OrderedDict([('imagefile', 'flowers\\1287.jpg'), ('condition', 'go'), ('corAns', 'space')])
+438.8126 	EXP 	empty: autoDraw = False
+438.8126 	EXP 	empty: autoDraw = False
+438.8126 	EXP 	exp_image: image = 'flowers\\1287.jpg'
+438.8126 	EXP 	fixation: autoDraw = True
+439.3042 	EXP 	exp_image: autoDraw = True
+439.3209 	EXP 	fixation: autoDraw = False
+439.7141 	DATA 	Keypress: space
+439.7216 	EXP 	fixation: autoDraw = False
+439.7216 	EXP 	exp_image: autoDraw = False
+439.7216 	EXP 	empty: autoDraw = True
+440.7081 	EXP 	New trial (rep=0, index=26): OrderedDict([('imagefile', 'flowers\\1289.jpg'), ('condition', 'go'), ('corAns', 'space')])
+440.7548 	EXP 	empty: autoDraw = False
+440.7548 	EXP 	empty: autoDraw = False
+440.7548 	EXP 	exp_image: image = 'flowers\\1289.jpg'
+440.7548 	EXP 	fixation: autoDraw = True
+441.2555 	EXP 	fixation: autoDraw = False
+441.2555 	EXP 	exp_image: autoDraw = True
+441.6324 	DATA 	Keypress: space
+441.6392 	EXP 	fixation: autoDraw = False
+441.6392 	EXP 	exp_image: autoDraw = False
+441.6392 	EXP 	empty: autoDraw = True
+442.6275 	EXP 	New trial (rep=0, index=27): OrderedDict([('imagefile', 'office\\1140.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+442.6769 	EXP 	empty: autoDraw = False
+442.6769 	EXP 	empty: autoDraw = False
+442.6769 	EXP 	exp_image: image = 'office\\1140.jpg'
+442.6769 	EXP 	fixation: autoDraw = True
+443.1739 	EXP 	exp_image: autoDraw = True
+443.1906 	EXP 	fixation: autoDraw = False
+443.6744 	EXP 	exp_image: autoDraw = False
+443.6744 	EXP 	fixation: autoDraw = False
+443.6744 	EXP 	exp_image: autoDraw = False
+443.6744 	EXP 	empty: autoDraw = True
+444.6619 	EXP 	New trial (rep=0, index=28): OrderedDict([('imagefile', 'flowers\\1288.jpg'), ('condition', 'go'), ('corAns', 'space')])
+444.7084 	EXP 	empty: autoDraw = False
+444.7084 	EXP 	empty: autoDraw = False
+444.7084 	EXP 	exp_image: image = 'flowers\\1288.jpg'
+444.7084 	EXP 	fixation: autoDraw = True
+445.2089 	EXP 	fixation: autoDraw = False
+445.2089 	EXP 	exp_image: autoDraw = True
+445.6315 	DATA 	Keypress: space
+445.6594 	EXP 	fixation: autoDraw = False
+445.6594 	EXP 	exp_image: autoDraw = False
+445.6594 	EXP 	empty: autoDraw = True
+446.6471 	EXP 	New trial (rep=0, index=29): OrderedDict([('imagefile', 'flowers\\1307.jpg'), ('condition', 'go'), ('corAns', 'space')])
+446.6885 	EXP 	empty: autoDraw = False
+446.6885 	EXP 	empty: autoDraw = False
+446.6885 	EXP 	exp_image: image = 'flowers\\1307.jpg'
+446.6885 	EXP 	fixation: autoDraw = True
+447.1774 	EXP 	exp_image: autoDraw = True
+447.1942 	EXP 	fixation: autoDraw = False
+447.5883 	DATA 	Keypress: space
+447.5941 	EXP 	fixation: autoDraw = False
+447.5941 	EXP 	exp_image: autoDraw = False
+447.5941 	EXP 	empty: autoDraw = True
+448.5823 	EXP 	New trial (rep=0, index=30): OrderedDict([('imagefile', 'flowers\\1295.jpg'), ('condition', 'go'), ('corAns', 'space')])
+448.6217 	EXP 	empty: autoDraw = False
+448.6217 	EXP 	empty: autoDraw = False
+448.6217 	EXP 	exp_image: image = 'flowers\\1295.jpg'
+448.6217 	EXP 	fixation: autoDraw = True
+449.1122 	EXP 	exp_image: autoDraw = True
+449.1289 	EXP 	fixation: autoDraw = False
+449.5553 	DATA 	Keypress: space
+449.5627 	EXP 	fixation: autoDraw = False
+449.5627 	EXP 	exp_image: autoDraw = False
+449.5627 	EXP 	empty: autoDraw = True
+450.5505 	EXP 	New trial (rep=0, index=31): OrderedDict([('imagefile', 'flowers\\1021.jpg'), ('condition', 'go'), ('corAns', 'space')])
+450.5928 	EXP 	empty: autoDraw = False
+450.5928 	EXP 	empty: autoDraw = False
+450.5928 	EXP 	exp_image: image = 'flowers\\1021.jpg'
+450.5928 	EXP 	fixation: autoDraw = True
+451.0805 	EXP 	exp_image: autoDraw = True
+451.0972 	EXP 	fixation: autoDraw = False
+451.5076 	DATA 	Keypress: space
+451.5141 	EXP 	fixation: autoDraw = False
+451.5141 	EXP 	exp_image: autoDraw = False
+451.5141 	EXP 	empty: autoDraw = True
+452.5017 	EXP 	New trial (rep=0, index=32): OrderedDict([('imagefile', 'flowers\\1002.jpg'), ('condition', 'go'), ('corAns', 'space')])
+452.5461 	EXP 	empty: autoDraw = False
+452.5461 	EXP 	empty: autoDraw = False
+452.5461 	EXP 	exp_image: image = 'flowers\\1002.jpg'
+452.5461 	EXP 	fixation: autoDraw = True
+453.0486 	EXP 	fixation: autoDraw = False
+453.0486 	EXP 	exp_image: autoDraw = True
+453.4254 	DATA 	Keypress: space
+453.4323 	EXP 	fixation: autoDraw = False
+453.4323 	EXP 	exp_image: autoDraw = False
+453.4323 	EXP 	empty: autoDraw = True
+454.4196 	EXP 	New trial (rep=0, index=33): OrderedDict([('imagefile', 'office\\1147.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+454.4602 	EXP 	empty: autoDraw = False
+454.4602 	EXP 	empty: autoDraw = False
+454.4602 	EXP 	exp_image: image = 'office\\1147.jpg'
+454.4602 	EXP 	fixation: autoDraw = True
+454.9504 	EXP 	exp_image: autoDraw = True
+454.9670 	EXP 	fixation: autoDraw = False
+455.4508 	EXP 	exp_image: autoDraw = False
+455.4508 	EXP 	fixation: autoDraw = False
+455.4508 	EXP 	exp_image: autoDraw = False
+455.4508 	EXP 	empty: autoDraw = True
+456.4385 	EXP 	New trial (rep=0, index=34): OrderedDict([('imagefile', 'flowers\\1304.jpg'), ('condition', 'go'), ('corAns', 'space')])
+456.4777 	EXP 	empty: autoDraw = False
+456.4777 	EXP 	empty: autoDraw = False
+456.4777 	EXP 	exp_image: image = 'flowers\\1304.jpg'
+456.4777 	EXP 	fixation: autoDraw = True
+456.9687 	EXP 	exp_image: autoDraw = True
+456.9853 	EXP 	fixation: autoDraw = False
+457.3621 	DATA 	Keypress: space
+457.3690 	EXP 	fixation: autoDraw = False
+457.3690 	EXP 	exp_image: autoDraw = False
+457.3690 	EXP 	empty: autoDraw = True
+458.3563 	EXP 	New trial (rep=0, index=35): OrderedDict([('imagefile', 'flowers\\1020.jpg'), ('condition', 'go'), ('corAns', 'space')])
+458.4029 	EXP 	empty: autoDraw = False
+458.4029 	EXP 	empty: autoDraw = False
+458.4029 	EXP 	exp_image: image = 'flowers\\1020.jpg'
+458.4029 	EXP 	fixation: autoDraw = True
+458.9037 	EXP 	fixation: autoDraw = False
+458.9037 	EXP 	exp_image: autoDraw = True
+459.2931 	DATA 	Keypress: space
+459.3212 	EXP 	fixation: autoDraw = False
+459.3212 	EXP 	exp_image: autoDraw = False
+459.3212 	EXP 	empty: autoDraw = True
+460.3085 	EXP 	New trial (rep=0, index=36): OrderedDict([('imagefile', 'flowers\\1001.jpg'), ('condition', 'go'), ('corAns', 'space')])
+460.3407 	EXP 	empty: autoDraw = False
+460.3407 	EXP 	empty: autoDraw = False
+460.3407 	EXP 	exp_image: image = 'flowers\\1001.jpg'
+460.3407 	EXP 	fixation: autoDraw = True
+460.8384 	EXP 	exp_image: autoDraw = True
+460.8554 	EXP 	fixation: autoDraw = False
+461.2324 	DATA 	Keypress: space
+461.2389 	EXP 	fixation: autoDraw = False
+461.2389 	EXP 	exp_image: autoDraw = False
+461.2389 	EXP 	empty: autoDraw = True
+462.2266 	EXP 	New trial (rep=0, index=37): OrderedDict([('imagefile', 'flowers\\1294.jpg'), ('condition', 'go'), ('corAns', 'space')])
+462.2759 	EXP 	empty: autoDraw = False
+462.2759 	EXP 	empty: autoDraw = False
+462.2759 	EXP 	exp_image: image = 'flowers\\1294.jpg'
+462.2759 	EXP 	fixation: autoDraw = True
+462.7737 	EXP 	exp_image: autoDraw = True
+462.7903 	EXP 	fixation: autoDraw = False
+463.2007 	DATA 	Keypress: space
+463.2073 	EXP 	fixation: autoDraw = False
+463.2073 	EXP 	exp_image: autoDraw = False
+463.2073 	EXP 	empty: autoDraw = True
+464.1948 	EXP 	New trial (rep=0, index=38): OrderedDict([('imagefile', 'office\\1154.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+464.2352 	EXP 	empty: autoDraw = False
+464.2352 	EXP 	empty: autoDraw = False
+464.2352 	EXP 	exp_image: image = 'office\\1154.jpg'
+464.2352 	EXP 	fixation: autoDraw = True
+464.7251 	EXP 	exp_image: autoDraw = True
+464.7419 	EXP 	fixation: autoDraw = False
+465.2256 	EXP 	exp_image: autoDraw = False
+465.2256 	EXP 	fixation: autoDraw = False
+465.2256 	EXP 	exp_image: autoDraw = False
+465.2256 	EXP 	empty: autoDraw = True
+466.2132 	EXP 	New trial (rep=0, index=39): OrderedDict([('imagefile', 'flowers\\1281.jpg'), ('condition', 'go'), ('corAns', 'space')])
+466.2626 	EXP 	empty: autoDraw = False
+466.2626 	EXP 	empty: autoDraw = False
+466.2626 	EXP 	exp_image: image = 'flowers\\1281.jpg'
+466.2626 	EXP 	fixation: autoDraw = True
+466.7602 	EXP 	exp_image: autoDraw = True
+466.7769 	EXP 	fixation: autoDraw = False
+467.1202 	DATA 	Keypress: space
+467.1271 	EXP 	fixation: autoDraw = False
+467.1271 	EXP 	exp_image: autoDraw = False
+467.1271 	EXP 	empty: autoDraw = True
+468.1152 	EXP 	New trial (rep=0, index=40): OrderedDict([('imagefile', 'flowers\\1299.jpg'), ('condition', 'go'), ('corAns', 'space')])
+468.1657 	EXP 	empty: autoDraw = False
+468.1657 	EXP 	empty: autoDraw = False
+468.1657 	EXP 	exp_image: image = 'flowers\\1299.jpg'
+468.1657 	EXP 	fixation: autoDraw = True
+468.6618 	EXP 	exp_image: autoDraw = True
+468.6783 	EXP 	fixation: autoDraw = False
+469.0723 	DATA 	Keypress: space
+469.0787 	EXP 	fixation: autoDraw = False
+469.0787 	EXP 	exp_image: autoDraw = False
+469.0787 	EXP 	empty: autoDraw = True
+470.0664 	EXP 	New trial (rep=0, index=41): OrderedDict([('imagefile', 'flowers\\1306.jpg'), ('condition', 'go'), ('corAns', 'space')])
+470.1168 	EXP 	empty: autoDraw = False
+470.1168 	EXP 	empty: autoDraw = False
+470.1168 	EXP 	exp_image: image = 'flowers\\1306.jpg'
+470.1168 	EXP 	fixation: autoDraw = True
+470.6134 	EXP 	exp_image: autoDraw = True
+470.6301 	EXP 	fixation: autoDraw = False
+470.9905 	DATA 	Keypress: space
+470.9970 	EXP 	fixation: autoDraw = False
+470.9970 	EXP 	exp_image: autoDraw = False
+470.9970 	EXP 	empty: autoDraw = True
+471.9845 	EXP 	New trial (rep=0, index=42): OrderedDict([('imagefile', 'office\\1143.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+472.0319 	EXP 	empty: autoDraw = False
+472.0319 	EXP 	empty: autoDraw = False
+472.0319 	EXP 	exp_image: image = 'office\\1143.jpg'
+472.0319 	EXP 	fixation: autoDraw = True
+472.5316 	EXP 	fixation: autoDraw = False
+472.5316 	EXP 	exp_image: autoDraw = True
+473.0320 	EXP 	exp_image: autoDraw = False
+473.0320 	EXP 	fixation: autoDraw = False
+473.0320 	EXP 	exp_image: autoDraw = False
+473.0320 	EXP 	empty: autoDraw = True
+474.0200 	EXP 	New trial (rep=0, index=43): OrderedDict([('imagefile', 'flowers\\1282.jpg'), ('condition', 'go'), ('corAns', 'space')])
+474.0683 	EXP 	empty: autoDraw = False
+474.0683 	EXP 	empty: autoDraw = False
+474.0683 	EXP 	exp_image: image = 'flowers\\1282.jpg'
+474.0683 	EXP 	fixation: autoDraw = True
+474.5667 	EXP 	exp_image: autoDraw = True
+474.5833 	EXP 	fixation: autoDraw = False
+474.9098 	DATA 	Keypress: space
+474.9169 	EXP 	fixation: autoDraw = False
+474.9169 	EXP 	exp_image: autoDraw = False
+474.9169 	EXP 	empty: autoDraw = True
+475.9037 	EXP 	New trial (rep=0, index=44): OrderedDict([('imagefile', 'flowers\\1285.jpg'), ('condition', 'go'), ('corAns', 'space')])
+475.9524 	EXP 	empty: autoDraw = False
+475.9524 	EXP 	empty: autoDraw = False
+475.9524 	EXP 	exp_image: image = 'flowers\\1285.jpg'
+475.9524 	EXP 	fixation: autoDraw = True
+476.4516 	EXP 	fixation: autoDraw = False
+476.4516 	EXP 	exp_image: autoDraw = True
+476.8128 	DATA 	Keypress: space
+476.8182 	EXP 	fixation: autoDraw = False
+476.8182 	EXP 	exp_image: autoDraw = False
+476.8182 	EXP 	empty: autoDraw = True
+477.8070 	EXP 	New trial (rep=0, index=45): OrderedDict([('imagefile', 'flowers\\1003.jpg'), ('condition', 'go'), ('corAns', 'space')])
+477.8575 	EXP 	empty: autoDraw = False
+477.8575 	EXP 	empty: autoDraw = False
+477.8575 	EXP 	exp_image: image = 'flowers\\1003.jpg'
+477.8575 	EXP 	fixation: autoDraw = True
+478.3531 	EXP 	exp_image: autoDraw = True
+478.3699 	EXP 	fixation: autoDraw = False
+478.7300 	DATA 	Keypress: space
+478.7367 	EXP 	fixation: autoDraw = False
+478.7367 	EXP 	exp_image: autoDraw = False
+478.7367 	EXP 	empty: autoDraw = True
+479.7241 	EXP 	New trial (rep=0, index=46): OrderedDict([('imagefile', 'flowers\\1301.jpg'), ('condition', 'go'), ('corAns', 'space')])
+479.7604 	EXP 	empty: autoDraw = False
+479.7604 	EXP 	empty: autoDraw = False
+479.7604 	EXP 	exp_image: image = 'flowers\\1301.jpg'
+479.7604 	EXP 	fixation: autoDraw = True
+480.2549 	EXP 	exp_image: autoDraw = True
+480.2714 	EXP 	fixation: autoDraw = False
+480.6661 	DATA 	Keypress: space
+480.6713 	EXP 	fixation: autoDraw = False
+480.6713 	EXP 	exp_image: autoDraw = False
+480.6713 	EXP 	empty: autoDraw = True
+481.6592 	EXP 	New trial (rep=0, index=47): OrderedDict([('imagefile', 'office\\1015.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+481.6977 	EXP 	empty: autoDraw = False
+481.6977 	EXP 	empty: autoDraw = False
+481.6977 	EXP 	exp_image: image = 'office\\1015.jpg'
+481.6977 	EXP 	fixation: autoDraw = True
+482.1896 	EXP 	exp_image: autoDraw = True
+482.2063 	EXP 	fixation: autoDraw = False
+482.6901 	EXP 	exp_image: autoDraw = False
+482.6901 	EXP 	fixation: autoDraw = False
+482.6901 	EXP 	exp_image: autoDraw = False
+482.6901 	EXP 	empty: autoDraw = True
+483.6776 	EXP 	New trial (rep=0, index=48): OrderedDict([('imagefile', 'flowers\\1280.jpg'), ('condition', 'go'), ('corAns', 'space')])
+483.7241 	EXP 	empty: autoDraw = False
+483.7241 	EXP 	empty: autoDraw = False
+483.7241 	EXP 	exp_image: image = 'flowers\\1280.jpg'
+483.7241 	EXP 	fixation: autoDraw = True
+484.2246 	EXP 	fixation: autoDraw = False
+484.2246 	EXP 	exp_image: autoDraw = True
+484.5643 	DATA 	Keypress: space
+484.5919 	EXP 	fixation: autoDraw = False
+484.5919 	EXP 	exp_image: autoDraw = False
+484.5919 	EXP 	empty: autoDraw = True
+485.5797 	EXP 	New trial (rep=0, index=49): OrderedDict([('imagefile', 'flowers\\1290.jpg'), ('condition', 'go'), ('corAns', 'space')])
+485.6281 	EXP 	empty: autoDraw = False
+485.6281 	EXP 	empty: autoDraw = False
+485.6281 	EXP 	exp_image: image = 'flowers\\1290.jpg'
+485.6281 	EXP 	fixation: autoDraw = True
+486.1263 	EXP 	exp_image: autoDraw = True
+486.1429 	EXP 	fixation: autoDraw = False
+486.4535 	DATA 	Keypress: space
+486.4598 	EXP 	fixation: autoDraw = False
+486.4598 	EXP 	exp_image: autoDraw = False
+486.4598 	EXP 	empty: autoDraw = True
+487.4474 	EXP 	New trial (rep=0, index=50): OrderedDict([('imagefile', 'flowers\\1297.jpg'), ('condition', 'go'), ('corAns', 'space')])
+487.4766 	EXP 	empty: autoDraw = False
+487.4766 	EXP 	empty: autoDraw = False
+487.4766 	EXP 	exp_image: image = 'flowers\\1297.jpg'
+487.4766 	EXP 	fixation: autoDraw = True
+487.9775 	EXP 	fixation: autoDraw = False
+487.9775 	EXP 	exp_image: autoDraw = True
+488.4333 	DATA 	Keypress: space
+488.4614 	EXP 	fixation: autoDraw = False
+488.4614 	EXP 	exp_image: autoDraw = False
+488.4614 	EXP 	empty: autoDraw = True
+489.4487 	EXP 	New trial (rep=0, index=51): OrderedDict([('imagefile', 'flowers\\1000.jpg'), ('condition', 'go'), ('corAns', 'space')])
+489.4763 	EXP 	empty: autoDraw = False
+489.4763 	EXP 	empty: autoDraw = False
+489.4763 	EXP 	exp_image: image = 'flowers\\1000.jpg'
+489.4763 	EXP 	fixation: autoDraw = True
+489.9628 	EXP 	exp_image: autoDraw = True
+489.9795 	EXP 	fixation: autoDraw = False
+490.3526 	DATA 	Keypress: space
+490.3800 	EXP 	fixation: autoDraw = False
+490.3800 	EXP 	exp_image: autoDraw = False
+490.3800 	EXP 	empty: autoDraw = True
+491.3671 	EXP 	New trial (rep=0, index=52): OrderedDict([('imagefile', 'office\\1143.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+491.3934 	EXP 	empty: autoDraw = False
+491.3934 	EXP 	empty: autoDraw = False
+491.3934 	EXP 	exp_image: image = 'office\\1143.jpg'
+491.3934 	EXP 	fixation: autoDraw = True
+491.8810 	EXP 	exp_image: autoDraw = True
+491.8978 	EXP 	fixation: autoDraw = False
+492.3798 	EXP 	exp_image: autoDraw = False
+492.3798 	EXP 	fixation: autoDraw = False
+492.3798 	EXP 	exp_image: autoDraw = False
+492.3798 	EXP 	empty: autoDraw = True
+493.3694 	EXP 	New trial (rep=0, index=53): OrderedDict([('imagefile', 'flowers\\1307.jpg'), ('condition', 'go'), ('corAns', 'space')])
+493.3977 	EXP 	empty: autoDraw = False
+493.3977 	EXP 	empty: autoDraw = False
+493.3977 	EXP 	exp_image: image = 'flowers\\1307.jpg'
+493.3977 	EXP 	fixation: autoDraw = True
+493.8994 	EXP 	fixation: autoDraw = False
+493.8994 	EXP 	exp_image: autoDraw = True
+494.2763 	DATA 	Keypress: space
+494.2830 	EXP 	fixation: autoDraw = False
+494.2830 	EXP 	exp_image: autoDraw = False
+494.2830 	EXP 	empty: autoDraw = True
+495.2705 	EXP 	New trial (rep=0, index=54): OrderedDict([('imagefile', 'flowers\\1286.jpg'), ('condition', 'go'), ('corAns', 'space')])
+495.3016 	EXP 	empty: autoDraw = False
+495.3016 	EXP 	empty: autoDraw = False
+495.3016 	EXP 	exp_image: image = 'flowers\\1286.jpg'
+495.3016 	EXP 	fixation: autoDraw = True
+495.8010 	EXP 	fixation: autoDraw = False
+495.8010 	EXP 	exp_image: autoDraw = True
+496.1944 	DATA 	Keypress: space
+496.2013 	EXP 	fixation: autoDraw = False
+496.2013 	EXP 	exp_image: autoDraw = False
+496.2013 	EXP 	empty: autoDraw = True
+497.1887 	EXP 	New trial (rep=0, index=55): OrderedDict([('imagefile', 'flowers\\1288.jpg'), ('condition', 'go'), ('corAns', 'space')])
+497.2169 	EXP 	empty: autoDraw = False
+497.2169 	EXP 	empty: autoDraw = False
+497.2169 	EXP 	exp_image: image = 'flowers\\1288.jpg'
+497.2169 	EXP 	fixation: autoDraw = True
+497.7193 	EXP 	fixation: autoDraw = False
+497.7193 	EXP 	exp_image: autoDraw = True
+498.1467 	DATA 	Keypress: space
+498.1529 	EXP 	fixation: autoDraw = False
+498.1529 	EXP 	exp_image: autoDraw = False
+498.1529 	EXP 	empty: autoDraw = True
+499.1408 	EXP 	New trial (rep=0, index=56): OrderedDict([('imagefile', 'office\\1015.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+499.1697 	EXP 	empty: autoDraw = False
+499.1697 	EXP 	empty: autoDraw = False
+499.1697 	EXP 	exp_image: image = 'office\\1015.jpg'
+499.1697 	EXP 	fixation: autoDraw = True
+499.6708 	EXP 	fixation: autoDraw = False
+499.6708 	EXP 	exp_image: autoDraw = True
+500.1712 	EXP 	exp_image: autoDraw = False
+500.1712 	EXP 	fixation: autoDraw = False
+500.1712 	EXP 	exp_image: autoDraw = False
+500.1712 	EXP 	empty: autoDraw = True
+501.1593 	EXP 	New trial (rep=0, index=57): OrderedDict([('imagefile', 'flowers\\1020.jpg'), ('condition', 'go'), ('corAns', 'space')])
+501.1892 	EXP 	empty: autoDraw = False
+501.1892 	EXP 	empty: autoDraw = False
+501.1892 	EXP 	exp_image: image = 'flowers\\1020.jpg'
+501.1892 	EXP 	fixation: autoDraw = True
+501.6894 	EXP 	fixation: autoDraw = False
+501.6894 	EXP 	exp_image: autoDraw = True
+502.0513 	DATA 	Keypress: space
+502.0562 	EXP 	fixation: autoDraw = False
+502.0562 	EXP 	exp_image: autoDraw = False
+502.0562 	EXP 	empty: autoDraw = True
+503.0439 	EXP 	New trial (rep=0, index=58): OrderedDict([('imagefile', 'flowers\\1302.jpg'), ('condition', 'go'), ('corAns', 'space')])
+503.0743 	EXP 	empty: autoDraw = False
+503.0743 	EXP 	empty: autoDraw = False
+503.0743 	EXP 	exp_image: image = 'flowers\\1302.jpg'
+503.0743 	EXP 	fixation: autoDraw = True
+503.5742 	EXP 	fixation: autoDraw = False
+503.5742 	EXP 	exp_image: autoDraw = True
+503.9137 	DATA 	Keypress: space
+503.9413 	EXP 	fixation: autoDraw = False
+503.9413 	EXP 	exp_image: autoDraw = False
+503.9413 	EXP 	empty: autoDraw = True
+504.9292 	EXP 	New trial (rep=0, index=59): OrderedDict([('imagefile', 'flowers\\1291.jpg'), ('condition', 'go'), ('corAns', 'space')])
+504.9572 	EXP 	empty: autoDraw = False
+504.9572 	EXP 	empty: autoDraw = False
+504.9572 	EXP 	exp_image: image = 'flowers\\1291.jpg'
+504.9572 	EXP 	fixation: autoDraw = True
+505.4423 	EXP 	exp_image: autoDraw = True
+505.4591 	EXP 	fixation: autoDraw = False
+505.8149 	DATA 	Keypress: space
+505.8428 	EXP 	fixation: autoDraw = False
+505.8428 	EXP 	exp_image: autoDraw = False
+505.8428 	EXP 	empty: autoDraw = True
+506.8302 	EXP 	New trial (rep=0, index=60): OrderedDict([('imagefile', 'office\\1028.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+506.8614 	EXP 	empty: autoDraw = False
+506.8614 	EXP 	empty: autoDraw = False
+506.8614 	EXP 	exp_image: image = 'office\\1028.jpg'
+506.8614 	EXP 	fixation: autoDraw = True
+507.3606 	EXP 	fixation: autoDraw = False
+507.3606 	EXP 	exp_image: autoDraw = True
+507.8615 	EXP 	exp_image: autoDraw = False
+507.8615 	EXP 	fixation: autoDraw = False
+507.8615 	EXP 	exp_image: autoDraw = False
+507.8615 	EXP 	empty: autoDraw = True
+508.8485 	EXP 	New trial (rep=0, index=61): OrderedDict([('imagefile', 'flowers\\1300.jpg'), ('condition', 'go'), ('corAns', 'space')])
+508.8768 	EXP 	empty: autoDraw = False
+508.8768 	EXP 	empty: autoDraw = False
+508.8768 	EXP 	exp_image: image = 'flowers\\1300.jpg'
+508.8768 	EXP 	fixation: autoDraw = True
+509.3789 	EXP 	fixation: autoDraw = False
+509.3789 	EXP 	exp_image: autoDraw = True
+509.7896 	DATA 	Keypress: space
+509.7959 	EXP 	fixation: autoDraw = False
+509.7959 	EXP 	exp_image: autoDraw = False
+509.7959 	EXP 	empty: autoDraw = True
+510.7837 	EXP 	New trial (rep=0, index=62): OrderedDict([('imagefile', 'flowers\\1001.jpg'), ('condition', 'go'), ('corAns', 'space')])
+510.8120 	EXP 	empty: autoDraw = False
+510.8120 	EXP 	empty: autoDraw = False
+510.8120 	EXP 	exp_image: image = 'flowers\\1001.jpg'
+510.8120 	EXP 	fixation: autoDraw = True
+511.3138 	EXP 	fixation: autoDraw = False
+511.3138 	EXP 	exp_image: autoDraw = True
+511.6529 	DATA 	Keypress: space
+511.6810 	EXP 	fixation: autoDraw = False
+511.6810 	EXP 	exp_image: autoDraw = False
+511.6810 	EXP 	empty: autoDraw = True
+512.6687 	EXP 	New trial (rep=0, index=63): OrderedDict([('imagefile', 'flowers\\1034.jpg'), ('condition', 'go'), ('corAns', 'space')])
+512.6977 	EXP 	empty: autoDraw = False
+512.6977 	EXP 	empty: autoDraw = False
+512.6977 	EXP 	exp_image: image = 'flowers\\1034.jpg'
+512.6977 	EXP 	fixation: autoDraw = True
+513.1988 	EXP 	fixation: autoDraw = False
+513.1988 	EXP 	exp_image: autoDraw = True
+513.5053 	DATA 	Keypress: space
+513.5331 	EXP 	fixation: autoDraw = False
+513.5331 	EXP 	exp_image: autoDraw = False
+513.5331 	EXP 	empty: autoDraw = True
+514.5196 	EXP 	New trial (rep=0, index=64): OrderedDict([('imagefile', 'flowers\\1299.jpg'), ('condition', 'go'), ('corAns', 'space')])
+514.5492 	EXP 	empty: autoDraw = False
+514.5492 	EXP 	empty: autoDraw = False
+514.5492 	EXP 	exp_image: image = 'flowers\\1299.jpg'
+514.5492 	EXP 	fixation: autoDraw = True
+515.0504 	EXP 	fixation: autoDraw = False
+515.0504 	EXP 	exp_image: autoDraw = True
+515.4937 	DATA 	Keypress: space
+515.5007 	EXP 	fixation: autoDraw = False
+515.5007 	EXP 	exp_image: autoDraw = False
+515.5007 	EXP 	empty: autoDraw = True
+516.4889 	EXP 	New trial (rep=0, index=65): OrderedDict([('imagefile', 'office\\1155.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+516.5201 	EXP 	empty: autoDraw = False
+516.5201 	EXP 	empty: autoDraw = False
+516.5201 	EXP 	exp_image: image = 'office\\1155.jpg'
+516.5201 	EXP 	fixation: autoDraw = True
+517.0187 	EXP 	exp_image: autoDraw = True
+517.0353 	EXP 	fixation: autoDraw = False
+517.5191 	EXP 	exp_image: autoDraw = False
+517.5191 	EXP 	fixation: autoDraw = False
+517.5191 	EXP 	exp_image: autoDraw = False
+517.5191 	EXP 	empty: autoDraw = True
+518.5062 	EXP 	New trial (rep=0, index=66): OrderedDict([('imagefile', 'flowers\\1025.jpg'), ('condition', 'go'), ('corAns', 'space')])
+518.5358 	EXP 	empty: autoDraw = False
+518.5358 	EXP 	empty: autoDraw = False
+518.5358 	EXP 	exp_image: image = 'flowers\\1025.jpg'
+518.5358 	EXP 	fixation: autoDraw = True
+519.0371 	EXP 	fixation: autoDraw = False
+519.0371 	EXP 	exp_image: autoDraw = True
+519.3470 	DATA 	Keypress: space
+519.3539 	EXP 	fixation: autoDraw = False
+519.3539 	EXP 	exp_image: autoDraw = False
+519.3539 	EXP 	empty: autoDraw = True
+520.3411 	EXP 	New trial (rep=0, index=67): OrderedDict([('imagefile', 'flowers\\1301.jpg'), ('condition', 'go'), ('corAns', 'space')])
+520.3695 	EXP 	empty: autoDraw = False
+520.3695 	EXP 	empty: autoDraw = False
+520.3695 	EXP 	exp_image: image = 'flowers\\1301.jpg'
+520.3695 	EXP 	fixation: autoDraw = True
+520.8718 	EXP 	fixation: autoDraw = False
+520.8718 	EXP 	exp_image: autoDraw = True
+521.2160 	DATA 	Keypress: space
+521.2220 	EXP 	fixation: autoDraw = False
+521.2220 	EXP 	exp_image: autoDraw = False
+521.2220 	EXP 	empty: autoDraw = True
+522.2104 	EXP 	New trial (rep=0, index=68): OrderedDict([('imagefile', 'flowers\\1003.jpg'), ('condition', 'go'), ('corAns', 'space')])
+522.2390 	EXP 	empty: autoDraw = False
+522.2390 	EXP 	empty: autoDraw = False
+522.2390 	EXP 	exp_image: image = 'flowers\\1003.jpg'
+522.2390 	EXP 	fixation: autoDraw = True
+522.7401 	EXP 	fixation: autoDraw = False
+522.7401 	EXP 	exp_image: autoDraw = True
+523.0625 	DATA 	Keypress: space
+523.0906 	EXP 	fixation: autoDraw = False
+523.0906 	EXP 	exp_image: autoDraw = False
+523.0906 	EXP 	empty: autoDraw = True
+524.0781 	EXP 	New trial (rep=0, index=69): OrderedDict([('imagefile', 'flowers\\1282.jpg'), ('condition', 'go'), ('corAns', 'space')])
+524.1082 	EXP 	empty: autoDraw = False
+524.1082 	EXP 	empty: autoDraw = False
+524.1082 	EXP 	exp_image: image = 'flowers\\1282.jpg'
+524.1082 	EXP 	fixation: autoDraw = True
+524.6082 	EXP 	fixation: autoDraw = False
+524.6082 	EXP 	exp_image: autoDraw = True
+524.9146 	DATA 	Keypress: space
+524.9420 	EXP 	fixation: autoDraw = False
+524.9420 	EXP 	exp_image: autoDraw = False
+524.9420 	EXP 	empty: autoDraw = True
+525.9300 	EXP 	New trial (rep=0, index=70): OrderedDict([('imagefile', 'flowers\\1298.jpg'), ('condition', 'go'), ('corAns', 'space')])
+525.9581 	EXP 	empty: autoDraw = False
+525.9581 	EXP 	empty: autoDraw = False
+525.9581 	EXP 	exp_image: image = 'flowers\\1298.jpg'
+525.9581 	EXP 	fixation: autoDraw = True
+526.4599 	EXP 	fixation: autoDraw = False
+526.4599 	EXP 	exp_image: autoDraw = True
+526.8700 	DATA 	Keypress: space
+526.8768 	EXP 	fixation: autoDraw = False
+526.8768 	EXP 	exp_image: autoDraw = False
+526.8768 	EXP 	empty: autoDraw = True
+527.8641 	EXP 	New trial (rep=0, index=71): OrderedDict([('imagefile', 'office\\1148.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+527.8938 	EXP 	empty: autoDraw = False
+527.8938 	EXP 	empty: autoDraw = False
+527.8938 	EXP 	exp_image: image = 'office\\1148.jpg'
+527.8938 	EXP 	fixation: autoDraw = True
+528.3948 	EXP 	fixation: autoDraw = False
+528.3948 	EXP 	exp_image: autoDraw = True
+528.8952 	EXP 	exp_image: autoDraw = False
+528.8952 	EXP 	fixation: autoDraw = False
+528.8952 	EXP 	exp_image: autoDraw = False
+528.8952 	EXP 	empty: autoDraw = True
+529.8825 	EXP 	New trial (rep=0, index=72): OrderedDict([('imagefile', 'flowers\\1295.jpg'), ('condition', 'go'), ('corAns', 'space')])
+529.9137 	EXP 	empty: autoDraw = False
+529.9137 	EXP 	empty: autoDraw = False
+529.9137 	EXP 	exp_image: image = 'flowers\\1295.jpg'
+529.9137 	EXP 	fixation: autoDraw = True
+530.4131 	EXP 	fixation: autoDraw = False
+530.4131 	EXP 	exp_image: autoDraw = True
+530.8407 	DATA 	Keypress: space
+530.8467 	EXP 	fixation: autoDraw = False
+530.8467 	EXP 	exp_image: autoDraw = False
+530.8467 	EXP 	empty: autoDraw = True
+531.8347 	EXP 	New trial (rep=0, index=73): OrderedDict([('imagefile', 'flowers\\1303.jpg'), ('condition', 'go'), ('corAns', 'space')])
+531.8610 	EXP 	empty: autoDraw = False
+531.8610 	EXP 	empty: autoDraw = False
+531.8610 	EXP 	exp_image: image = 'flowers\\1303.jpg'
+531.8610 	EXP 	fixation: autoDraw = True
+532.3480 	EXP 	exp_image: autoDraw = True
+532.3647 	EXP 	fixation: autoDraw = False
+532.7545 	DATA 	Keypress: space
+532.7820 	EXP 	fixation: autoDraw = False
+532.7820 	EXP 	exp_image: autoDraw = False
+532.7820 	EXP 	empty: autoDraw = True
+533.7686 	EXP 	New trial (rep=0, index=74): OrderedDict([('imagefile', 'flowers\\1296.jpg'), ('condition', 'go'), ('corAns', 'space')])
+533.7952 	EXP 	empty: autoDraw = False
+533.7952 	EXP 	empty: autoDraw = False
+533.7952 	EXP 	exp_image: image = 'flowers\\1296.jpg'
+533.7952 	EXP 	fixation: autoDraw = True
+534.2829 	EXP 	exp_image: autoDraw = True
+534.2998 	EXP 	fixation: autoDraw = False
+534.6597 	DATA 	Keypress: space
+534.6667 	EXP 	fixation: autoDraw = False
+534.6667 	EXP 	exp_image: autoDraw = False
+534.6667 	EXP 	empty: autoDraw = True
+535.6548 	EXP 	New trial (rep=0, index=75): OrderedDict([('imagefile', 'flowers\\1284.jpg'), ('condition', 'go'), ('corAns', 'space')])
+535.6852 	EXP 	empty: autoDraw = False
+535.6852 	EXP 	empty: autoDraw = False
+535.6852 	EXP 	exp_image: image = 'flowers\\1284.jpg'
+535.6852 	EXP 	fixation: autoDraw = True
+536.1846 	EXP 	fixation: autoDraw = False
+536.1846 	EXP 	exp_image: autoDraw = True
+536.5618 	DATA 	Keypress: space
+536.5682 	EXP 	fixation: autoDraw = False
+536.5682 	EXP 	exp_image: autoDraw = False
+536.5682 	EXP 	empty: autoDraw = True
+537.5559 	EXP 	New trial (rep=0, index=76): OrderedDict([('imagefile', 'office\\1142.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+537.5833 	EXP 	empty: autoDraw = False
+537.5833 	EXP 	empty: autoDraw = False
+537.5833 	EXP 	exp_image: image = 'office\\1142.jpg'
+537.5833 	EXP 	fixation: autoDraw = True
+538.0695 	EXP 	exp_image: autoDraw = True
+538.0861 	EXP 	fixation: autoDraw = False
+538.5699 	EXP 	exp_image: autoDraw = False
+538.5699 	EXP 	fixation: autoDraw = False
+538.5699 	EXP 	exp_image: autoDraw = False
+538.5699 	EXP 	empty: autoDraw = True
+539.5572 	EXP 	New trial (rep=0, index=77): OrderedDict([('imagefile', 'flowers\\1292.jpg'), ('condition', 'go'), ('corAns', 'space')])
+539.5846 	EXP 	empty: autoDraw = False
+539.5846 	EXP 	empty: autoDraw = False
+539.5846 	EXP 	exp_image: image = 'flowers\\1292.jpg'
+539.5846 	EXP 	fixation: autoDraw = True
+540.0712 	EXP 	exp_image: autoDraw = True
+540.0879 	EXP 	fixation: autoDraw = False
+540.4150 	DATA 	Keypress: space
+540.4214 	EXP 	fixation: autoDraw = False
+540.4214 	EXP 	exp_image: autoDraw = False
+540.4214 	EXP 	empty: autoDraw = True
+541.4092 	EXP 	New trial (rep=0, index=78): OrderedDict([('imagefile', 'flowers\\1304.jpg'), ('condition', 'go'), ('corAns', 'space')])
+541.4366 	EXP 	empty: autoDraw = False
+541.4366 	EXP 	empty: autoDraw = False
+541.4366 	EXP 	exp_image: image = 'flowers\\1304.jpg'
+541.4366 	EXP 	fixation: autoDraw = True
+541.9227 	EXP 	exp_image: autoDraw = True
+541.9392 	EXP 	fixation: autoDraw = False
+542.2499 	DATA 	Keypress: space
+542.2561 	EXP 	fixation: autoDraw = False
+542.2561 	EXP 	exp_image: autoDraw = False
+542.2561 	EXP 	empty: autoDraw = True
+543.2438 	EXP 	New trial (rep=0, index=79): OrderedDict([('imagefile', 'flowers\\1306.jpg'), ('condition', 'go'), ('corAns', 'space')])
+543.2713 	EXP 	empty: autoDraw = False
+543.2713 	EXP 	empty: autoDraw = False
+543.2713 	EXP 	exp_image: image = 'flowers\\1306.jpg'
+543.2713 	EXP 	fixation: autoDraw = True
+543.7741 	EXP 	fixation: autoDraw = False
+543.7741 	EXP 	exp_image: autoDraw = True
+544.1350 	DATA 	Keypress: space
+544.1411 	EXP 	fixation: autoDraw = False
+544.1411 	EXP 	exp_image: autoDraw = False
+544.1411 	EXP 	empty: autoDraw = True
+545.1291 	EXP 	New trial (rep=0, index=80): OrderedDict([('imagefile', 'flowers\\1290.jpg'), ('condition', 'go'), ('corAns', 'space')])
+545.1574 	EXP 	empty: autoDraw = False
+545.1574 	EXP 	empty: autoDraw = False
+545.1574 	EXP 	exp_image: image = 'flowers\\1290.jpg'
+545.1574 	EXP 	fixation: autoDraw = True
+545.6591 	EXP 	fixation: autoDraw = False
+545.6591 	EXP 	exp_image: autoDraw = True
+546.0029 	DATA 	Keypress: space
+546.0093 	EXP 	fixation: autoDraw = False
+546.0093 	EXP 	exp_image: autoDraw = False
+546.0093 	EXP 	empty: autoDraw = True
+546.9970 	EXP 	New trial (rep=0, index=81): OrderedDict([('imagefile', 'flowers\\1021.jpg'), ('condition', 'go'), ('corAns', 'space')])
+547.0283 	EXP 	empty: autoDraw = False
+547.0283 	EXP 	empty: autoDraw = False
+547.0283 	EXP 	exp_image: image = 'flowers\\1021.jpg'
+547.0283 	EXP 	fixation: autoDraw = True
+547.5272 	EXP 	fixation: autoDraw = False
+547.5272 	EXP 	exp_image: autoDraw = True
+547.8708 	DATA 	Keypress: space
+547.8776 	EXP 	fixation: autoDraw = False
+547.8776 	EXP 	exp_image: autoDraw = False
+547.8776 	EXP 	empty: autoDraw = True
+548.8630 	EXP 	New trial (rep=0, index=82): OrderedDict([('imagefile', 'office\\1147.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+548.8795 	EXP 	empty: autoDraw = False
+548.8795 	EXP 	empty: autoDraw = False
+548.8795 	EXP 	exp_image: image = 'office\\1147.jpg'
+548.8795 	EXP 	fixation: autoDraw = True
+549.3789 	EXP 	fixation: autoDraw = False
+549.3789 	EXP 	exp_image: autoDraw = True
+549.8793 	EXP 	exp_image: autoDraw = False
+549.8793 	EXP 	fixation: autoDraw = False
+549.8793 	EXP 	exp_image: autoDraw = False
+549.8793 	EXP 	empty: autoDraw = True
+550.8673 	EXP 	New trial (rep=0, index=83): OrderedDict([('imagefile', 'flowers\\1285.jpg'), ('condition', 'go'), ('corAns', 'space')])
+550.8955 	EXP 	empty: autoDraw = False
+550.8955 	EXP 	empty: autoDraw = False
+550.8955 	EXP 	exp_image: image = 'flowers\\1285.jpg'
+550.8955 	EXP 	fixation: autoDraw = True
+551.3973 	EXP 	fixation: autoDraw = False
+551.3973 	EXP 	exp_image: autoDraw = True
+551.6910 	DATA 	Keypress: space
+551.6974 	EXP 	fixation: autoDraw = False
+551.6974 	EXP 	exp_image: autoDraw = False
+551.6974 	EXP 	empty: autoDraw = True
+552.6851 	EXP 	New trial (rep=0, index=84): OrderedDict([('imagefile', 'flowers\\1310.jpg'), ('condition', 'go'), ('corAns', 'space')])
+552.7142 	EXP 	empty: autoDraw = False
+552.7142 	EXP 	empty: autoDraw = False
+552.7142 	EXP 	exp_image: image = 'flowers\\1310.jpg'
+552.7142 	EXP 	fixation: autoDraw = True
+553.2153 	EXP 	fixation: autoDraw = False
+553.2153 	EXP 	exp_image: autoDraw = True
+553.6091 	DATA 	Keypress: space
+553.6158 	EXP 	fixation: autoDraw = False
+553.6158 	EXP 	exp_image: autoDraw = False
+553.6158 	EXP 	empty: autoDraw = True
+554.6033 	EXP 	New trial (rep=0, index=85): OrderedDict([('imagefile', 'flowers\\1002.jpg'), ('condition', 'go'), ('corAns', 'space')])
+554.6355 	EXP 	empty: autoDraw = False
+554.6355 	EXP 	empty: autoDraw = False
+554.6355 	EXP 	exp_image: image = 'flowers\\1002.jpg'
+554.6355 	EXP 	fixation: autoDraw = True
+555.1335 	EXP 	exp_image: autoDraw = True
+555.1503 	EXP 	fixation: autoDraw = False
+555.4770 	DATA 	Keypress: space
+555.4839 	EXP 	fixation: autoDraw = False
+555.4839 	EXP 	exp_image: autoDraw = False
+555.4839 	EXP 	empty: autoDraw = True
+556.4712 	EXP 	New trial (rep=0, index=86): OrderedDict([('imagefile', 'flowers\\1294.jpg'), ('condition', 'go'), ('corAns', 'space')])
+556.4996 	EXP 	empty: autoDraw = False
+556.4996 	EXP 	empty: autoDraw = False
+556.4996 	EXP 	exp_image: image = 'flowers\\1294.jpg'
+556.4996 	EXP 	fixation: autoDraw = True
+557.0019 	EXP 	fixation: autoDraw = False
+557.0019 	EXP 	exp_image: autoDraw = True
+557.3621 	DATA 	Keypress: space
+557.3689 	EXP 	fixation: autoDraw = False
+557.3689 	EXP 	exp_image: autoDraw = False
+557.3689 	EXP 	empty: autoDraw = True
+558.3562 	EXP 	New trial (rep=0, index=87): OrderedDict([('imagefile', 'office\\1154.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+558.3860 	EXP 	empty: autoDraw = False
+558.3860 	EXP 	empty: autoDraw = False
+558.3860 	EXP 	exp_image: image = 'office\\1154.jpg'
+558.3860 	EXP 	fixation: autoDraw = True
+558.8868 	EXP 	fixation: autoDraw = False
+558.8868 	EXP 	exp_image: autoDraw = True
+559.3876 	EXP 	exp_image: autoDraw = False
+559.3876 	EXP 	fixation: autoDraw = False
+559.3876 	EXP 	exp_image: autoDraw = False
+559.3876 	EXP 	empty: autoDraw = True
+560.3746 	EXP 	New trial (rep=0, index=88): OrderedDict([('imagefile', 'flowers\\1281.jpg'), ('condition', 'go'), ('corAns', 'space')])
+560.4058 	EXP 	empty: autoDraw = False
+560.4058 	EXP 	empty: autoDraw = False
+560.4058 	EXP 	exp_image: image = 'flowers\\1281.jpg'
+560.4058 	EXP 	fixation: autoDraw = True
+560.9051 	EXP 	fixation: autoDraw = False
+560.9051 	EXP 	exp_image: autoDraw = True
+561.2655 	DATA 	Keypress: space
+561.2721 	EXP 	fixation: autoDraw = False
+561.2721 	EXP 	exp_image: autoDraw = False
+561.2721 	EXP 	empty: autoDraw = True
+562.2596 	EXP 	New trial (rep=0, index=89): OrderedDict([('imagefile', 'flowers\\1283.jpg'), ('condition', 'go'), ('corAns', 'space')])
+562.2886 	EXP 	empty: autoDraw = False
+562.2886 	EXP 	empty: autoDraw = False
+562.2886 	EXP 	exp_image: image = 'flowers\\1283.jpg'
+562.2886 	EXP 	fixation: autoDraw = True
+562.7900 	EXP 	fixation: autoDraw = False
+562.7900 	EXP 	exp_image: autoDraw = True
+563.1836 	DATA 	Keypress: space
+563.1904 	EXP 	fixation: autoDraw = False
+563.1904 	EXP 	exp_image: autoDraw = False
+563.1904 	EXP 	empty: autoDraw = True
+564.1777 	EXP 	New trial (rep=0, index=90): OrderedDict([('imagefile', 'flowers\\1312.jpg'), ('condition', 'go'), ('corAns', 'space')])
+564.2067 	EXP 	empty: autoDraw = False
+564.2067 	EXP 	empty: autoDraw = False
+564.2067 	EXP 	exp_image: image = 'flowers\\1312.jpg'
+564.2067 	EXP 	fixation: autoDraw = True
+564.7083 	EXP 	fixation: autoDraw = False
+564.7083 	EXP 	exp_image: autoDraw = True
+565.1354 	DATA 	Keypress: space
+565.1417 	EXP 	fixation: autoDraw = False
+565.1417 	EXP 	exp_image: autoDraw = False
+565.1417 	EXP 	empty: autoDraw = True
+566.1297 	EXP 	New trial (rep=0, index=91): OrderedDict([('imagefile', 'office\\1146.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+566.1600 	EXP 	empty: autoDraw = False
+566.1600 	EXP 	empty: autoDraw = False
+566.1600 	EXP 	exp_image: image = 'office\\1146.jpg'
+566.1600 	EXP 	fixation: autoDraw = True
+566.6599 	EXP 	fixation: autoDraw = False
+566.6599 	EXP 	exp_image: autoDraw = True
+567.1603 	EXP 	exp_image: autoDraw = False
+567.1603 	EXP 	fixation: autoDraw = False
+567.1603 	EXP 	exp_image: autoDraw = False
+567.1603 	EXP 	empty: autoDraw = True
+568.1483 	EXP 	New trial (rep=0, index=92): OrderedDict([('imagefile', 'flowers\\1287.jpg'), ('condition', 'go'), ('corAns', 'space')])
+568.1757 	EXP 	empty: autoDraw = False
+568.1757 	EXP 	empty: autoDraw = False
+568.1757 	EXP 	exp_image: image = 'flowers\\1287.jpg'
+568.1757 	EXP 	fixation: autoDraw = True
+568.6615 	EXP 	exp_image: autoDraw = True
+568.6783 	EXP 	fixation: autoDraw = False
+569.1384 	DATA 	Keypress: space
+569.1452 	EXP 	fixation: autoDraw = False
+569.1452 	EXP 	exp_image: autoDraw = False
+569.1452 	EXP 	empty: autoDraw = True
+570.1325 	EXP 	New trial (rep=0, index=93): OrderedDict([('imagefile', 'flowers\\1280.jpg'), ('condition', 'go'), ('corAns', 'space')])
+570.1609 	EXP 	empty: autoDraw = False
+570.1609 	EXP 	empty: autoDraw = False
+570.1609 	EXP 	exp_image: image = 'flowers\\1280.jpg'
+570.1609 	EXP 	fixation: autoDraw = True
+570.6632 	EXP 	fixation: autoDraw = False
+570.6632 	EXP 	exp_image: autoDraw = True
+571.0736 	DATA 	Keypress: space
+571.0803 	EXP 	fixation: autoDraw = False
+571.0803 	EXP 	exp_image: autoDraw = False
+571.0803 	EXP 	empty: autoDraw = True
+572.0677 	EXP 	New trial (rep=0, index=94): OrderedDict([('imagefile', 'flowers\\1289.jpg'), ('condition', 'go'), ('corAns', 'space')])
+572.0966 	EXP 	empty: autoDraw = False
+572.0966 	EXP 	empty: autoDraw = False
+572.0966 	EXP 	exp_image: image = 'flowers\\1289.jpg'
+572.0966 	EXP 	fixation: autoDraw = True
+572.5982 	EXP 	fixation: autoDraw = False
+572.5982 	EXP 	exp_image: autoDraw = True
+573.0087 	DATA 	Keypress: space
+573.0151 	EXP 	fixation: autoDraw = False
+573.0151 	EXP 	exp_image: autoDraw = False
+573.0151 	EXP 	empty: autoDraw = True
+574.0028 	EXP 	New trial (rep=0, index=95): OrderedDict([('imagefile', 'flowers\\1311.jpg'), ('condition', 'go'), ('corAns', 'space')])
+574.0328 	EXP 	empty: autoDraw = False
+574.0328 	EXP 	empty: autoDraw = False
+574.0328 	EXP 	exp_image: image = 'flowers\\1311.jpg'
+574.0328 	EXP 	fixation: autoDraw = True
+574.5330 	EXP 	fixation: autoDraw = False
+574.5330 	EXP 	exp_image: autoDraw = True
+574.9234 	DATA 	Keypress: space
+574.9502 	EXP 	fixation: autoDraw = False
+574.9502 	EXP 	exp_image: autoDraw = False
+574.9502 	EXP 	empty: autoDraw = True
+575.9380 	EXP 	New trial (rep=0, index=96): OrderedDict([('imagefile', 'office\\1140.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+575.9670 	EXP 	empty: autoDraw = False
+575.9670 	EXP 	empty: autoDraw = False
+575.9670 	EXP 	exp_image: image = 'office\\1140.jpg'
+575.9670 	EXP 	fixation: autoDraw = True
+576.4680 	EXP 	fixation: autoDraw = False
+576.4680 	EXP 	exp_image: autoDraw = True
+576.9684 	EXP 	exp_image: autoDraw = False
+576.9684 	EXP 	fixation: autoDraw = False
+576.9684 	EXP 	exp_image: autoDraw = False
+576.9684 	EXP 	empty: autoDraw = True
+577.9563 	EXP 	New trial (rep=0, index=97): OrderedDict([('imagefile', 'flowers\\1305.jpg'), ('condition', 'go'), ('corAns', 'space')])
+577.9853 	EXP 	empty: autoDraw = False
+577.9853 	EXP 	empty: autoDraw = False
+577.9853 	EXP 	exp_image: image = 'flowers\\1305.jpg'
+577.9853 	EXP 	fixation: autoDraw = True
+578.4864 	EXP 	fixation: autoDraw = False
+578.4864 	EXP 	exp_image: autoDraw = True
+578.8803 	DATA 	Keypress: space
+578.8866 	EXP 	fixation: autoDraw = False
+578.8866 	EXP 	exp_image: autoDraw = False
+578.8866 	EXP 	empty: autoDraw = True
+579.8745 	EXP 	New trial (rep=0, index=98): OrderedDict([('imagefile', 'flowers\\1308.jpg'), ('condition', 'go'), ('corAns', 'space')])
+579.9028 	EXP 	empty: autoDraw = False
+579.9028 	EXP 	empty: autoDraw = False
+579.9028 	EXP 	exp_image: image = 'flowers\\1308.jpg'
+579.9028 	EXP 	fixation: autoDraw = True
+580.4045 	EXP 	fixation: autoDraw = False
+580.4045 	EXP 	exp_image: autoDraw = True
+580.7322 	DATA 	Keypress: space
+580.7381 	EXP 	fixation: autoDraw = False
+580.7381 	EXP 	exp_image: autoDraw = False
+580.7381 	EXP 	empty: autoDraw = True
+581.7251 	EXP 	New trial (rep=0, index=99): OrderedDict([('imagefile', 'flowers\\1037.jpg'), ('condition', 'go'), ('corAns', 'space')])
+581.7552 	EXP 	empty: autoDraw = False
+581.7552 	EXP 	empty: autoDraw = False
+581.7552 	EXP 	exp_image: image = 'flowers\\1037.jpg'
+581.7552 	EXP 	fixation: autoDraw = True
+582.2563 	EXP 	fixation: autoDraw = False
+582.2563 	EXP 	exp_image: autoDraw = True
+582.6332 	DATA 	Keypress: space
+582.6399 	EXP 	fixation: autoDraw = False
+582.6399 	EXP 	exp_image: autoDraw = False
+582.6399 	EXP 	empty: autoDraw = True
+583.6407 	EXP 	empty: autoDraw = False
+583.6407 	EXP 	empty: autoDraw = False
+583.6407 	EXP 	break_ins: autoDraw = True
+613.6350 	EXP 	New trial (rep=0, index=2): OrderedDict([('choblock', 'conditions\\food_ld.xlsx'), ('tex', 'inst\\ins_food3.png')])
+613.7171 	EXP 	break_ins: autoDraw = False
+613.7171 	EXP 	break_ins: autoDraw = False
+613.7171 	EXP 	ins: image = 'inst\\ins_food3.png'
+613.7171 	EXP 	ins: autoDraw = True
+621.8534 	EXP 	Imported conditions\food_ld.xlsx as conditions, 1 conditions, 1 params
+621.8537 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+621.8540 	EXP 	New trial (rep=0, index=0): OrderedDict([('pseudo', 'conditions\\food_ld9.xlsx')])
+621.8732 	EXP 	Imported conditions\food_ld9.xlsx as conditions, 100 conditions, 3 params
+621.8735 	EXP 	Created sequence: sequential, trialTypes=100, nReps=1, seed=None
+621.8738 	EXP 	New trial (rep=0, index=0): OrderedDict([('imagefile', 'household1\\1231.jpg'), ('condition', 'go'), ('corAns', 'space')])
+621.8850 	DATA 	Keypress: space
+621.8885 	EXP 	ins: autoDraw = False
+621.8885 	EXP 	exp_image: image = 'household1\\1231.jpg'
+621.8885 	EXP 	fixation: autoDraw = True
+622.3894 	EXP 	fixation: autoDraw = False
+622.3894 	EXP 	exp_image: autoDraw = True
+622.8396 	EXP 	fixation: autoDraw = False
+622.8396 	EXP 	exp_image: autoDraw = False
+622.8396 	EXP 	empty: autoDraw = True
+622.8936 	DATA 	Keypress: space
+623.8252 	EXP 	New trial (rep=0, index=1): OrderedDict([('imagefile', 'household1\\1080.jpg'), ('condition', 'go'), ('corAns', 'space')])
+623.8633 	EXP 	empty: autoDraw = False
+623.8633 	EXP 	exp_image: image = 'household1\\1080.jpg'
+623.8633 	EXP 	fixation: autoDraw = True
+624.3411 	EXP 	exp_image: autoDraw = True
+624.3746 	EXP 	fixation: autoDraw = False
+624.6526 	DATA 	Keypress: space
+624.6579 	EXP 	fixation: autoDraw = False
+624.6579 	EXP 	exp_image: autoDraw = False
+624.6579 	EXP 	empty: autoDraw = True
+625.6455 	EXP 	New trial (rep=0, index=2): OrderedDict([('imagefile', 'household1\\1036.jpg'), ('condition', 'go'), ('corAns', 'space')])
+625.6950 	EXP 	empty: autoDraw = False
+625.6950 	EXP 	empty: autoDraw = False
+625.6950 	EXP 	exp_image: image = 'household1\\1036.jpg'
+625.6950 	EXP 	fixation: autoDraw = True
+626.1927 	EXP 	exp_image: autoDraw = True
+626.2095 	EXP 	fixation: autoDraw = False
+626.6932 	EXP 	exp_image: autoDraw = False
+626.6932 	EXP 	fixation: autoDraw = False
+626.6932 	EXP 	exp_image: autoDraw = False
+626.6932 	EXP 	empty: autoDraw = True
+626.8143 	DATA 	Keypress: space
+627.6811 	EXP 	New trial (rep=0, index=3): OrderedDict([('imagefile', 'LD\\0382.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+627.7233 	EXP 	empty: autoDraw = False
+627.7233 	EXP 	empty: autoDraw = False
+627.7233 	EXP 	exp_image: image = 'LD\\0382.jpg'
+627.7233 	EXP 	fixation: autoDraw = True
+628.2111 	EXP 	exp_image: autoDraw = True
+628.2278 	EXP 	fixation: autoDraw = False
+628.5378 	DATA 	Keypress: space
+628.5446 	EXP 	fixation: autoDraw = False
+628.5446 	EXP 	exp_image: autoDraw = False
+628.5446 	EXP 	empty: autoDraw = True
+629.5320 	EXP 	New trial (rep=0, index=4): OrderedDict([('imagefile', 'household1\\1031.jpg'), ('condition', 'go'), ('corAns', 'space')])
+629.5743 	EXP 	empty: autoDraw = False
+629.5743 	EXP 	empty: autoDraw = False
+629.5743 	EXP 	exp_image: image = 'household1\\1031.jpg'
+629.5743 	EXP 	fixation: autoDraw = True
+630.0626 	EXP 	exp_image: autoDraw = True
+630.0792 	EXP 	fixation: autoDraw = False
+630.4559 	DATA 	Keypress: space
+630.4630 	EXP 	fixation: autoDraw = False
+630.4630 	EXP 	exp_image: autoDraw = False
+630.4630 	EXP 	empty: autoDraw = True
+631.4511 	EXP 	New trial (rep=0, index=5): OrderedDict([('imagefile', 'household1\\1049.jpg'), ('condition', 'go'), ('corAns', 'space')])
+631.5016 	EXP 	empty: autoDraw = False
+631.5016 	EXP 	empty: autoDraw = False
+631.5016 	EXP 	exp_image: image = 'household1\\1049.jpg'
+631.5016 	EXP 	fixation: autoDraw = True
+631.9975 	EXP 	exp_image: autoDraw = True
+632.0142 	EXP 	fixation: autoDraw = False
+632.4903 	DATA 	Keypress: space
+632.4984 	EXP 	exp_image: autoDraw = False
+632.4984 	EXP 	fixation: autoDraw = False
+632.4984 	EXP 	exp_image: autoDraw = False
+632.4984 	EXP 	empty: autoDraw = True
+633.4855 	EXP 	New trial (rep=0, index=6): OrderedDict([('imagefile', 'household1\\1032.jpg'), ('condition', 'go'), ('corAns', 'space')])
+633.5239 	EXP 	empty: autoDraw = False
+633.5239 	EXP 	empty: autoDraw = False
+633.5239 	EXP 	exp_image: image = 'household1\\1032.jpg'
+633.5239 	EXP 	fixation: autoDraw = True
+634.0159 	EXP 	exp_image: autoDraw = True
+634.0326 	EXP 	fixation: autoDraw = False
+634.4095 	DATA 	Keypress: space
+634.4163 	EXP 	fixation: autoDraw = False
+634.4163 	EXP 	exp_image: autoDraw = False
+634.4163 	EXP 	empty: autoDraw = True
+635.4036 	EXP 	New trial (rep=0, index=7): OrderedDict([('imagefile', 'household1\\1052.jpg'), ('condition', 'go'), ('corAns', 'space')])
+635.4319 	EXP 	empty: autoDraw = False
+635.4319 	EXP 	empty: autoDraw = False
+635.4319 	EXP 	exp_image: image = 'household1\\1052.jpg'
+635.4319 	EXP 	fixation: autoDraw = True
+635.9342 	EXP 	fixation: autoDraw = False
+635.9342 	EXP 	exp_image: autoDraw = True
+636.2774 	DATA 	Keypress: space
+636.2847 	EXP 	fixation: autoDraw = False
+636.2847 	EXP 	exp_image: autoDraw = False
+636.2847 	EXP 	empty: autoDraw = True
+637.2725 	EXP 	New trial (rep=0, index=8): OrderedDict([('imagefile', 'LD\\0195.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+637.3140 	EXP 	empty: autoDraw = False
+637.3140 	EXP 	empty: autoDraw = False
+637.3140 	EXP 	exp_image: image = 'LD\\0195.jpg'
+637.3140 	EXP 	fixation: autoDraw = True
+637.8025 	EXP 	exp_image: autoDraw = True
+637.8191 	EXP 	fixation: autoDraw = False
+638.1422 	DATA 	Keypress: space
+638.1698 	EXP 	fixation: autoDraw = False
+638.1698 	EXP 	exp_image: autoDraw = False
+638.1698 	EXP 	empty: autoDraw = True
+639.1566 	EXP 	New trial (rep=0, index=9): OrderedDict([('imagefile', 'household1\\1234.jpg'), ('condition', 'go'), ('corAns', 'space')])
+639.1939 	EXP 	empty: autoDraw = False
+639.1939 	EXP 	empty: autoDraw = False
+639.1939 	EXP 	exp_image: image = 'household1\\1234.jpg'
+639.1939 	EXP 	fixation: autoDraw = True
+639.6872 	EXP 	exp_image: autoDraw = True
+639.7039 	EXP 	fixation: autoDraw = False
+640.0314 	DATA 	Keypress: space
+640.0375 	EXP 	fixation: autoDraw = False
+640.0375 	EXP 	exp_image: autoDraw = False
+640.0375 	EXP 	empty: autoDraw = True
+641.0255 	EXP 	New trial (rep=0, index=10): OrderedDict([('imagefile', 'household1\\1009.jpg'), ('condition', 'go'), ('corAns', 'space')])
+641.0544 	EXP 	empty: autoDraw = False
+641.0544 	EXP 	empty: autoDraw = False
+641.0544 	EXP 	exp_image: image = 'household1\\1009.jpg'
+641.0544 	EXP 	fixation: autoDraw = True
+641.5555 	EXP 	fixation: autoDraw = False
+641.5555 	EXP 	exp_image: autoDraw = True
+641.9324 	DATA 	Keypress: space
+641.9392 	EXP 	fixation: autoDraw = False
+641.9392 	EXP 	exp_image: autoDraw = False
+641.9392 	EXP 	empty: autoDraw = True
+642.9266 	EXP 	New trial (rep=0, index=11): OrderedDict([('imagefile', 'household1\\1095.jpg'), ('condition', 'go'), ('corAns', 'space')])
+642.9588 	EXP 	empty: autoDraw = False
+642.9588 	EXP 	empty: autoDraw = False
+642.9588 	EXP 	exp_image: image = 'household1\\1095.jpg'
+642.9588 	EXP 	fixation: autoDraw = True
+643.4571 	EXP 	exp_image: autoDraw = True
+643.4737 	EXP 	fixation: autoDraw = False
+643.8004 	DATA 	Keypress: space
+643.8076 	EXP 	fixation: autoDraw = False
+643.8076 	EXP 	exp_image: autoDraw = False
+643.8076 	EXP 	empty: autoDraw = True
+644.7946 	EXP 	New trial (rep=0, index=12): OrderedDict([('imagefile', 'household1\\1098.jpg'), ('condition', 'go'), ('corAns', 'space')])
+644.8397 	EXP 	empty: autoDraw = False
+644.8397 	EXP 	empty: autoDraw = False
+644.8397 	EXP 	exp_image: image = 'household1\\1098.jpg'
+644.8397 	EXP 	fixation: autoDraw = True
+645.3419 	EXP 	fixation: autoDraw = False
+645.3419 	EXP 	exp_image: autoDraw = True
+645.6694 	DATA 	Keypress: space
+645.6755 	EXP 	fixation: autoDraw = False
+645.6755 	EXP 	exp_image: autoDraw = False
+645.6755 	EXP 	empty: autoDraw = True
+646.6633 	EXP 	New trial (rep=0, index=13): OrderedDict([('imagefile', 'LD\\0194.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+646.7040 	EXP 	empty: autoDraw = False
+646.7040 	EXP 	empty: autoDraw = False
+646.7040 	EXP 	exp_image: image = 'LD\\0194.jpg'
+646.7040 	EXP 	fixation: autoDraw = True
+647.1935 	EXP 	exp_image: autoDraw = True
+647.2102 	EXP 	fixation: autoDraw = False
+647.6939 	EXP 	exp_image: autoDraw = False
+647.6939 	EXP 	fixation: autoDraw = False
+647.6939 	EXP 	exp_image: autoDraw = False
+647.6939 	EXP 	empty: autoDraw = True
+648.6819 	EXP 	New trial (rep=0, index=14): OrderedDict([('imagefile', 'household1\\1019.jpg'), ('condition', 'go'), ('corAns', 'space')])
+648.7223 	EXP 	empty: autoDraw = False
+648.7223 	EXP 	empty: autoDraw = False
+648.7223 	EXP 	exp_image: image = 'household1\\1019.jpg'
+648.7223 	EXP 	fixation: autoDraw = True
+649.2119 	EXP 	exp_image: autoDraw = True
+649.2285 	EXP 	fixation: autoDraw = False
+649.5557 	DATA 	Keypress: space
+649.5621 	EXP 	fixation: autoDraw = False
+649.5621 	EXP 	exp_image: autoDraw = False
+649.5621 	EXP 	empty: autoDraw = True
+650.5501 	EXP 	New trial (rep=0, index=15): OrderedDict([('imagefile', 'household1\\1085.jpg'), ('condition', 'go'), ('corAns', 'space')])
+650.5892 	EXP 	empty: autoDraw = False
+650.5892 	EXP 	empty: autoDraw = False
+650.5892 	EXP 	exp_image: image = 'household1\\1085.jpg'
+650.5892 	EXP 	fixation: autoDraw = True
+651.0800 	EXP 	exp_image: autoDraw = True
+651.0969 	EXP 	fixation: autoDraw = False
+651.4738 	DATA 	Keypress: space
+651.4804 	EXP 	fixation: autoDraw = False
+651.4804 	EXP 	exp_image: autoDraw = False
+651.4804 	EXP 	empty: autoDraw = True
+652.4680 	EXP 	New trial (rep=0, index=16): OrderedDict([('imagefile', 'household1\\1091.jpg'), ('condition', 'go'), ('corAns', 'space')])
+652.5125 	EXP 	empty: autoDraw = False
+652.5125 	EXP 	empty: autoDraw = False
+652.5125 	EXP 	exp_image: image = 'household1\\1091.jpg'
+652.5125 	EXP 	fixation: autoDraw = True
+653.0152 	EXP 	fixation: autoDraw = False
+653.0152 	EXP 	exp_image: autoDraw = True
+653.3749 	DATA 	Keypress: space
+653.3820 	EXP 	fixation: autoDraw = False
+653.3820 	EXP 	exp_image: autoDraw = False
+653.3820 	EXP 	empty: autoDraw = True
+654.3700 	EXP 	New trial (rep=0, index=17): OrderedDict([('imagefile', 'household1\\1218.jpg'), ('condition', 'go'), ('corAns', 'space')])
+654.4184 	EXP 	empty: autoDraw = False
+654.4184 	EXP 	empty: autoDraw = False
+654.4184 	EXP 	exp_image: image = 'household1\\1218.jpg'
+654.4184 	EXP 	fixation: autoDraw = True
+654.9166 	EXP 	exp_image: autoDraw = True
+654.9332 	EXP 	fixation: autoDraw = False
+655.2268 	DATA 	Keypress: space
+655.2335 	EXP 	fixation: autoDraw = False
+655.2335 	EXP 	exp_image: autoDraw = False
+655.2335 	EXP 	empty: autoDraw = True
+656.2219 	EXP 	New trial (rep=0, index=18): OrderedDict([('imagefile', 'household1\\1092.jpg'), ('condition', 'go'), ('corAns', 'space')])
+656.2725 	EXP 	empty: autoDraw = False
+656.2725 	EXP 	empty: autoDraw = False
+656.2725 	EXP 	exp_image: image = 'household1\\1092.jpg'
+656.2725 	EXP 	fixation: autoDraw = True
+656.7681 	EXP 	exp_image: autoDraw = True
+656.7850 	EXP 	fixation: autoDraw = False
+657.1118 	DATA 	Keypress: space
+657.1184 	EXP 	fixation: autoDraw = False
+657.1184 	EXP 	exp_image: autoDraw = False
+657.1184 	EXP 	empty: autoDraw = True
+658.1070 	EXP 	New trial (rep=0, index=19): OrderedDict([('imagefile', 'LD\\0202.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+658.1545 	EXP 	empty: autoDraw = False
+658.1545 	EXP 	empty: autoDraw = False
+658.1545 	EXP 	exp_image: image = 'LD\\0202.jpg'
+658.1545 	EXP 	fixation: autoDraw = True
+658.6530 	EXP 	exp_image: autoDraw = True
+658.6699 	EXP 	fixation: autoDraw = False
+659.1535 	EXP 	exp_image: autoDraw = False
+659.1535 	EXP 	fixation: autoDraw = False
+659.1535 	EXP 	exp_image: autoDraw = False
+659.1535 	EXP 	empty: autoDraw = True
+660.1414 	EXP 	New trial (rep=0, index=20): OrderedDict([('imagefile', 'household1\\1051.jpg'), ('condition', 'go'), ('corAns', 'space')])
+660.1909 	EXP 	empty: autoDraw = False
+660.1909 	EXP 	empty: autoDraw = False
+660.1909 	EXP 	exp_image: image = 'household1\\1051.jpg'
+660.1909 	EXP 	fixation: autoDraw = True
+660.6880 	EXP 	exp_image: autoDraw = True
+660.7047 	EXP 	fixation: autoDraw = False
+661.0483 	DATA 	Keypress: space
+661.0551 	EXP 	fixation: autoDraw = False
+661.0551 	EXP 	exp_image: autoDraw = False
+661.0551 	EXP 	empty: autoDraw = True
+662.0425 	EXP 	New trial (rep=0, index=21): OrderedDict([('imagefile', 'household1\\1135.jpg'), ('condition', 'go'), ('corAns', 'space')])
+662.0757 	EXP 	empty: autoDraw = False
+662.0757 	EXP 	empty: autoDraw = False
+662.0757 	EXP 	exp_image: image = 'household1\\1135.jpg'
+662.0757 	EXP 	fixation: autoDraw = True
+662.5730 	EXP 	exp_image: autoDraw = True
+662.5896 	EXP 	fixation: autoDraw = False
+662.9333 	DATA 	Keypress: space
+662.9400 	EXP 	fixation: autoDraw = False
+662.9400 	EXP 	exp_image: autoDraw = False
+662.9400 	EXP 	empty: autoDraw = True
+663.9275 	EXP 	New trial (rep=0, index=22): OrderedDict([('imagefile', 'household1\\1035.jpg'), ('condition', 'go'), ('corAns', 'space')])
+663.9586 	EXP 	empty: autoDraw = False
+663.9586 	EXP 	empty: autoDraw = False
+663.9586 	EXP 	exp_image: image = 'household1\\1035.jpg'
+663.9586 	EXP 	fixation: autoDraw = True
+664.4578 	EXP 	fixation: autoDraw = False
+664.4578 	EXP 	exp_image: autoDraw = True
+664.8183 	DATA 	Keypress: space
+664.8249 	EXP 	fixation: autoDraw = False
+664.8249 	EXP 	exp_image: autoDraw = False
+664.8249 	EXP 	empty: autoDraw = True
+665.8125 	EXP 	New trial (rep=0, index=23): OrderedDict([('imagefile', 'household1\\1038.jpg'), ('condition', 'go'), ('corAns', 'space')])
+665.8530 	EXP 	empty: autoDraw = False
+665.8530 	EXP 	empty: autoDraw = False
+665.8530 	EXP 	exp_image: image = 'household1\\1038.jpg'
+665.8530 	EXP 	fixation: autoDraw = True
+666.3427 	EXP 	exp_image: autoDraw = True
+666.3595 	EXP 	fixation: autoDraw = False
+666.7535 	DATA 	Keypress: space
+666.7598 	EXP 	fixation: autoDraw = False
+666.7598 	EXP 	exp_image: autoDraw = False
+666.7598 	EXP 	empty: autoDraw = True
+667.7474 	EXP 	New trial (rep=0, index=24): OrderedDict([('imagefile', 'LD\\0819.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+667.7861 	EXP 	empty: autoDraw = False
+667.7861 	EXP 	empty: autoDraw = False
+667.7861 	EXP 	exp_image: image = 'LD\\0819.jpg'
+667.7861 	EXP 	fixation: autoDraw = True
+668.2772 	EXP 	exp_image: autoDraw = True
+668.2941 	EXP 	fixation: autoDraw = False
+668.7776 	EXP 	exp_image: autoDraw = False
+668.7776 	EXP 	fixation: autoDraw = False
+668.7776 	EXP 	exp_image: autoDraw = False
+668.7776 	EXP 	empty: autoDraw = True
+669.7646 	EXP 	New trial (rep=0, index=25): OrderedDict([('imagefile', 'household1\\1007.jpg'), ('condition', 'go'), ('corAns', 'space')])
+669.8064 	EXP 	empty: autoDraw = False
+669.8064 	EXP 	empty: autoDraw = False
+669.8064 	EXP 	exp_image: image = 'household1\\1007.jpg'
+669.8064 	EXP 	fixation: autoDraw = True
+670.2958 	EXP 	exp_image: autoDraw = True
+670.3125 	EXP 	fixation: autoDraw = False
+670.6225 	DATA 	Keypress: space
+670.6295 	EXP 	fixation: autoDraw = False
+670.6295 	EXP 	exp_image: autoDraw = False
+670.6295 	EXP 	empty: autoDraw = True
+671.6167 	EXP 	New trial (rep=0, index=26): OrderedDict([('imagefile', 'household1\\1108.jpg'), ('condition', 'go'), ('corAns', 'space')])
+671.6544 	EXP 	empty: autoDraw = False
+671.6544 	EXP 	empty: autoDraw = False
+671.6544 	EXP 	exp_image: image = 'household1\\1108.jpg'
+671.6544 	EXP 	fixation: autoDraw = True
+672.1476 	EXP 	exp_image: autoDraw = True
+672.1643 	EXP 	fixation: autoDraw = False
+672.4747 	DATA 	Keypress: space
+672.4813 	EXP 	fixation: autoDraw = False
+672.4813 	EXP 	exp_image: autoDraw = False
+672.4813 	EXP 	empty: autoDraw = True
+673.4688 	EXP 	New trial (rep=0, index=27): OrderedDict([('imagefile', 'household1\\1235.jpg'), ('condition', 'go'), ('corAns', 'space')])
+673.5182 	EXP 	empty: autoDraw = False
+673.5182 	EXP 	empty: autoDraw = False
+673.5182 	EXP 	exp_image: image = 'household1\\1235.jpg'
+673.5182 	EXP 	fixation: autoDraw = True
+674.0159 	EXP 	exp_image: autoDraw = True
+674.0325 	EXP 	fixation: autoDraw = False
+674.3928 	DATA 	Keypress: space
+674.3995 	EXP 	fixation: autoDraw = False
+674.3995 	EXP 	exp_image: autoDraw = False
+674.3995 	EXP 	empty: autoDraw = True
+675.3869 	EXP 	New trial (rep=0, index=28): OrderedDict([('imagefile', 'household1\\1022.jpg'), ('condition', 'go'), ('corAns', 'space')])
+675.4224 	EXP 	empty: autoDraw = False
+675.4224 	EXP 	empty: autoDraw = False
+675.4224 	EXP 	exp_image: image = 'household1\\1022.jpg'
+675.4224 	EXP 	fixation: autoDraw = True
+675.9008 	EXP 	exp_image: autoDraw = True
+675.9340 	EXP 	fixation: autoDraw = False
+676.2607 	DATA 	Keypress: space
+676.2677 	EXP 	fixation: autoDraw = False
+676.2677 	EXP 	exp_image: autoDraw = False
+676.2677 	EXP 	empty: autoDraw = True
+677.2547 	EXP 	New trial (rep=0, index=29): OrderedDict([('imagefile', 'LD\\0361.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+677.2982 	EXP 	empty: autoDraw = False
+677.2982 	EXP 	empty: autoDraw = False
+677.2982 	EXP 	exp_image: image = 'LD\\0361.jpg'
+677.2982 	EXP 	fixation: autoDraw = True
+677.7854 	EXP 	exp_image: autoDraw = True
+677.8021 	EXP 	fixation: autoDraw = False
+678.2859 	EXP 	exp_image: autoDraw = False
+678.2859 	EXP 	fixation: autoDraw = False
+678.2859 	EXP 	exp_image: autoDraw = False
+678.2859 	EXP 	empty: autoDraw = True
+679.2740 	EXP 	New trial (rep=0, index=30): OrderedDict([('imagefile', 'household1\\1200.jpg'), ('condition', 'go'), ('corAns', 'space')])
+679.3238 	EXP 	empty: autoDraw = False
+679.3238 	EXP 	empty: autoDraw = False
+679.3238 	EXP 	exp_image: image = 'household1\\1200.jpg'
+679.3238 	EXP 	fixation: autoDraw = True
+679.8206 	EXP 	exp_image: autoDraw = True
+679.8374 	EXP 	fixation: autoDraw = False
+680.0938 	DATA 	Keypress: space
+680.1210 	EXP 	fixation: autoDraw = False
+680.1210 	EXP 	exp_image: autoDraw = False
+680.1210 	EXP 	empty: autoDraw = True
+681.1081 	EXP 	New trial (rep=0, index=31): OrderedDict([('imagefile', 'household1\\1083.jpg'), ('condition', 'go'), ('corAns', 'space')])
+681.1553 	EXP 	empty: autoDraw = False
+681.1553 	EXP 	empty: autoDraw = False
+681.1553 	EXP 	exp_image: image = 'household1\\1083.jpg'
+681.1553 	EXP 	fixation: autoDraw = True
+681.6555 	EXP 	fixation: autoDraw = False
+681.6555 	EXP 	exp_image: autoDraw = True
+681.9990 	DATA 	Keypress: space
+682.0059 	EXP 	fixation: autoDraw = False
+682.0059 	EXP 	exp_image: autoDraw = False
+682.0059 	EXP 	empty: autoDraw = True
+682.9942 	EXP 	New trial (rep=0, index=32): OrderedDict([('imagefile', 'household1\\1059.jpg'), ('condition', 'go'), ('corAns', 'space')])
+683.0427 	EXP 	empty: autoDraw = False
+683.0427 	EXP 	empty: autoDraw = False
+683.0427 	EXP 	exp_image: image = 'household1\\1059.jpg'
+683.0427 	EXP 	fixation: autoDraw = True
+683.5403 	EXP 	exp_image: autoDraw = True
+683.5572 	EXP 	fixation: autoDraw = False
+683.9502 	DATA 	Keypress: space
+683.9577 	EXP 	fixation: autoDraw = False
+683.9577 	EXP 	exp_image: autoDraw = False
+683.9577 	EXP 	empty: autoDraw = True
+684.9454 	EXP 	New trial (rep=0, index=33): OrderedDict([('imagefile', 'LD\\0199.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+684.9827 	EXP 	empty: autoDraw = False
+684.9827 	EXP 	empty: autoDraw = False
+684.9827 	EXP 	exp_image: image = 'LD\\0199.jpg'
+684.9827 	EXP 	fixation: autoDraw = True
+685.4754 	EXP 	exp_image: autoDraw = True
+685.4921 	EXP 	fixation: autoDraw = False
+685.9758 	EXP 	exp_image: autoDraw = False
+685.9758 	EXP 	fixation: autoDraw = False
+685.9758 	EXP 	exp_image: autoDraw = False
+685.9758 	EXP 	empty: autoDraw = True
+686.9637 	EXP 	New trial (rep=0, index=34): OrderedDict([('imagefile', 'household1\\1012.jpg'), ('condition', 'go'), ('corAns', 'space')])
+687.0151 	EXP 	empty: autoDraw = False
+687.0151 	EXP 	empty: autoDraw = False
+687.0151 	EXP 	exp_image: image = 'household1\\1012.jpg'
+687.0151 	EXP 	fixation: autoDraw = True
+687.5104 	EXP 	exp_image: autoDraw = True
+687.5270 	EXP 	fixation: autoDraw = False
+687.8376 	DATA 	Keypress: space
+687.8440 	EXP 	fixation: autoDraw = False
+687.8440 	EXP 	exp_image: autoDraw = False
+687.8440 	EXP 	empty: autoDraw = True
+688.8317 	EXP 	New trial (rep=0, index=35): OrderedDict([('imagefile', 'household1\\1013.jpg'), ('condition', 'go'), ('corAns', 'space')])
+688.8772 	EXP 	empty: autoDraw = False
+688.8772 	EXP 	empty: autoDraw = False
+688.8772 	EXP 	exp_image: image = 'household1\\1013.jpg'
+688.8772 	EXP 	fixation: autoDraw = True
+689.3787 	EXP 	fixation: autoDraw = False
+689.3787 	EXP 	exp_image: autoDraw = True
+689.7225 	DATA 	Keypress: space
+689.7289 	EXP 	fixation: autoDraw = False
+689.7289 	EXP 	exp_image: autoDraw = False
+689.7289 	EXP 	empty: autoDraw = True
+690.7167 	EXP 	New trial (rep=0, index=36): OrderedDict([('imagefile', 'household1\\1086.jpg'), ('condition', 'go'), ('corAns', 'space')])
+690.7630 	EXP 	empty: autoDraw = False
+690.7630 	EXP 	empty: autoDraw = False
+690.7630 	EXP 	exp_image: image = 'household1\\1086.jpg'
+690.7630 	EXP 	fixation: autoDraw = True
+691.2636 	EXP 	fixation: autoDraw = False
+691.2636 	EXP 	exp_image: autoDraw = True
+691.6408 	DATA 	Keypress: space
+691.6471 	EXP 	fixation: autoDraw = False
+691.6471 	EXP 	exp_image: autoDraw = False
+691.6471 	EXP 	empty: autoDraw = True
+692.6348 	EXP 	New trial (rep=0, index=37): OrderedDict([('imagefile', 'household1\\1106.jpg'), ('condition', 'go'), ('corAns', 'space')])
+692.6832 	EXP 	empty: autoDraw = False
+692.6832 	EXP 	empty: autoDraw = False
+692.6832 	EXP 	exp_image: image = 'household1\\1106.jpg'
+692.6832 	EXP 	fixation: autoDraw = True
+693.1816 	EXP 	exp_image: autoDraw = True
+693.1982 	EXP 	fixation: autoDraw = False
+693.5745 	DATA 	Keypress: space
+693.5818 	EXP 	fixation: autoDraw = False
+693.5818 	EXP 	exp_image: autoDraw = False
+693.5818 	EXP 	empty: autoDraw = True
+694.5697 	EXP 	New trial (rep=0, index=38): OrderedDict([('imagefile', 'LD\\0192.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+694.6175 	EXP 	empty: autoDraw = False
+694.6175 	EXP 	empty: autoDraw = False
+694.6175 	EXP 	exp_image: image = 'LD\\0192.jpg'
+694.6175 	EXP 	fixation: autoDraw = True
+695.1166 	EXP 	fixation: autoDraw = False
+695.1166 	EXP 	exp_image: autoDraw = True
+695.6178 	EXP 	exp_image: autoDraw = False
+695.6178 	EXP 	fixation: autoDraw = False
+695.6178 	EXP 	exp_image: autoDraw = False
+695.6178 	EXP 	empty: autoDraw = True
+696.6045 	EXP 	New trial (rep=0, index=39): OrderedDict([('imagefile', 'household1\\1089.jpg'), ('condition', 'go'), ('corAns', 'space')])
+696.6516 	EXP 	empty: autoDraw = False
+696.6516 	EXP 	empty: autoDraw = False
+696.6516 	EXP 	exp_image: image = 'household1\\1089.jpg'
+696.6516 	EXP 	fixation: autoDraw = True
+697.1516 	EXP 	fixation: autoDraw = False
+697.1516 	EXP 	exp_image: autoDraw = True
+697.5123 	DATA 	Keypress: space
+697.5190 	EXP 	fixation: autoDraw = False
+697.5190 	EXP 	exp_image: autoDraw = False
+697.5190 	EXP 	empty: autoDraw = True
+698.5064 	EXP 	New trial (rep=0, index=40): OrderedDict([('imagefile', 'household1\\1042.jpg'), ('condition', 'go'), ('corAns', 'space')])
+698.5548 	EXP 	empty: autoDraw = False
+698.5548 	EXP 	empty: autoDraw = False
+698.5548 	EXP 	exp_image: image = 'household1\\1042.jpg'
+698.5548 	EXP 	fixation: autoDraw = True
+699.0534 	EXP 	exp_image: autoDraw = True
+699.0700 	EXP 	fixation: autoDraw = False
+699.3803 	DATA 	Keypress: space
+699.3869 	EXP 	fixation: autoDraw = False
+699.3869 	EXP 	exp_image: autoDraw = False
+699.3869 	EXP 	empty: autoDraw = True
+700.3744 	EXP 	New trial (rep=0, index=41): OrderedDict([('imagefile', 'household1\\1011.jpg'), ('condition', 'go'), ('corAns', 'space')])
+700.4178 	EXP 	empty: autoDraw = False
+700.4178 	EXP 	empty: autoDraw = False
+700.4178 	EXP 	exp_image: image = 'household1\\1011.jpg'
+700.4178 	EXP 	fixation: autoDraw = True
+700.9049 	EXP 	exp_image: autoDraw = True
+700.9215 	EXP 	fixation: autoDraw = False
+701.2983 	DATA 	Keypress: space
+701.3052 	EXP 	fixation: autoDraw = False
+701.3052 	EXP 	exp_image: autoDraw = False
+701.3052 	EXP 	empty: autoDraw = True
+702.2925 	EXP 	New trial (rep=0, index=42): OrderedDict([('imagefile', 'LD\\0364.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+702.3409 	EXP 	empty: autoDraw = False
+702.3409 	EXP 	empty: autoDraw = False
+702.3409 	EXP 	exp_image: image = 'LD\\0364.jpg'
+702.3409 	EXP 	fixation: autoDraw = True
+702.8397 	EXP 	exp_image: autoDraw = True
+702.8566 	EXP 	fixation: autoDraw = False
+703.3402 	EXP 	exp_image: autoDraw = False
+703.3402 	EXP 	fixation: autoDraw = False
+703.3402 	EXP 	exp_image: autoDraw = False
+703.3402 	EXP 	empty: autoDraw = True
+704.3279 	EXP 	New trial (rep=0, index=43): OrderedDict([('imagefile', 'household1\\1033.jpg'), ('condition', 'go'), ('corAns', 'space')])
+704.3733 	EXP 	empty: autoDraw = False
+704.3733 	EXP 	empty: autoDraw = False
+704.3733 	EXP 	exp_image: image = 'household1\\1033.jpg'
+704.3733 	EXP 	fixation: autoDraw = True
+704.8749 	EXP 	fixation: autoDraw = False
+704.8749 	EXP 	exp_image: autoDraw = True
+705.2188 	DATA 	Keypress: space
+705.2250 	EXP 	fixation: autoDraw = False
+705.2250 	EXP 	exp_image: autoDraw = False
+705.2250 	EXP 	empty: autoDraw = True
+706.2129 	EXP 	New trial (rep=0, index=44): OrderedDict([('imagefile', 'household1\\1005.jpg'), ('condition', 'go'), ('corAns', 'space')])
+706.2634 	EXP 	empty: autoDraw = False
+706.2634 	EXP 	empty: autoDraw = False
+706.2634 	EXP 	exp_image: image = 'household1\\1005.jpg'
+706.2634 	EXP 	fixation: autoDraw = True
+706.7598 	EXP 	exp_image: autoDraw = True
+706.7764 	EXP 	fixation: autoDraw = False
+707.1038 	DATA 	Keypress: space
+707.1098 	EXP 	fixation: autoDraw = False
+707.1098 	EXP 	exp_image: autoDraw = False
+707.1098 	EXP 	empty: autoDraw = True
+708.0979 	EXP 	New trial (rep=0, index=45): OrderedDict([('imagefile', 'household1\\1008.jpg'), ('condition', 'go'), ('corAns', 'space')])
+708.1413 	EXP 	empty: autoDraw = False
+708.1413 	EXP 	empty: autoDraw = False
+708.1413 	EXP 	exp_image: image = 'household1\\1008.jpg'
+708.1413 	EXP 	fixation: autoDraw = True
+708.6279 	EXP 	exp_image: autoDraw = True
+708.6447 	EXP 	fixation: autoDraw = False
+708.9717 	DATA 	Keypress: space
+708.9782 	EXP 	fixation: autoDraw = False
+708.9782 	EXP 	exp_image: autoDraw = False
+708.9782 	EXP 	empty: autoDraw = True
+709.9659 	EXP 	New trial (rep=0, index=46): OrderedDict([('imagefile', 'LD\\0234.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+710.0114 	EXP 	empty: autoDraw = False
+710.0114 	EXP 	empty: autoDraw = False
+710.0114 	EXP 	exp_image: image = 'LD\\0234.jpg'
+710.0114 	EXP 	fixation: autoDraw = True
+710.5129 	EXP 	fixation: autoDraw = False
+710.5129 	EXP 	exp_image: autoDraw = True
+711.0133 	EXP 	exp_image: autoDraw = False
+711.0133 	EXP 	fixation: autoDraw = False
+711.0133 	EXP 	exp_image: autoDraw = False
+711.0133 	EXP 	empty: autoDraw = True
+712.0013 	EXP 	New trial (rep=0, index=47): OrderedDict([('imagefile', 'household1\\1232.jpg'), ('condition', 'go'), ('corAns', 'space')])
+712.0436 	EXP 	empty: autoDraw = False
+712.0436 	EXP 	empty: autoDraw = False
+712.0436 	EXP 	exp_image: image = 'household1\\1232.jpg'
+712.0436 	EXP 	fixation: autoDraw = True
+712.5312 	EXP 	exp_image: autoDraw = True
+712.5479 	EXP 	fixation: autoDraw = False
+712.8410 	DATA 	Keypress: space
+712.8481 	EXP 	fixation: autoDraw = False
+712.8481 	EXP 	exp_image: autoDraw = False
+712.8481 	EXP 	empty: autoDraw = True
+713.8362 	EXP 	New trial (rep=0, index=48): OrderedDict([('imagefile', 'household1\\1004.jpg'), ('condition', 'go'), ('corAns', 'space')])
+713.8766 	EXP 	empty: autoDraw = False
+713.8766 	EXP 	empty: autoDraw = False
+713.8766 	EXP 	exp_image: image = 'household1\\1004.jpg'
+713.8766 	EXP 	fixation: autoDraw = True
+714.3659 	EXP 	exp_image: autoDraw = True
+714.3828 	EXP 	fixation: autoDraw = False
+714.7932 	DATA 	Keypress: space
+714.8002 	EXP 	fixation: autoDraw = False
+714.8002 	EXP 	exp_image: autoDraw = False
+714.8002 	EXP 	empty: autoDraw = True
+715.7874 	EXP 	New trial (rep=0, index=49): OrderedDict([('imagefile', 'household1\\1058.jpg'), ('condition', 'go'), ('corAns', 'space')])
+715.8339 	EXP 	empty: autoDraw = False
+715.8339 	EXP 	empty: autoDraw = False
+715.8339 	EXP 	exp_image: image = 'household1\\1058.jpg'
+715.8339 	EXP 	fixation: autoDraw = True
+716.3344 	EXP 	fixation: autoDraw = False
+716.3344 	EXP 	exp_image: autoDraw = True
+716.7615 	DATA 	Keypress: space
+716.7681 	EXP 	fixation: autoDraw = False
+716.7681 	EXP 	exp_image: autoDraw = False
+716.7681 	EXP 	empty: autoDraw = True
+717.7556 	EXP 	New trial (rep=0, index=50): OrderedDict([('imagefile', 'household1\\1005.jpg'), ('condition', 'go'), ('corAns', 'space')])
+717.7829 	EXP 	empty: autoDraw = False
+717.7829 	EXP 	empty: autoDraw = False
+717.7829 	EXP 	exp_image: image = 'household1\\1005.jpg'
+717.7829 	EXP 	fixation: autoDraw = True
+718.2693 	EXP 	exp_image: autoDraw = True
+718.2860 	EXP 	fixation: autoDraw = False
+718.7468 	DATA 	Keypress: space
+718.7530 	EXP 	fixation: autoDraw = False
+718.7530 	EXP 	exp_image: autoDraw = False
+718.7530 	EXP 	empty: autoDraw = True
+719.7409 	EXP 	New trial (rep=0, index=51): OrderedDict([('imagefile', 'household1\\1135.jpg'), ('condition', 'go'), ('corAns', 'space')])
+719.7699 	EXP 	empty: autoDraw = False
+719.7699 	EXP 	empty: autoDraw = False
+719.7699 	EXP 	exp_image: image = 'household1\\1135.jpg'
+719.7699 	EXP 	fixation: autoDraw = True
+720.2708 	EXP 	fixation: autoDraw = False
+720.2708 	EXP 	exp_image: autoDraw = True
+720.6810 	DATA 	Keypress: space
+720.6879 	EXP 	fixation: autoDraw = False
+720.6879 	EXP 	exp_image: autoDraw = False
+720.6879 	EXP 	empty: autoDraw = True
+721.6760 	EXP 	New trial (rep=0, index=52): OrderedDict([('imagefile', 'LD\\0382.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+721.7083 	EXP 	empty: autoDraw = False
+721.7083 	EXP 	empty: autoDraw = False
+721.7083 	EXP 	exp_image: image = 'LD\\0382.jpg'
+721.7083 	EXP 	fixation: autoDraw = True
+722.2060 	EXP 	exp_image: autoDraw = True
+722.2226 	EXP 	fixation: autoDraw = False
+722.7067 	EXP 	exp_image: autoDraw = False
+722.7067 	EXP 	fixation: autoDraw = False
+722.7067 	EXP 	exp_image: autoDraw = False
+722.7067 	EXP 	empty: autoDraw = True
+723.6944 	EXP 	New trial (rep=0, index=53): OrderedDict([('imagefile', 'household1\\1108.jpg'), ('condition', 'go'), ('corAns', 'space')])
+723.7217 	EXP 	empty: autoDraw = False
+723.7217 	EXP 	empty: autoDraw = False
+723.7217 	EXP 	exp_image: image = 'household1\\1108.jpg'
+723.7217 	EXP 	fixation: autoDraw = True
+724.2075 	EXP 	exp_image: autoDraw = True
+724.2243 	EXP 	fixation: autoDraw = False
+724.6183 	DATA 	Keypress: space
+724.6249 	EXP 	fixation: autoDraw = False
+724.6249 	EXP 	exp_image: autoDraw = False
+724.6249 	EXP 	empty: autoDraw = True
+725.6125 	EXP 	New trial (rep=0, index=54): OrderedDict([('imagefile', 'household1\\1038.jpg'), ('condition', 'go'), ('corAns', 'space')])
+725.6388 	EXP 	empty: autoDraw = False
+725.6388 	EXP 	empty: autoDraw = False
+725.6388 	EXP 	exp_image: image = 'household1\\1038.jpg'
+725.6388 	EXP 	fixation: autoDraw = True
+726.1258 	EXP 	exp_image: autoDraw = True
+726.1425 	EXP 	fixation: autoDraw = False
+726.5536 	DATA 	Keypress: space
+726.5595 	EXP 	fixation: autoDraw = False
+726.5595 	EXP 	exp_image: autoDraw = False
+726.5595 	EXP 	empty: autoDraw = True
+727.5476 	EXP 	New trial (rep=0, index=55): OrderedDict([('imagefile', 'household1\\1032.jpg'), ('condition', 'go'), ('corAns', 'space')])
+727.5764 	EXP 	empty: autoDraw = False
+727.5764 	EXP 	empty: autoDraw = False
+727.5764 	EXP 	exp_image: image = 'household1\\1032.jpg'
+727.5764 	EXP 	fixation: autoDraw = True
+728.0775 	EXP 	fixation: autoDraw = False
+728.0775 	EXP 	exp_image: autoDraw = True
+728.3828 	DATA 	Keypress: space
+728.4115 	EXP 	fixation: autoDraw = False
+728.4115 	EXP 	exp_image: autoDraw = False
+728.4115 	EXP 	empty: autoDraw = True
+729.3986 	EXP 	New trial (rep=0, index=56): OrderedDict([('imagefile', 'household1\\1098.jpg'), ('condition', 'go'), ('corAns', 'space')])
+729.4270 	EXP 	empty: autoDraw = False
+729.4270 	EXP 	empty: autoDraw = False
+729.4270 	EXP 	exp_image: image = 'household1\\1098.jpg'
+729.4270 	EXP 	fixation: autoDraw = True
+729.9289 	EXP 	fixation: autoDraw = False
+729.9289 	EXP 	exp_image: autoDraw = True
+730.2853 	DATA 	Keypress: space
+730.3133 	EXP 	fixation: autoDraw = False
+730.3133 	EXP 	exp_image: autoDraw = False
+730.3133 	EXP 	empty: autoDraw = True
+731.3007 	EXP 	New trial (rep=0, index=57): OrderedDict([('imagefile', 'LD\\0234.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+731.3259 	EXP 	empty: autoDraw = False
+731.3259 	EXP 	empty: autoDraw = False
+731.3259 	EXP 	exp_image: image = 'LD\\0234.jpg'
+731.3259 	EXP 	fixation: autoDraw = True
+731.8138 	EXP 	exp_image: autoDraw = True
+731.8307 	EXP 	fixation: autoDraw = False
+732.3143 	EXP 	exp_image: autoDraw = False
+732.3143 	EXP 	fixation: autoDraw = False
+732.3143 	EXP 	exp_image: autoDraw = False
+732.3143 	EXP 	empty: autoDraw = True
+733.3019 	EXP 	New trial (rep=0, index=58): OrderedDict([('imagefile', 'household1\\1059.jpg'), ('condition', 'go'), ('corAns', 'space')])
+733.3310 	EXP 	empty: autoDraw = False
+733.3310 	EXP 	empty: autoDraw = False
+733.3310 	EXP 	exp_image: image = 'household1\\1059.jpg'
+733.3310 	EXP 	fixation: autoDraw = True
+733.8321 	EXP 	fixation: autoDraw = False
+733.8321 	EXP 	exp_image: autoDraw = True
+734.2224 	DATA 	Keypress: space
+734.2493 	EXP 	fixation: autoDraw = False
+734.2493 	EXP 	exp_image: autoDraw = False
+734.2493 	EXP 	empty: autoDraw = True
+735.2371 	EXP 	New trial (rep=0, index=59): OrderedDict([('imagefile', 'household1\\1231.jpg'), ('condition', 'go'), ('corAns', 'space')])
+735.2653 	EXP 	empty: autoDraw = False
+735.2653 	EXP 	empty: autoDraw = False
+735.2653 	EXP 	exp_image: image = 'household1\\1231.jpg'
+735.2653 	EXP 	fixation: autoDraw = True
+735.7671 	EXP 	fixation: autoDraw = False
+735.7671 	EXP 	exp_image: autoDraw = True
+736.1771 	DATA 	Keypress: space
+736.1842 	EXP 	fixation: autoDraw = False
+736.1842 	EXP 	exp_image: autoDraw = False
+736.1842 	EXP 	empty: autoDraw = True
+737.1723 	EXP 	New trial (rep=0, index=60): OrderedDict([('imagefile', 'household1\\1004.jpg'), ('condition', 'go'), ('corAns', 'space')])
+737.2024 	EXP 	empty: autoDraw = False
+737.2024 	EXP 	empty: autoDraw = False
+737.2024 	EXP 	exp_image: image = 'household1\\1004.jpg'
+737.2024 	EXP 	fixation: autoDraw = True
+737.7022 	EXP 	fixation: autoDraw = False
+737.7022 	EXP 	exp_image: autoDraw = True
+738.1133 	DATA 	Keypress: space
+738.1188 	EXP 	fixation: autoDraw = False
+738.1188 	EXP 	exp_image: autoDraw = False
+738.1188 	EXP 	empty: autoDraw = True
+739.1064 	EXP 	New trial (rep=0, index=61): OrderedDict([('imagefile', 'household1\\1234.jpg'), ('condition', 'go'), ('corAns', 'space')])
+739.1339 	EXP 	empty: autoDraw = False
+739.1339 	EXP 	empty: autoDraw = False
+739.1339 	EXP 	exp_image: image = 'household1\\1234.jpg'
+739.1339 	EXP 	fixation: autoDraw = True
+739.6203 	EXP 	exp_image: autoDraw = True
+739.6371 	EXP 	fixation: autoDraw = False
+739.9431 	DATA 	Keypress: space
+739.9713 	EXP 	fixation: autoDraw = False
+739.9713 	EXP 	exp_image: autoDraw = False
+739.9713 	EXP 	empty: autoDraw = True
+740.9583 	EXP 	New trial (rep=0, index=62): OrderedDict([('imagefile', 'LD\\0364.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+740.9873 	EXP 	empty: autoDraw = False
+740.9873 	EXP 	empty: autoDraw = False
+740.9873 	EXP 	exp_image: image = 'LD\\0364.jpg'
+740.9873 	EXP 	fixation: autoDraw = True
+741.4885 	EXP 	fixation: autoDraw = False
+741.4885 	EXP 	exp_image: autoDraw = True
+741.9890 	EXP 	exp_image: autoDraw = False
+741.9890 	EXP 	fixation: autoDraw = False
+741.9890 	EXP 	exp_image: autoDraw = False
+741.9890 	EXP 	empty: autoDraw = True
+741.9936 	DATA 	Keypress: space
+742.9767 	EXP 	New trial (rep=0, index=63): OrderedDict([('imagefile', 'household1\\1089.jpg'), ('condition', 'go'), ('corAns', 'space')])
+743.0041 	EXP 	empty: autoDraw = False
+743.0041 	EXP 	empty: autoDraw = False
+743.0041 	EXP 	exp_image: image = 'household1\\1089.jpg'
+743.0041 	EXP 	fixation: autoDraw = True
+743.4903 	EXP 	exp_image: autoDraw = True
+743.5069 	EXP 	fixation: autoDraw = False
+743.7962 	DATA 	Keypress: space
+743.8241 	EXP 	fixation: autoDraw = False
+743.8241 	EXP 	exp_image: autoDraw = False
+743.8241 	EXP 	empty: autoDraw = True
+744.8116 	EXP 	New trial (rep=0, index=64): OrderedDict([('imagefile', 'household1\\1009.jpg'), ('condition', 'go'), ('corAns', 'space')])
+744.8390 	EXP 	empty: autoDraw = False
+744.8390 	EXP 	empty: autoDraw = False
+744.8390 	EXP 	exp_image: image = 'household1\\1009.jpg'
+744.8390 	EXP 	fixation: autoDraw = True
+745.3251 	EXP 	exp_image: autoDraw = True
+745.3417 	EXP 	fixation: autoDraw = False
+745.7355 	DATA 	Keypress: space
+745.7422 	EXP 	fixation: autoDraw = False
+745.7422 	EXP 	exp_image: autoDraw = False
+745.7422 	EXP 	empty: autoDraw = True
+746.7297 	EXP 	New trial (rep=0, index=65): OrderedDict([('imagefile', 'household1\\1106.jpg'), ('condition', 'go'), ('corAns', 'space')])
+746.7571 	EXP 	empty: autoDraw = False
+746.7571 	EXP 	empty: autoDraw = False
+746.7571 	EXP 	exp_image: image = 'household1\\1106.jpg'
+746.7571 	EXP 	fixation: autoDraw = True
+747.2435 	EXP 	exp_image: autoDraw = True
+747.2600 	EXP 	fixation: autoDraw = False
+747.6036 	DATA 	Keypress: space
+747.6104 	EXP 	fixation: autoDraw = False
+747.6104 	EXP 	exp_image: autoDraw = False
+747.6104 	EXP 	empty: autoDraw = True
+748.5976 	EXP 	New trial (rep=0, index=66): OrderedDict([('imagefile', 'household1\\1200.jpg'), ('condition', 'go'), ('corAns', 'space')])
+748.6250 	EXP 	empty: autoDraw = False
+748.6250 	EXP 	empty: autoDraw = False
+748.6250 	EXP 	exp_image: image = 'household1\\1200.jpg'
+748.6250 	EXP 	fixation: autoDraw = True
+749.1115 	EXP 	exp_image: autoDraw = True
+749.1283 	EXP 	fixation: autoDraw = False
+749.4725 	DATA 	Keypress: space
+749.4785 	EXP 	fixation: autoDraw = False
+749.4785 	EXP 	exp_image: autoDraw = False
+749.4785 	EXP 	empty: autoDraw = True
+750.4666 	EXP 	New trial (rep=0, index=67): OrderedDict([('imagefile', 'household1\\1095.jpg'), ('condition', 'go'), ('corAns', 'space')])
+750.4948 	EXP 	empty: autoDraw = False
+750.4948 	EXP 	empty: autoDraw = False
+750.4948 	EXP 	exp_image: image = 'household1\\1095.jpg'
+750.4948 	EXP 	fixation: autoDraw = True
+750.9965 	EXP 	fixation: autoDraw = False
+750.9965 	EXP 	exp_image: autoDraw = True
+751.3864 	DATA 	Keypress: space
+751.4137 	EXP 	fixation: autoDraw = False
+751.4137 	EXP 	exp_image: autoDraw = False
+751.4137 	EXP 	empty: autoDraw = True
+752.4007 	EXP 	New trial (rep=0, index=68): OrderedDict([('imagefile', 'LD\\0819.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+752.4282 	EXP 	empty: autoDraw = False
+752.4282 	EXP 	empty: autoDraw = False
+752.4282 	EXP 	exp_image: image = 'LD\\0819.jpg'
+752.4282 	EXP 	fixation: autoDraw = True
+752.9147 	EXP 	exp_image: autoDraw = True
+752.9314 	EXP 	fixation: autoDraw = False
+753.4151 	EXP 	exp_image: autoDraw = False
+753.4151 	EXP 	fixation: autoDraw = False
+753.4151 	EXP 	exp_image: autoDraw = False
+753.4151 	EXP 	empty: autoDraw = True
+754.4031 	EXP 	New trial (rep=0, index=69): OrderedDict([('imagefile', 'household1\\1033.jpg'), ('condition', 'go'), ('corAns', 'space')])
+754.4304 	EXP 	empty: autoDraw = False
+754.4304 	EXP 	empty: autoDraw = False
+754.4304 	EXP 	exp_image: image = 'household1\\1033.jpg'
+754.4304 	EXP 	fixation: autoDraw = True
+754.9330 	EXP 	fixation: autoDraw = False
+754.9330 	EXP 	exp_image: autoDraw = True
+755.3100 	DATA 	Keypress: space
+755.3168 	EXP 	fixation: autoDraw = False
+755.3168 	EXP 	exp_image: autoDraw = False
+755.3168 	EXP 	empty: autoDraw = True
+756.3041 	EXP 	New trial (rep=0, index=70): OrderedDict([('imagefile', 'household1\\1085.jpg'), ('condition', 'go'), ('corAns', 'space')])
+756.3316 	EXP 	empty: autoDraw = False
+756.3316 	EXP 	empty: autoDraw = False
+756.3316 	EXP 	exp_image: image = 'household1\\1085.jpg'
+756.3316 	EXP 	fixation: autoDraw = True
+756.8180 	EXP 	exp_image: autoDraw = True
+756.8347 	EXP 	fixation: autoDraw = False
+757.1779 	DATA 	Keypress: space
+757.1851 	EXP 	fixation: autoDraw = False
+757.1851 	EXP 	exp_image: autoDraw = False
+757.1851 	EXP 	empty: autoDraw = True
+758.1731 	EXP 	New trial (rep=0, index=71): OrderedDict([('imagefile', 'household1\\1008.jpg'), ('condition', 'go'), ('corAns', 'space')])
+758.2018 	EXP 	empty: autoDraw = False
+758.2018 	EXP 	empty: autoDraw = False
+758.2018 	EXP 	exp_image: image = 'household1\\1008.jpg'
+758.2018 	EXP 	fixation: autoDraw = True
+758.7030 	EXP 	fixation: autoDraw = False
+758.7030 	EXP 	exp_image: autoDraw = True
+758.9798 	DATA 	Keypress: space
+758.9865 	EXP 	fixation: autoDraw = False
+758.9865 	EXP 	exp_image: autoDraw = False
+758.9865 	EXP 	empty: autoDraw = True
+759.9739 	EXP 	New trial (rep=0, index=72): OrderedDict([('imagefile', 'household1\\1092.jpg'), ('condition', 'go'), ('corAns', 'space')])
+760.0036 	EXP 	empty: autoDraw = False
+760.0036 	EXP 	empty: autoDraw = False
+760.0036 	EXP 	exp_image: image = 'household1\\1092.jpg'
+760.0036 	EXP 	fixation: autoDraw = True
+760.5044 	EXP 	fixation: autoDraw = False
+760.5044 	EXP 	exp_image: autoDraw = True
+760.8809 	DATA 	Keypress: space
+760.8880 	EXP 	fixation: autoDraw = False
+760.8880 	EXP 	exp_image: autoDraw = False
+760.8880 	EXP 	empty: autoDraw = True
+761.8760 	EXP 	New trial (rep=0, index=73): OrderedDict([('imagefile', 'LD\\0202.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+761.9042 	EXP 	empty: autoDraw = False
+761.9042 	EXP 	empty: autoDraw = False
+761.9042 	EXP 	exp_image: image = 'LD\\0202.jpg'
+761.9042 	EXP 	fixation: autoDraw = True
+762.4060 	EXP 	fixation: autoDraw = False
+762.4060 	EXP 	exp_image: autoDraw = True
+762.7177 	DATA 	Keypress: space
+762.7228 	EXP 	fixation: autoDraw = False
+762.7228 	EXP 	exp_image: autoDraw = False
+762.7228 	EXP 	empty: autoDraw = True
+763.7106 	EXP 	New trial (rep=0, index=74): OrderedDict([('imagefile', 'household1\\1049.jpg'), ('condition', 'go'), ('corAns', 'space')])
+763.7390 	EXP 	empty: autoDraw = False
+763.7390 	EXP 	empty: autoDraw = False
+763.7390 	EXP 	exp_image: image = 'household1\\1049.jpg'
+763.7390 	EXP 	fixation: autoDraw = True
+764.2409 	EXP 	fixation: autoDraw = False
+764.2409 	EXP 	exp_image: autoDraw = True
+764.6635 	DATA 	Keypress: space
+764.6911 	EXP 	fixation: autoDraw = False
+764.6911 	EXP 	exp_image: autoDraw = False
+764.6911 	EXP 	empty: autoDraw = True
+765.6791 	EXP 	New trial (rep=0, index=75): OrderedDict([('imagefile', 'household1\\1052.jpg'), ('condition', 'go'), ('corAns', 'space')])
+765.7055 	EXP 	empty: autoDraw = False
+765.7055 	EXP 	empty: autoDraw = False
+765.7055 	EXP 	exp_image: image = 'household1\\1052.jpg'
+765.7055 	EXP 	fixation: autoDraw = True
+766.1925 	EXP 	exp_image: autoDraw = True
+766.2095 	EXP 	fixation: autoDraw = False
+766.5199 	DATA 	Keypress: space
+766.5259 	EXP 	fixation: autoDraw = False
+766.5259 	EXP 	exp_image: autoDraw = False
+766.5259 	EXP 	empty: autoDraw = True
+767.5139 	EXP 	New trial (rep=0, index=76): OrderedDict([('imagefile', 'household1\\1019.jpg'), ('condition', 'go'), ('corAns', 'space')])
+767.5430 	EXP 	empty: autoDraw = False
+767.5430 	EXP 	empty: autoDraw = False
+767.5430 	EXP 	exp_image: image = 'household1\\1019.jpg'
+767.5430 	EXP 	fixation: autoDraw = True
+768.0440 	EXP 	fixation: autoDraw = False
+768.0440 	EXP 	exp_image: autoDraw = True
+768.5443 	EXP 	exp_image: autoDraw = False
+768.5443 	EXP 	fixation: autoDraw = False
+768.5443 	EXP 	exp_image: autoDraw = False
+768.5443 	EXP 	empty: autoDraw = True
+768.6827 	DATA 	Keypress: space
+769.5323 	EXP 	New trial (rep=0, index=77): OrderedDict([('imagefile', 'household1\\1058.jpg'), ('condition', 'go'), ('corAns', 'space')])
+769.5598 	EXP 	empty: autoDraw = False
+769.5598 	EXP 	empty: autoDraw = False
+769.5598 	EXP 	exp_image: image = 'household1\\1058.jpg'
+769.5598 	EXP 	fixation: autoDraw = True
+770.0456 	EXP 	exp_image: autoDraw = True
+770.0624 	EXP 	fixation: autoDraw = False
+770.3720 	DATA 	Keypress: space
+770.3792 	EXP 	fixation: autoDraw = False
+770.3792 	EXP 	exp_image: autoDraw = False
+770.3792 	EXP 	empty: autoDraw = True
+771.3672 	EXP 	New trial (rep=0, index=78): OrderedDict([('imagefile', 'LD\\0194.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+771.3945 	EXP 	empty: autoDraw = False
+771.3945 	EXP 	empty: autoDraw = False
+771.3945 	EXP 	exp_image: image = 'LD\\0194.jpg'
+771.3945 	EXP 	fixation: autoDraw = True
+771.8805 	EXP 	exp_image: autoDraw = True
+771.8972 	EXP 	fixation: autoDraw = False
+772.3814 	EXP 	exp_image: autoDraw = False
+772.3814 	EXP 	fixation: autoDraw = False
+772.3814 	EXP 	exp_image: autoDraw = False
+772.3814 	EXP 	empty: autoDraw = True
+773.3683 	EXP 	New trial (rep=0, index=79): OrderedDict([('imagefile', 'household1\\1235.jpg'), ('condition', 'go'), ('corAns', 'space')])
+773.3968 	EXP 	empty: autoDraw = False
+773.3968 	EXP 	empty: autoDraw = False
+773.3968 	EXP 	exp_image: image = 'household1\\1235.jpg'
+773.3968 	EXP 	fixation: autoDraw = True
+773.8988 	EXP 	fixation: autoDraw = False
+773.8988 	EXP 	exp_image: autoDraw = True
+774.2552 	DATA 	Keypress: space
+774.2829 	EXP 	fixation: autoDraw = False
+774.2829 	EXP 	exp_image: autoDraw = False
+774.2829 	EXP 	empty: autoDraw = True
+775.2706 	EXP 	New trial (rep=0, index=80): OrderedDict([('imagefile', 'household1\\1007.jpg'), ('condition', 'go'), ('corAns', 'space')])
+775.2969 	EXP 	empty: autoDraw = False
+775.2969 	EXP 	empty: autoDraw = False
+775.2969 	EXP 	exp_image: image = 'household1\\1007.jpg'
+775.2969 	EXP 	fixation: autoDraw = True
+775.7837 	EXP 	exp_image: autoDraw = True
+775.8005 	EXP 	fixation: autoDraw = False
+776.1061 	DATA 	Keypress: space
+776.1345 	EXP 	fixation: autoDraw = False
+776.1345 	EXP 	exp_image: autoDraw = False
+776.1345 	EXP 	empty: autoDraw = True
+777.1215 	EXP 	New trial (rep=0, index=81): OrderedDict([('imagefile', 'household1\\1011.jpg'), ('condition', 'go'), ('corAns', 'space')])
+777.1537 	EXP 	empty: autoDraw = False
+777.1537 	EXP 	empty: autoDraw = False
+777.1537 	EXP 	exp_image: image = 'household1\\1011.jpg'
+777.1537 	EXP 	fixation: autoDraw = True
+777.6520 	EXP 	exp_image: autoDraw = True
+777.6686 	EXP 	fixation: autoDraw = False
+778.1127 	DATA 	Keypress: space
+778.1190 	EXP 	fixation: autoDraw = False
+778.1190 	EXP 	exp_image: autoDraw = False
+778.1190 	EXP 	empty: autoDraw = True
+779.1068 	EXP 	New trial (rep=0, index=82): OrderedDict([('imagefile', 'LD\\0361.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+779.1380 	EXP 	empty: autoDraw = False
+779.1380 	EXP 	empty: autoDraw = False
+779.1380 	EXP 	exp_image: image = 'LD\\0361.jpg'
+779.1380 	EXP 	fixation: autoDraw = True
+779.6367 	EXP 	exp_image: autoDraw = True
+779.6535 	EXP 	fixation: autoDraw = False
+780.1371 	EXP 	exp_image: autoDraw = False
+780.1371 	EXP 	fixation: autoDraw = False
+780.1371 	EXP 	exp_image: autoDraw = False
+780.1371 	EXP 	empty: autoDraw = True
+781.1249 	EXP 	New trial (rep=0, index=83): OrderedDict([('imagefile', 'household1\\1042.jpg'), ('condition', 'go'), ('corAns', 'space')])
+781.1535 	EXP 	empty: autoDraw = False
+781.1535 	EXP 	empty: autoDraw = False
+781.1535 	EXP 	exp_image: image = 'household1\\1042.jpg'
+781.1535 	EXP 	fixation: autoDraw = True
+781.6552 	EXP 	fixation: autoDraw = False
+781.6552 	EXP 	exp_image: autoDraw = True
+782.0992 	DATA 	Keypress: space
+782.1056 	EXP 	fixation: autoDraw = False
+782.1056 	EXP 	exp_image: autoDraw = False
+782.1056 	EXP 	empty: autoDraw = True
+783.0934 	EXP 	New trial (rep=0, index=84): OrderedDict([('imagefile', 'household1\\1091.jpg'), ('condition', 'go'), ('corAns', 'space')])
+783.1187 	EXP 	empty: autoDraw = False
+783.1187 	EXP 	empty: autoDraw = False
+783.1187 	EXP 	exp_image: image = 'household1\\1091.jpg'
+783.1187 	EXP 	fixation: autoDraw = True
+783.6069 	EXP 	exp_image: autoDraw = True
+783.6235 	EXP 	fixation: autoDraw = False
+784.0987 	DATA 	Keypress: space
+784.1074 	EXP 	exp_image: autoDraw = False
+784.1074 	EXP 	fixation: autoDraw = False
+784.1074 	EXP 	exp_image: autoDraw = False
+784.1074 	EXP 	empty: autoDraw = True
+785.0947 	EXP 	New trial (rep=0, index=85): OrderedDict([('imagefile', 'household1\\1031.jpg'), ('condition', 'go'), ('corAns', 'space')])
+785.1230 	EXP 	empty: autoDraw = False
+785.1230 	EXP 	empty: autoDraw = False
+785.1230 	EXP 	exp_image: image = 'household1\\1031.jpg'
+785.1230 	EXP 	fixation: autoDraw = True
+785.6253 	EXP 	fixation: autoDraw = False
+785.6253 	EXP 	exp_image: autoDraw = True
+786.0027 	DATA 	Keypress: space
+786.0089 	EXP 	fixation: autoDraw = False
+786.0089 	EXP 	exp_image: autoDraw = False
+786.0089 	EXP 	empty: autoDraw = True
+786.9968 	EXP 	New trial (rep=0, index=86): OrderedDict([('imagefile', 'household1\\1035.jpg'), ('condition', 'go'), ('corAns', 'space')])
+787.0258 	EXP 	empty: autoDraw = False
+787.0258 	EXP 	empty: autoDraw = False
+787.0258 	EXP 	exp_image: image = 'household1\\1035.jpg'
+787.0258 	EXP 	fixation: autoDraw = True
+787.5268 	EXP 	fixation: autoDraw = False
+787.5268 	EXP 	exp_image: autoDraw = True
+787.9367 	DATA 	Keypress: space
+787.9440 	EXP 	fixation: autoDraw = False
+787.9440 	EXP 	exp_image: autoDraw = False
+787.9440 	EXP 	empty: autoDraw = True
+788.9305 	EXP 	New trial (rep=0, index=87): OrderedDict([('imagefile', 'household1\\1232.jpg'), ('condition', 'go'), ('corAns', 'space')])
+788.9600 	EXP 	empty: autoDraw = False
+788.9600 	EXP 	empty: autoDraw = False
+788.9600 	EXP 	exp_image: image = 'household1\\1232.jpg'
+788.9600 	EXP 	fixation: autoDraw = True
+789.4619 	EXP 	fixation: autoDraw = False
+789.4619 	EXP 	exp_image: autoDraw = True
+789.9622 	EXP 	exp_image: autoDraw = False
+789.9622 	EXP 	fixation: autoDraw = False
+789.9622 	EXP 	exp_image: autoDraw = False
+789.9622 	EXP 	empty: autoDraw = True
+789.9833 	DATA 	Keypress: space
+790.9503 	EXP 	New trial (rep=0, index=88): OrderedDict([('imagefile', 'LD\\0195.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+790.9784 	EXP 	empty: autoDraw = False
+790.9784 	EXP 	empty: autoDraw = False
+790.9784 	EXP 	exp_image: image = 'LD\\0195.jpg'
+790.9784 	EXP 	fixation: autoDraw = True
+791.4803 	EXP 	fixation: autoDraw = False
+791.4803 	EXP 	exp_image: autoDraw = True
+791.9806 	EXP 	exp_image: autoDraw = False
+791.9806 	EXP 	fixation: autoDraw = False
+791.9806 	EXP 	exp_image: autoDraw = False
+791.9806 	EXP 	empty: autoDraw = True
+792.9686 	EXP 	New trial (rep=0, index=89): OrderedDict([('imagefile', 'household1\\1080.jpg'), ('condition', 'go'), ('corAns', 'space')])
+792.9960 	EXP 	empty: autoDraw = False
+792.9960 	EXP 	empty: autoDraw = False
+792.9960 	EXP 	exp_image: image = 'household1\\1080.jpg'
+792.9960 	EXP 	fixation: autoDraw = True
+793.4817 	EXP 	exp_image: autoDraw = True
+793.4986 	EXP 	fixation: autoDraw = False
+793.9087 	DATA 	Keypress: space
+793.9156 	EXP 	fixation: autoDraw = False
+793.9156 	EXP 	exp_image: autoDraw = False
+793.9156 	EXP 	empty: autoDraw = True
+794.9009 	EXP 	New trial (rep=0, index=90): OrderedDict([('imagefile', 'household1\\1051.jpg'), ('condition', 'go'), ('corAns', 'space')])
+794.9200 	EXP 	empty: autoDraw = False
+794.9200 	EXP 	empty: autoDraw = False
+794.9200 	EXP 	exp_image: image = 'household1\\1051.jpg'
+794.9200 	EXP 	fixation: autoDraw = True
+795.4167 	EXP 	exp_image: autoDraw = True
+795.4334 	EXP 	fixation: autoDraw = False
+795.8768 	DATA 	Keypress: space
+795.8839 	EXP 	fixation: autoDraw = False
+795.8839 	EXP 	exp_image: autoDraw = False
+795.8839 	EXP 	empty: autoDraw = True
+796.8710 	EXP 	New trial (rep=0, index=91): OrderedDict([('imagefile', 'household1\\1022.jpg'), ('condition', 'go'), ('corAns', 'space')])
+796.8977 	EXP 	empty: autoDraw = False
+796.8977 	EXP 	empty: autoDraw = False
+796.8977 	EXP 	exp_image: image = 'household1\\1022.jpg'
+796.8977 	EXP 	fixation: autoDraw = True
+797.3846 	EXP 	exp_image: autoDraw = True
+797.4014 	EXP 	fixation: autoDraw = False
+797.7443 	DATA 	Keypress: space
+797.7516 	EXP 	fixation: autoDraw = False
+797.7516 	EXP 	exp_image: autoDraw = False
+797.7516 	EXP 	empty: autoDraw = True
+798.7401 	EXP 	New trial (rep=0, index=92): OrderedDict([('imagefile', 'LD\\0199.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+798.7673 	EXP 	empty: autoDraw = False
+798.7673 	EXP 	empty: autoDraw = False
+798.7673 	EXP 	exp_image: image = 'LD\\0199.jpg'
+798.7673 	EXP 	fixation: autoDraw = True
+799.2533 	EXP 	exp_image: autoDraw = True
+799.2700 	EXP 	fixation: autoDraw = False
+799.7542 	EXP 	exp_image: autoDraw = False
+799.7542 	EXP 	fixation: autoDraw = False
+799.7542 	EXP 	exp_image: autoDraw = False
+799.7542 	EXP 	empty: autoDraw = True
+800.7413 	EXP 	New trial (rep=0, index=93): OrderedDict([('imagefile', 'household1\\1036.jpg'), ('condition', 'go'), ('corAns', 'space')])
+800.7713 	EXP 	empty: autoDraw = False
+800.7713 	EXP 	empty: autoDraw = False
+800.7713 	EXP 	exp_image: image = 'household1\\1036.jpg'
+800.7713 	EXP 	fixation: autoDraw = True
+801.2716 	EXP 	fixation: autoDraw = False
+801.2716 	EXP 	exp_image: autoDraw = True
+801.5944 	DATA 	Keypress: space
+801.6221 	EXP 	fixation: autoDraw = False
+801.6221 	EXP 	exp_image: autoDraw = False
+801.6221 	EXP 	empty: autoDraw = True
+802.6093 	EXP 	New trial (rep=0, index=94): OrderedDict([('imagefile', 'household1\\1012.jpg'), ('condition', 'go'), ('corAns', 'space')])
+802.6381 	EXP 	empty: autoDraw = False
+802.6381 	EXP 	empty: autoDraw = False
+802.6381 	EXP 	exp_image: image = 'household1\\1012.jpg'
+802.6381 	EXP 	fixation: autoDraw = True
+803.1399 	EXP 	fixation: autoDraw = False
+803.1399 	EXP 	exp_image: autoDraw = True
+803.5332 	DATA 	Keypress: space
+803.5402 	EXP 	fixation: autoDraw = False
+803.5402 	EXP 	exp_image: autoDraw = False
+803.5402 	EXP 	empty: autoDraw = True
+804.5274 	EXP 	New trial (rep=0, index=95): OrderedDict([('imagefile', 'household1\\1083.jpg'), ('condition', 'go'), ('corAns', 'space')])
+804.5586 	EXP 	empty: autoDraw = False
+804.5586 	EXP 	empty: autoDraw = False
+804.5586 	EXP 	exp_image: image = 'household1\\1083.jpg'
+804.5586 	EXP 	fixation: autoDraw = True
+805.0584 	EXP 	fixation: autoDraw = False
+805.0584 	EXP 	exp_image: autoDraw = True
+805.4376 	DATA 	Keypress: space
+805.4430 	EXP 	fixation: autoDraw = False
+805.4430 	EXP 	exp_image: autoDraw = False
+805.4430 	EXP 	empty: autoDraw = True
+806.4294 	EXP 	New trial (rep=0, index=96): OrderedDict([('imagefile', 'LD\\0192.jpg'), ('condition', 'nogo'), ('corAns', 'none')])
+806.4569 	EXP 	empty: autoDraw = False
+806.4569 	EXP 	empty: autoDraw = False
+806.4569 	EXP 	exp_image: image = 'LD\\0192.jpg'
+806.4569 	EXP 	fixation: autoDraw = True
+806.9430 	EXP 	exp_image: autoDraw = True
+806.9597 	EXP 	fixation: autoDraw = False
+807.3663 	DATA 	Keypress: space
+807.3936 	EXP 	fixation: autoDraw = False
+807.3936 	EXP 	exp_image: autoDraw = False
+807.3936 	EXP 	empty: autoDraw = True
+808.3806 	EXP 	New trial (rep=0, index=97): OrderedDict([('imagefile', 'household1\\1086.jpg'), ('condition', 'go'), ('corAns', 'space')])
+808.4090 	EXP 	empty: autoDraw = False
+808.4090 	EXP 	empty: autoDraw = False
+808.4090 	EXP 	exp_image: image = 'household1\\1086.jpg'
+808.4090 	EXP 	fixation: autoDraw = True
+808.8946 	EXP 	exp_image: autoDraw = True
+808.9114 	EXP 	fixation: autoDraw = False
+809.2043 	DATA 	Keypress: space
+809.2122 	EXP 	fixation: autoDraw = False
+809.2122 	EXP 	exp_image: autoDraw = False
+809.2122 	EXP 	empty: autoDraw = True
+810.1995 	EXP 	New trial (rep=0, index=98): OrderedDict([('imagefile', 'household1\\1013.jpg'), ('condition', 'go'), ('corAns', 'space')])
+810.2269 	EXP 	empty: autoDraw = False
+810.2269 	EXP 	empty: autoDraw = False
+810.2269 	EXP 	exp_image: image = 'household1\\1013.jpg'
+810.2269 	EXP 	fixation: autoDraw = True
+810.7294 	EXP 	fixation: autoDraw = False
+810.7294 	EXP 	exp_image: autoDraw = True
+811.0562 	DATA 	Keypress: space
+811.0631 	EXP 	fixation: autoDraw = False
+811.0631 	EXP 	exp_image: autoDraw = False
+811.0631 	EXP 	empty: autoDraw = True
+812.0504 	EXP 	New trial (rep=0, index=99): OrderedDict([('imagefile', 'household1\\1218.jpg'), ('condition', 'go'), ('corAns', 'space')])
+812.0788 	EXP 	empty: autoDraw = False
+812.0788 	EXP 	empty: autoDraw = False
+812.0788 	EXP 	exp_image: image = 'household1\\1218.jpg'
+812.0788 	EXP 	fixation: autoDraw = True
+812.5810 	EXP 	fixation: autoDraw = False
+812.5810 	EXP 	exp_image: autoDraw = True
+812.9412 	DATA 	Keypress: space
+812.9481 	EXP 	fixation: autoDraw = False
+812.9481 	EXP 	exp_image: autoDraw = False
+812.9481 	EXP 	empty: autoDraw = True
+813.9504 	EXP 	empty: autoDraw = False
+813.9504 	EXP 	empty: autoDraw = False
+813.9504 	EXP 	break_ins: autoDraw = True
+813.9504 	EXP 	break_ins: autoDraw = False
+813.9504 	EXP 	thanks: autoDraw = True
+1588.8794 	DATA 	Keypress: escape
+1589.0875 	EXP 	window1: mouseVisible = True
+1589.1016 	INFO 	saved data to C:\Users\test\Documents\Go NoGo - V13.1 - final\data/984_gonogo.psydat
+1589.1256 	INFO 	saved data to 'C:\\Users\\test\\Documents\\Go NoGo - V13.1 - final\\data/984_gonogo.csv'
